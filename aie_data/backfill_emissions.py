@@ -689,6 +689,23 @@ class OpenAIChatClient:
             kwargs["base_url"] = base_url
         self._client = OpenAI(**kwargs)
 
+    @staticmethod
+    def _extract_tool_call_arguments(message: Any) -> str | None:
+        # Some OpenAI-compatible relays return tool/function calls with empty `content`.
+        tool_calls = getattr(message, "tool_calls", None)
+        if isinstance(tool_calls, list) and tool_calls:
+            for tc in tool_calls:
+                fn = getattr(tc, "function", None)
+                args = getattr(fn, "arguments", None) if fn is not None else None
+                if isinstance(args, str) and args.strip():
+                    return args.strip()
+        fn_call = getattr(message, "function_call", None)
+        if fn_call is not None:
+            args = getattr(fn_call, "arguments", None)
+            if isinstance(args, str) and args.strip():
+                return args.strip()
+        return None
+
     def chat(
         self,
         *,
@@ -724,13 +741,39 @@ class OpenAIChatClient:
                         )
                     else:
                         raise
-                msg = resp.choices[0].message
-                content = (msg.content or "").strip()
-                if not content:
-                    raise BackfillError(
-                        "LLM returned empty content (model may not support chat.completions or relay returned tool calls)."
-                    )
-                return content
+                choice = resp.choices[0]
+                msg = choice.message
+                content = (getattr(msg, "content", None) or "").strip()
+                if content:
+                    return content
+
+                tool_args = self._extract_tool_call_arguments(msg)
+                if tool_args:
+                    return tool_args
+
+                # Some relays return an empty `content` when the model selected tool calling.
+                finish = getattr(choice, "finish_reason", None)
+
+                # Fallback: try Responses API for models that don't support chat.completions.
+                try:
+                    resp2_kwargs: dict[str, Any] = {
+                        "model": model,
+                        "input": user_prompt,
+                        "temperature": temperature,
+                        "max_output_tokens": max_tokens,
+                    }
+                    if response_format == "json":
+                        resp2_kwargs["text"] = {"format": {"type": "json_object"}}
+                    resp2 = self._client.responses.create(**resp2_kwargs)
+                    content2 = (getattr(resp2, "output_text", None) or "").strip()
+                    if content2:
+                        return content2
+                except Exception:
+                    pass
+
+                raise BackfillError(
+                    f"LLM returned empty content (finish_reason={finish!r}; model may not support chat.completions, or relay returned tool calls)."
+                )
             except Exception as exc:
                 last_exc = exc
                 if attempt >= retries:
