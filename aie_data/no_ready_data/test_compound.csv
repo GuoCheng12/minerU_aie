@@ -1,0 +1,259 @@
+id,code,SMILES,reference,molecular_weight,emission_solid,emission_aggr,features_id,mechanism_id
+1,TPE-IQ-2O,CCC[n+]6cc4ccc(/C(=C(c1ccc(OC)cc1)\c2ccc(OC)cc2)c3ccccc3)cc4c(c5ccccc5)c6c7ccccc7,"Chem. Sci., 2017, 8, 1822-1830",725.31,620,,AIE,ICT
+2,DBA-AM,CCCCN(CCCC)c1ccc(/C=N/C(C#N)=C(N)/C#N)cc1,"J. Mater. Chem. C, 2016, 4,10430-10434",323.43,621,,AIE,ICT
+3,DMA-AM,CN(C)c1ccc(/C=N/C(C#N)=C(N)/C#N)cc1,"J. Mater. Chem. C, 2016, 4,10430-10434",239.28,576,515,AIE,ICT
+4,DEAH-AM,CCN(CC)c1ccc(/C=N/C(C#N)=C(N)/C#N)c(O)c1,,283.33,651,504,AIE,ICT
+5,TTE,c4csc(/C(=C(c1cccs1)/c2cccs2)c3cccs3)c4,"Chem. Sci.2017, 8, 2629 - 2639",356.5,413,410,AIE,neutral aromatic
+6,TFE,c4coc(/C(=C(c1ccco1)/c2ccco2)c3ccco3)c4,,292,499,489,AIE,neutral aromatic
+7,SL-TTE,c5csc(c3c(c1cccs1)c2sccc2c4ccsc34)c5,"Chem. Sci.2017, 8, 2629 - 2639",354.5,,380,AIE,neutral aromatic
+12,HCA,CN(C)c2ccc(/C=C/C(=O)c1ccccc1O)cc2,"ACS Appl. Mater. Interfaces 2014, 6, 17245−17254",267.13,680,640,AIE,ESIPT+ICT/TICT
+13,DPI-B,Cn4c(/C=C(c1ccccc1)/c2ccccc2)nc(c3ccccc3)c4c5ccccc5,"Adv. Funct. Mater. 2016, 26, 824–832",412.19,475,,AIE,neutral aromatic
+14,DPI-A,Cn3c(/C=C(C#N)/c1ccccc1)nc(c2ccccc2)c3c4ccccc4,"Adv. Funct. Mater. 2016, 26, 824–832",361.16,500,,AIE,ICT
+15,DPI-BP,Cn4c(/C=C(c1ccccc1)/c2cc[n+](C)cc2)nc(c3ccccc3)c4c5ccccc5,"Adv. Funct. Mater. 2016, 26, 824–832",429.22,616,,AIE,ICT
+16,DPI-In,Cn4c(/C=C/C2=[N+](C)c1ccccc1C2(C)C)nc(c3ccccc3)c4c5ccccc5,"Adv. Funct. Mater. 2016, 26, 824–832",418.23,642,,AIE,ICT
+17,TPE-IPB,CC7(C)OB(c6ccc(COc1ccccc1/C=N/c5ccc(/C(=C(c2ccccc2)/c3ccccc3)c4ccccc4)cc5)cc6)OC7(C)C,"Adv. Mater. 2016, 28, 7249–7256 ",451.2,538,538,AIE,neutral aromatic
+18,TPE-Tetrazole-1,c5ccc(/C(=C(c1ccccc1)\c3ccc(c2nnn[nH]2)cc3)c4ccccc4)cc5,,400.18,,480,AIE,neutral aromatic
+19,TPE-Tetrazole-2,c6ccc(/C(=C(c2ccc(c1nnn[nH]1)cc2)/c4ccc(c3nnn[nH]3)cc4)c5ccccc5)cc6,,468.18,475,,AIE,neutral aromatic
+20,TPE-Tetrazole-4,c2cc(c1nnn[nH]1)ccc2/C(=C(c4ccc(c3nnn[nH]3)cc4)/c6ccc(c5nnn[nH]5)cc6)c8ccc(c7nnn[nH]7)cc8,,604.26,484,,AIE,neutral aromatic
+21,ESIPT-N3,N#N=NCCOc4ccc(/C=N/N=c2c1ccccc1c3ccccc23)c(O)c4,,383.41,550,,AIE,ESIPT
+22,CM-b,c8ccc(/C(=C(c1ccccc1)/c6ccc(c4nc(c2ccccc2)c(c3ccccc3)nc4c5ccccc5)cc6)c7ccccc7)cc8,,638.8,481,,AIE,neutral aromatic
+23,CM-d,c8ccc(/C(=C(c1ccccc1)/c6cccc(c4nc(c2ccccc2)c(c3ccccc3)nc4c5ccccc5)c6)c7ccccc7)cc8,,638.8,477,,AIE,neutral aromatic
+24,CM-e,c8ccc(/C(=C(c1ccccc1)/c2ccccc2c5nc(c3ccccc3)c(c4ccccc4)nc5c6ccccc6)c7ccccc7)cc8,,638.8,475,,AIE,neutral aromatic
+25,CM-c,N#C/C(C#N)=C\c6ccc(c5ccc(c3nc(c1ccccc1)c(c2ccccc2)nc3c4ccccc4)cc5)cc6,,536.6,510,,AIE,ICT
+26,CM-f,N#C/C(C#N)=C\c6ccc(c5ccc(c3nc(c1ccccc1)c(c2ccccc2)nc3c4ccccc4)cc5)s6,,542.7,550,,AIE,ICT
+27,CM-i,N#Cc9nc(c4ccc(c3ccc(N(c1ccccc1)c2ccccc2)cc3)cc4)c(c8ccc(c7ccc(N(c5ccccc5)c6ccccc6)cc7)cc8)nc9C#N,,768.9,630,,AIE,ICT
+28,TriPCE,COc3ccc(/C(=C(C#N)\c1ccccc1)c2ccccc2)cc3,"Macromolecules, 2016, 49, 8888–8898 ",311.38,490,490,AIE,ICT
+29,Ryan1,C[N+](C)(C)CCCCCCC8(CCCCCC[N+](C)(C)C)c1ccccc1c7cc(/C(=C(c2ccccc2)/c3ccc5c(c3)c4ccccc4C5(CCCCCC[N+](C)(C)C)CCCCC[N+](C)(C)C)c6ccccc6)ccc78,"J. Mater. Chem. B, 2014,2, 4134-4141",1397.34,,520,AIE,neutral aromatic
+30,Ryan2,O=P([O-])([O-])Oc4ccc(/C(=C(c1ccccc1)/c2ccc(OP(=O)([O-])[O-])cc2)c3ccccc3)cc4,"ACS Appl. Mater. Interfaces 2013, 5, 8784−8789",524.1,,480,AIE,neutral aromatic
+31,TPE-C,O=N(=O)c1ccccc1COc6ccc(c5ccc(/C(=C(c2ccccc2)/c3ccccc3)c4ccccc4)cc5)cc6,,,,,AIE,neutral aromatic
+32,ASCP,CN(C)c3ccc(/C=C(C#N)/c2ccc(c1cc[n+](C)cc1)cc2)cc3,"J. Mater. Chem. B, 2016, 4, 2614-2619",340.18,,650,AIE,ICT
+33,ASCP-2P,C[n+]5ccc(c4ccc(/C(C#N)=C/c3ccc(N(c1ccccc1)c2ccccc2)cc3)cc4)cc5,,464.2133,,620,AIE,ICT
+34,ASCP-TPA,C[n+]6ccc(c5ccc(/C(C#N)=C/c4ccc(c3ccc(N(c1ccccc1)c2ccccc2)cc3)cc4)cc5)cc6,,540.2458,,620,AIE,ICT
+35,2ASCP-TPA,C[n+]6ccc(c5ccc(/C(C#N)=C(C#N)/c4ccc(c3ccc(N(c1ccccc1)c2ccccc2)cc3)cc4)cc5)cc6,,565.2332,,720,AIE,ICT
+36,ASCP-PZ,C[n+]4ccc(c3ccc(/C(C#N)=C(C#N)/c2ccc(N1CC[N+](C)(C)CC1)cc2)cc3)cc4,"Adv. Funct. Mater., 2014, 24, 635-643; Chem. Commun., 2015, 51, 7321-7324.",1130,,610,AIE,TICT
+37,TTB,C1(C2=CC=C(N(C3=CC=CC=C3)C4=CC=C(/C(C5=CC=CC=C5)=C(C6=CC=CC=C6)/C7=CC=CC=C7)C=C4)C=C2)=CC=C(C8=CC=C(N(C9=CC=CC=C9)C%10=CC=C(/C(C%11=CC=CC=C%11)=C(C%12=CC=CC=C%12)/C%13=CC=CC=C%13)C=C%10)C=C8)C%14=NSN=C1%14,"Adv. Funct. Mater., 2014, 24, 635-643; Chem. Commun., 2015, 51, 7321-7324.",1230,617,609,AIE,ICT
+38,TNB,C1(C2=CC=C(N(C3=CC=CC4=C3C=CC=C4)C5=CC=C(/C(C6=CC=CC=C6)=C(C7=CC=CC=C7)/C8=CC=CC=C8)C=C5)C=C2)=CC=C(C9=CC=C(N(C%10=CC=CC%11=C%10C=CC=C%11)C%12=CC=C(/C(C%13=CC=CC=C%13)=C(C%14=CC=CC=C%14)/C%15=CC=CC=C%15)C=C%12)C=C9)C%16=NSN=C1%16,"J. Mater. Chem. C, 2014, 2, 3756–3761",918,617,604,AIE,ICT
+39,TPE-NPB,C1(/C(C2=CC=C(C3=CC=C(N(C4=C(C=CC=C5)C5=CC=C4)C6=CC=CC=C6)C=C3)C=C2)=C(C7=CC=CC=C7)\C8=CC=C(C9=CC=C(N(C%10=CC=CC%11=C%10C=CC=C%11)C%12=CC=CC=C%12)C=C9)C=C8)=CC=CC=C1,"Adv. Funct. Mater., 2012, 22, 771-779. ",1343,506,505,AIE,ICT
+41,TPE-TPA-FN(TTF),N#C/C(c1ccc(N(c2ccccc2)c3ccc(/C(c4ccccc4)=C(c5ccccc5)/c6ccccc6)cc3)cc1)=C(c7ccc(N(c8ccccc8)c9ccc(/C(c%10ccccc%10)=C(c%11ccccc%11)/c%12ccccc%12)cc9)cc7)/C#N,"Adv. Healthcare Mater., 2015, 4, 2667-2676. ",1234,663,671,AIE,ICT
+42,DPBA-TPE,COc1c(/C=C(c2ccc(N(c3ccc(/C(c4ccccc4)=C(c5ccccc5)/c6ccccc6)cc3)c7ccccc7)cc2)\C#N)cc(OC)c(/C=C(C#N)/c8ccc(N(c9ccc(/C(c%10ccccc%10)=C(c%11ccccc%11)/c%12ccccc%12)cc9)c%13ccccc%13)cc8)c1,,1465,,624,AIE,ICT
+43,TTS,c1(c2ccc(N(c3ccc(N(c4ccccc4)c5ccccc5)cc3)c6ccc(/C(c7ccccc7)=C(c8ccccc8)/c9ccccc9)cc6)cc2)c%10nsnc%10c(c%11ccc(N(c%12ccc(N(c%13ccccc%13)c%14ccccc%14)cc%12)c%15ccc(/C(c%16ccccc%16)=C(c%17ccccc%17)/c%18ccccc%18)cc%15)cc%11)cc1,,1513,636,636,AIE,ICT
+44,TTSe,c1(c2ccc(N(c3ccc(N(c4ccccc4)c5ccccc5)cc3)c6ccc(/C(c7ccccc7)=C(c8ccccc8)/c9ccccc9)cc6)cc2)c%10n[se]nc%10c(c%11ccc(N(c%12ccc(N(c%13ccccc%13)c%14ccccc%14)cc%12)c%15ccc(/C(c%16ccccc%16)=C(c%17ccccc%17)/c%18ccccc%18)cc%15)cc%11)cc1,,502,665,665,AIE,ICT
+45,TM-s-TPE,Cc1c(C)cc(C(c2cc(C)c(C)cc2C)C(c3c(C)cc(C)c(C)c3)C4cc(C)C(C)cc4C)c(C)c1,,252,397,385,AIE,clusterluminescence
+46,DPM-TM,Cc1cc(C)c(C)cc1Cc2cc(C)c(C)cc2C,,266,401,400,AIE,clusterluminescence
+47,s-DPE-TM,Cc1cc(C)c(C)cc1CCc2cc(C)c(C)cc2C,,264,390,390,AIE,clusterluminescence
+48,DPE-TM,Cc1cc(C)c(C)cc1/C=C/c2cc(C)c(C)cc2C,,313,397,396,AIE,clusterluminescence
+49,TPh-TM,Cc1cc(C)c(C)cc1c2ccc(c3cc(C)c(C)cc3C)cc2,,314,337,345,AIE,clusterluminescence
+50,TPh-ME,Cc1cc(C)cc(C)c1c2ccc(c3c(C)cc(C)cc3C)cc2,,472,,336,AIE,clusterluminescence
+51,TPh-TM-DBr,Brc1cc(c2cc(C)c(C)cc2C)c(Br)cc1c3cc(C)c(C)cc3C,,418.2,,401,AIE,clusterluminescence
+52,TPE-TMX,CN(C)CCOc1ccc(/C(c2ccccc2)=C(c3ccccc3)/c4ccccc4)cc1,"Nanoscale, 2016, 8, 12520–12523",423.2243,480,,AIE,neutral aromatic
+53,TPE-PY-N3,[N-]=[N+]=NCCCC[n+]1ccc(/C=C/c2ccc(/C(c3ccccc3)=C(c4ccccc4)\c5ccccc5)cc2)cc1,"J. Mater. Chem. B, 2015, 3, 4993 ",,618,,AIE,neutral aromatic
+60,p-TPE-RNS,CCN(CC)c1cc2c(C3(N(NC(Nc4ccccc4)=S)C(c5ccc(c6ccc(/C(c7ccccc7)=C(c8ccccc8)/c9ccccc9)cc6)cc53)=O)c%10ccc(N(CC)CC)cc%10O2)cc1,"Chem. Sci., 2017,8, 2047-2055",921,480,480,AIE,TICT
+61,m-TPE-RNS,CCN(CC)c1cc2c(C3(N(NC(Nc4ccccc4)=S)C(c5cc(c6ccc(/C(c7ccccc7)=C(c8ccccc8)/c9ccccc9)cc6)ccc53)=O)c%10ccc(N(CC)CC)cc%10O2)cc1,"Chem. Sci., 2017,8, 2047-2055",921,485,485,AIE,TICT
+64,BMO,O=C1OC(C)=N/C1=C\c2ccccc2,,187.198,506,,AIE,ICT
+65,BMO-PH,O=C1OC(C)=N/C1=C\c2ccc(c3ccccc3)cc2,,263.296,527,,AIE,ICT
+66,BMO-PF,O=C1OC(C)=N/C1=C\c2cc3c(c4ccccc4C3)cc2,,275.309,548,,AIE,ICT
+67,BMO-PM,O=C1OC(C)=N/C1=C\c2ccc(c3ccc(OC)cc3)cc2,,293.322,542,,AIE,ICT
+68,BMO-PC,O=C1OC(C)=N/C1=C\c2ccc(c3ccc(C#N)cc3)cc2,,288.306,524,,AIE,ICT
+69,TPE-BMO,O=C1OC(C)=N/C1=C\c2ccc(c3ccc(/C(c4ccccc4)=C(c5ccccc5)/c6ccccc6)cc3)cc2,,517.628,540,504,AIE,ICT
+70,TPA-BMO,O=C1OC(C)=N/C1=C\c2ccc(c3ccc(N(c4ccccc4)c5ccccc5)cc3)cc2,,430.507,635,578,AIE,ICT
+71,DM-TPE-DMO,O=C1OC(C)=N/C1=C\c2ccc(c3ccc(/C(c4ccccc4)=C(c5ccc(OC)cc5)/c6ccc(OC)cc6)cc3)cc2,,577.68,550,555,AIE,ICT
+72,TPE-PA,O=Cc1ccc(c2ccc(/C(c3ccccc3)=C(c4ccccc4)/c5ccccc5)cc2)cc1,,436.554,480,488,AIE,ICT
+73,DM-TPE-PA,O=Cc1ccc(c2ccc(/C(c3ccccc3)=C(c4ccc(OC)cc4)/c5ccc(OC)cc5)cc2)cc1,,496.606,503,524,AIE,ICT
+74,Naph-BMO,O=C1OC(C)=N/C1=C\c2ccc(c3ccc(OC)c4ccccc43)cc2,,343.382,560,519,AIE,ICT
+75,Naph-PA,COc1ccc(c2ccc(C=O)cc2)c3ccccc31,,262.308,427,449,AIE,ICT
+76,TPA-BI,O=C1N(CCC)C(C)=N/C1=C\c2ccc(c3ccc(N(c4ccccc4)c5ccccc5)cc3)cc2,,471.604,,570,AIE,ICT
+77,IQ-DPA,CCC[n+]1c(c2ccccc2)c(c3ccccc3)c(cc(N(c4ccccc4)c5ccccc5)cc6)c6c1.F[B-](F)(F)F,,578.4616,530,590,AIE,ICT
+78,IQ-Naph,COc1c2ccccc2c(c3ccc4c[n+](CCC)c(c5ccccc5)c(c6ccccc6)c4c3)cc1.F[B-](F)(F)F,,567.4346,474,560,AIE,ICT
+79,IQ-TPA,F[B-](F)(F)F.CCC[n+]1c(c2ccccc2)c(c3ccccc3)c(cc(c4ccc(N(c5ccccc5)c6ccccc6)cc4)cc7)c7c1,,654.5596,560,630,AIE,ICT
+80,IQ-TPA-Oley,F[B-](F)(F)F.CCCCCCCC/C=C\CCCCCCCC[n+]1c(c2ccccc2)c(c3ccccc3)c(cc(c4ccc(N(c5ccccc5)c6ccccc6)cc4)cc7)c7c1,,862.9486,600,600,AIE,ICT
+81,IQ-DMA,F[B-](F)(F)F.CCC[n+]1c(c2ccccc2)c(c3ccccc3)c(cc(N(C)C)cc4)c4c1,,454.3196,507,,AIE,ICT
+82,IQ-DPA-MePh,CCC[n+]1c(c2ccccc2)c(C)c(cc(N(c3ccccc3)c4ccccc4)cc5)c5c1.F[B-](F)(F)F,,516.3906,520,576,AIE,ICT
+83,IQ-DPA-Naph,F[B-](F)(F)F.CCC[n+]1c(c2c3ccccc3ccc2)c(c4cccc5ccccc45)c(cc(N(C6=CC=CC=C6)C7=CC=CC=C7)cc8)c8c1,,678.5816,520,589,AIE,ICT
+84,IQ-DPA-Ph,FB(F)F.N(c1ccccc1)(c2ccccc2)c3ccc4c[n+](c5ccccc5)c(c6ccccc6)c(c7ccccc7)c4c3.[F-],,612.4786,594,594,AIE,ICT
+85,IQ-DPA-C6,CCCCCC[n+]1c(c2ccccc2)c(c3ccccc3)c(cc(N(c4ccccc4)c5ccccc5)cc6)c6c1.FB(F)F.[F-],,620.5426,530,,AIE,ICT
+86,IQ-DPA-C10,CCCCCCCCCC[n+]1c(c2ccccc2)c(c3ccccc3)c(cc(N(c4ccccc4)c5ccccc5)cc6)c6c1.FB(F)F.[F-],,676.6506,530,,AIE,ICT
+87,AIE-SRS-Mito,CC[n+]1ccc(c2ccc(/C(C#N)=C/c3ccc(C#Cc4ccccc4)cc3)cc2)cc1.F[P-](F)(F)(F)(F)F,,556.4922,,,AIE,ICT
+88,TA-DTPE,CCN(CC)c1ccc(/C(c2ccc(N(CC)CC)cc2)=C(c3ccc(C#CC#CC#CC#Cc4ccc(/C(c5ccccc5)=C(c6ccc(N(CC)CC)cc6)/c7ccc(N(CC)CC)cc7)cc4)cc3)/c8ccccc8)cc1,,1043,630,,AIE,TICT
+89,TP-TPDI-1,O=C(c1ccc(c2ccc(C(N(CC(CCCC)CC)C3=O)=O)c4c3ccc5c24)c6c5c(c7ccc(/C(c8ccc(c9cc(C(N(CC(CCCC)CC)C%10=O)=O)c%11c%10ccc%12c%11c9c%13c%14c%12ccc(C(N(CC(CCCC)CC)C%15=O)=O)c%14c%15cc%13)cc8)=C/c%16ccc(c%17cc%18c%19c(C(N(CC(CC)CCCC)C%18=O)=O)ccc%20c%19c%17c%21ccc(C(N(CC(CC)CCCC)C%22=O)=O)c%23c%22ccc%20c%21%23)cc%16)cc7)cc%24c61)N(CC(CCCC)CC)C%24=O,,2094,680,,AIE,neutral aromatic
+90,TP-TPDI-2,O=C(c1ccc(c2ccc(C(N(CC(CCCCCCCC)CCCCCC)C3=O)=O)c4c3ccc5c24)c6c5c(c7ccc(/C(c8ccc(c9cc(C(N(CC(CCCCCC)CCCCCCCC)C%10=O)=O)c%11c%10ccc%12c%11c9c%13c%14c%12ccc(C(N(CC(CCCCCCCC)CCCCCC)C%15=O)=O)c%14c%15cc%13)cc8)=C/c%16ccc(c%17cc%18c%19c(C(N(CC(CCCCCCCC)CCCCCC)C%18=O)=O)ccc%20c%19c%17c%21ccc(C(N(CC(CCCCCCCC)CCCCCC)C%22=O)=O)c%23c%22ccc%20c%21%23)cc%16)cc7)cc%24c61)N(CC(CCCCCCCC)CCCCCC)C%24=O,,2767,680,,AIE,neutral aromatic
+108,CSPP-NHS,C[N+](CC1)(C)CCN1c2ccc(/C=C(C#N)/c3ccc(c4cc[n+](CCCC(ON5C(CCC5=O)=O)=O)cc4)cc3)cc2,,833.1,610,620,AIE,ICT
+109,CSMPP,CN(CC1)CCN1c2ccc(/C=C(C#N)/c3ccc(c4ccncc4)cc3)cc2,"Chem. Commun., 2015, 51, 9022",380.2,,,AIE,ICT
+110,TPE-Py-NCS,S=C=NCCCC[n+]1ccc(/C=C/c2ccc(/C(c3ccccc3)=C(c4ccccc4)/c5ccccc5)cc2)cc1.F[P-](F)(F)(F)(F)F,,694,,598,AIE,neutral aromatic
+134,TPE-ring,c1(/C(c2ccccc2)=C(c3ccccc3)/c4ccc(B5OB(c6ccc(/C(c7ccccc7)=C(c8ccccc8)\c9ccccc9)cc6)OB(c%10ccc(/C(c%11ccccc%11)=C(c%12ccccc%12)\c%13ccccc%13)cc%10)O5)cc4)ccccc1,,1074,,,AIE,neutral aromatic
+135,Startrek-1,c1(c2ccc(c(n3)c(c4ccc(c5ccc(N(c6ccccc6)c7ccccc7)cc5)cc4)nc8c3nsn8)cc2)ccc(N(c9ccccc9)c%10ccccc%10)cc1,,776,,670,AIE,ICT
+136,Startrek-2,c1(c2ccc(c3nc4c(c5ccc(N(c6ccccc6)c7ccccc7)cc5)c8c(nsn8)c(c9ccc(N(c%10ccccc%10)c%11ccccc%11)cc9)c4nc3c%12ccc(c%13ccc(N(c%14ccccc%14)c%15ccccc%15)cc%13)cc%12)cc2)ccc(N(c%16ccccc%16)c%17ccccc%17)cc1,,1312,,940,AIE,ICT
+137,Lyh40,N#C/C(C#N)=C1c2ccccc2CC\1=C/c3ccc(N(c4ccccc4)c5ccccc5)cc3,,435.174,671,680,AIE,neutral aromatic
+138,TPE-APT,Cc1nnn(Cc2ccc(/C(c3ccccc3)=C(c4ccccc4)\c5ccccc5)cc2)c1,,23759.3,,420,AIE,neutral aromatic
+139,BB_067,c1(/C(c2ccc(C3=NN=NN3)cc2)=C(c4ccc(C5=NN=NN5)cc4)/c6ccccc6)ccccc1,,468.18,480,,AIE,neutral aromatic
+140,BB_062,c1(/C(C2=NN=NN2)=C(C3=NN=NN3)/c4ccccc4)ccccc1,,468.18,480,,AIE,neutral aromatic
+141,BB_068,c1(/C(c2ccc(C3=NN=NN3)cc2)=C(c4ccc(C5=NN=NN5)cc4)\c6ccccc6)ccccc1,,316.11,450,,AIE,neutral aromatic
+142,BB_066,O=C(c1ccc(/C(c2ccccc2)=C(c3ccc(C(O)=O)cc3)\c4ccccc4)cc1)O,,468.18,470,,AIE,neutral aromatic
+143,Abeta-16,CN(C)c1ccc(/C(c2ccccc2)=C/c3cc(OC)c(/C=C(c4ccc(N(C)C)cc4)\c5ccccc5)cc3OC)cc1,,420.02,,,AIE,neutral aromatic
+144,XS_025,N#C/C(c1c(C#N)cccc1)=C(/C/2=C(c3c(C#N)cccc3)/C#N)/C2=C(C#N)\c4c(C#N)cccc4,,580.3,527,527,AIE,neutral aromatic
+145,Bi_Tri_TPE,c1(/C(c2ccc([Bi](c3ccc(/C(c4ccccc4)=C(c5ccccc5)/c6ccccc6)cc3)c7ccc(/C(c8ccccc8)=C(c9ccccc9)/c%10ccccc%10)cc7)cc2)=C(c%11ccccc%11)/c%12ccccc%12)ccccc1,,456.11,,620,AIE,neutral aromatic
+146,Bi_Tri_PhOMe,COc1ccc([Bi](c2ccc(OC)cc2)c3ccc(OC)cc3)cc1,,1200.29,,460,AIE,neutral aromatic
+147,Di_Hydrazone,O=C(N/N=C/c1ccc(/C=N/NC(c2ccccc2)=O)cc1)c3ccccc3,,530.37,,420,AIE,neutral aromatic
+148,Pyren-Sal,Oc1c(/C=N/c2c3ccc4cccc(c4c35)ccc5cc2)cccc1,,370.14,,446,AIE,ESIPT
+149,DQ-1,Cc1cc2c(NC(c3ccccc3)(CCCC)C(c4ccccc4)=N2)cc1C,,368.22,535,540,AIE,neutral aromatic
+150,DQ-2,Cc1cc2c(NC(c3ccc(C)cc3)(CCCC)C(c4ccc(C)cc4)=N2)cc1C,,396.25,530,528,AIE,neutral aromatic
+151,DQ-3,CCCCC(C(c1ccc(C)cc1)=N2)(c3ccc(C)cc3)Nc4c2cccc4,,368.23,529,519,AIE,neutral aromatic
+152,DQ-4,CCCCC(C(c1ccc(C2=CC=CC=C2)cc1)=N3)(c4ccc(C5=CC=CC=C5)cc4)Nc6c3cccc6,,492.25,528,541,AIE,neutral aromatic
+156,Bnpy-TPA,N#C/C(c1ccc(c2cc[n+](Cc3ccccc3)cc2)cc1)=C\c4ccc(N(c5ccccc5)c6ccccc6)cc4.[Br],,619.16,,,AIE,ICT
+157,phosphoniumpy-TPA,N#C/C(=C\c3ccc(N(c1ccccc1)c2ccccc2)cc3)c8ccc(c7cc[n+](CCC[P+](c4ccccc4)(c5ccccc5)c6ccccc6)cc7)cc8,,649.07,,,AIE,ICT
+165,TPE-IS,CC(C/1)CC(/C=C/c2ccc(/C(c3ccccc3)=C(c4ccccc4)\c5ccccc5)cc2)=CC1=C(C#N)/C#N,,514.672,,607,AIE,neutral aromatic
+166,TPE-MOI,CC(C/1)CC(/C=C/c2ccc(/C(c3ccccc3)=C(c4ccc(OC)cc4)\c5ccc(OC)cc5)cc2)=CC1=C(C#N)/C#N,,574.727,,660,AIE,neutral aromatic
+167,AIE-ISO-Lyso,CC(C/1)CC(/C=C/c2ccc(OCCCCCCN3CCOCC3)cc2)=CC1=C(C#N)/C#N,,703.91,,640,AIE,neutral aromatic
+171,2-CZTPE,CCn1c2ccccc2c3ccc(/C(c4ccccc4)=C(c5ccccc5)/c6ccccc6)cc31,,449.58,,492,AIE,neutral aromatic
+172,3-CZTPE,CCn1c2ccccc2c3cc(/C(c4ccccc4)=C(c5ccccc5)\c6ccccc6)ccc31,,297.3499,,483,AIE,neutral aromatic
+180,TPE-DZF,O=C1c2cc(c3ccc(/C(c4ccccc4)=C(c5ccccc5)\c6ccccc6)cc3)cnc2c7c1cccn7,,425,554,544,AIE,ICT
+181,TPA-DZF,O=C1c2cc(c3ccc(N(c4ccccc4)c5ccccc5)cc3)cnc2c6c1cccn6,,485,615,611,AIE,ICT
+182,TPA-Ome-DZF,O=C1c2cc(c3ccc(N(c4ccc(OC)cc4)c5ccc(OC)cc5)cc3)cnc2c6c1cccn6,,397,631,627,AIE,ICT
+183,TPA-MN,N#C/C(C#N)=C/c1ccc(c2ccc(N(c3ccccc3)c4ccccc4)cc2)cc1,,403,649,640,AIE,ICT
+184,TPA-S-MN,N#C/C(C#N)=C/c1sc(c2ccc(N(c3ccccc3)c4ccccc4)cc2)cc1,,1006,690,658,AIE,ICT
+186,TPCB,Oc1ccc(C(/C=C/c2ccc(N(c3ccccc3)c4ccccc4)cc2)=C(C#N)/C#N)cc1,,439.5,655,,AIE,ICT
+187,TPCMB,COc1ccc(C(/C=C/c2ccc(N(c3ccccc3)c4ccccc4)cc2)=C(C#N)/C#N)cc1,,453.5,655,,AIE,ICT
+188,TPCAB,O=C(C=C)Oc1ccc(C(/C=C/c2ccc(N(c3ccccc3)c4ccccc4)cc2)=C(C#N)/C#N)cc1,,493.5,649,,AIE,ICT
+189,PBP,Oc1c(/C=N/N=C/c2ccc(/C=N/N=C/c3c(O)cccc3)cc2)cccc1,,370.1,581,,AIE,ESIPT
+190,EBP,Oc1c(/C=N/N=C/C=N/N=C/c2c(O)cccc2)cccc1,,294.1,615,,AIE,ESIPT
+191,SATPA,Oc1c(/C=N/N=C/c2ccc(N(c3ccccc3)c4ccccc4)cc2)cccc1,,391.2,546,,AIE,ESIPT
+192,TPABDC,N#C/C(C#N)=C/c1ccc(c2ccc(N(c3ccccc3)c4ccccc4)cc2)cc1,,397.2,639,,AIE,ICT
+193,TPAB-3HF,O=c1c(O)c(c2ccc(c3ccc(N(c4ccccc4)c5ccccc5)cc3)cc2)oc6ccccc61,,481.2,511,,AIE,ESIPT
+194,SABB,Oc1c(/C=N/N=C/c2ccc(c3ccccc3)cc2)cccc1,,300.1,549,,AIE,ESIPT
+195,6-Methoxy-NaphAS,COc1cc2ccc(/C=N/N=C/c3c(O)cccc3)cc2cc1,,304.1,543,,AIE,ESIPT
+196,TPA-PC,O=C(c1ncccc1)/C=C/c2ccc(N(c3ccccc3)c4ccccc4)cc2,,376.15,590,,AIE,ICT
+197,TPE-T3HF,O=c1c(O)c(c2ccc(c3ccc(/C(c4ccc(c5ccc(c(c6O)oc7ccccc7c6=O)cc5)cc4)=C(c8ccc(c9ccc(c(oc%10ccccc%10%11)c(O)c%11=O)cc9)cc8)\c%12ccc(c%13ccc(c(c%14O)oc%15ccccc%15c%14=O)cc%13)cc%12)cc3)cc2)oc%16ccccc%161,,1276.35,521,,AIE,ESIPT
+198,TPAP-B,c1ccc(cc1)N(c1ccccc1)c1ccc2-c3cccc[n+]3[B-](c2c1)(c1ccccc1)c1ccccc1,,486.5,470,,AIE,ICT
+205,CSPP-NHS,C[N+](CC1)(C)CCN1c2ccc(/C=C(C#N)/c3ccc(c4cc[n+](CCCC(ON5C(CCC5=O)=O)=O)cc4)cc3)cc2,,833.1,610,539,AIE,TICT
+206,CSMPP,CN(CC1)CCN1c2ccc(/C=C(C#N)/c3ccc(c4ccncc4)cc3)cc2,,380.2,526,620,AIE,TICT
+207,DPDC,C[n+]1ccc(c2ccc(/C(C#N)=C(C#N)/c3ccc(c4cc[n+](C)cc4)cc3)cc2)cc1,,704.44,515,518,AIE,ICT
+208,PCMN,C[n+]1ccc(c2ccc(/C(C#N)=C/c3ccc4ccc(OC)cc4c3)cc2)cc1,,522.42,561,,AIE,ICT
+209,BTPE-BBT,CCCCOc1ccc(cc1)C(=C(c1ccccc1)c1ccc(cc1)-c1c2N=S=Nc2c(c2N=S=Nc12)-c1ccc(cc1)C(=C(c1ccc(OCCCC)cc1)c1ccc(OCCCC)cc1)c1ccccc1)c1ccc(OCCCC)cc1,,1143.5,,,AIE,ICT
+210,BPN-BBT,c1ccc(cc1)N(c1ccc(cc1)-c1c2N=S=Nc2c(c2N=S=Nc12)-c1ccc(cc1)N(c1ccccc1)c1cccc2ccccc12)c1cccc2ccccc12,,781,,,AIE,ICT
+213,cm-n,c12nc(c3ccccc3)c(c4ccccc4)nc1cc5nc(c6ccccc6)c(c7ccccc7)nc5c2,,486.6,450,,AIE,neutral aromatic
+214,Phoenix-1,N#C/C(C#N)=C1C2=C(C=CC=C2)C(/C/1=C(C=C(/C=C/c3ccc(N(c4ccccc4)c5ccccc5)cc3)O6)\C=C6/C=C/c7ccc(N(c8ccccc8)c9ccccc9)cc7)=C(C#N)/C#N,,859,,916,AIE,ICT
+215,NAP-Ph,CN(C)c1cc2ccc(/C=C(C#N)/c3ccc(c4ccccc4)cc3)c(OC)c2cc1,,404.19,566,558,AIE,ICT
+216,NAP-Br,CN(C)c1cc2ccc(/C=C(C#N)/c3ccc(Br)cc3)c(OC)c2cc1,,406.07,597,554,AIE,ICT
+217,NAP-CF3,CN(C)c1cc2ccc(/C=C(C#N)/c3cc(C(F)(F)F)cc(C(F)(F)F)c3)c(OC)c2cc1,,464.13,555,592,AIE,ICT
+218,NAP-Py,CN(C)c1cc2ccc(/C=C(C#N)/c3ccc(c4ccncc4)cc3)c(OC)c2cc1,,405.18,619,578,AIE,ICT
+219,NAP-Py+,CN(C)c1cc2ccc(/C=C(C#N)/c3ccc(c4cc[n+](C)cc4)cc3)c(OC)c2cc1,,565.17,676,656,AIE,ICT
+220,CS-Py+SO3-,CCN(CC)c1c(OCCCCCCCC)cc(/C=C(C#N)/c2ccc(c3cc[n+](CCCS(=O)([O-])=O)cc3)cc2)cc1,,603.8,679,672,AIE,ICT
+221,CS-Py+,CCN(CC)c1c(OCCCCCCCC)cc(/C=C(C#N)/c2ccc(c3cc[n+](C)cc3)cc2)cc1,"J. Am. Chem. Soc. 2019, 141, 16781−16789",458,685,666,AIE,ICT
+224,ABCXF,CN(C)c1ccc(/C=C/C=C(C#N)/c2cc(C(F)(F)F)cc(C(F)(F)F)c2)cc1,"Biomaterials, 2020, 242, 119924",410.1218,646,584,AIE,ICT
+225,TVQE,O=C(C)Oc1ccc(C[n+]2ccc(/C=C/c3ccc(N(c4ccccc4)c5ccccc5)cc3)c6ccccc62)cc1,"Chem. Sci., 2020, 11, 7676-7684",627.582,739,,AIE,ICT
+226,IVP-02,CC[n+]1ccc(/C=C/c2c3ccccc3[nH]c2)cc1,"Chem. Sci., 2020, 11, 7676-7684",394.301,575,,AIE,ICT
+227,IVP-22,CC[n+]1ccc(/C=C/c2c3ccccc3n(CC)c2)cc1,"Chem. Sci., 2020, 11, 7676-7684",422.355,,,AIE,ICT
+228,IVP-42,CC[n+]1ccc(/C=C/c2c3ccccc3n(CCCC)c2)cc1,"Chem. Sci., 2020, 11, 7676-7684",450.409,,,AIE,ICT
+229,IVP-04,CCCC[n+]1ccc(/C=C/c2c3ccccc3[nH]c2)cc1,"Chem. Sci., 2020, 11, 7676-7684",422.355,,,AIE,ICT
+230,IVP-06,CCCCCC[n+]1ccc(/C=C/c2c3ccccc3[nH]c2)cc1,"Chem. Sci., 2020, 11, 7676-7684",450.409,,,AIE,ICT
+231,IVP-62,CC[n+]1ccc(/C=C/c2c3ccccc3n(CCCCCC)c2)cc1,"Adv. Mater., 2018, 30, 1706856. ACS Nano, 2018, 12, 7936-7945",478.463,,,AIE,ICT
+232,TQ-BPN,c12nc(c3ccccc3)c(c4ccccc4)nc1c(c5ccc(N(c6cccc7ccccc67)c8ccccc8)cc5)c9nsnc9c2c%10ccc(N(c%11ccccc%11)c%12c%13ccccc%13ccc%12)cc%10,"Nano Today, 2020, 34, 100893. ACS Nano, 2018, 12, 11282-11293",927,810,,AIE,ICT
+233,BPN-BBT,c1ccc(cc1)N(c1ccc(cc1)-c1c2N=S=Nc2c(c2N=S=Nc12)-c1ccc(cc1)N(c1ccccc1)c1cccc2ccccc12)c1cccc2ccccc12,"Nat. Commun., 2018, 9, 1848",781,950,,AIE,ICT
+234,DTE-TPECM,FC(C(F)(F)C1(F)F)(F)C(c2cc(c3ccc(/C(c4ccccc4)=C(c5ccc(/C(C)=C(C#N)/C#N)cc5)\c6ccccc6)cc3)sc2C)=C1c7c(C)sc(c8ccc(/C(c9ccccc9)=C(c%10ccc(/C(C)=C(C#N)/C#N)cc%10)\c%11ccccc%11)cc8)c7,"Chem, 2019, 5, 2657-2677",1209,540,,AIE,ICT
+235,OTPA-TQ1,CCCCCCCCOc1ccc(N(c2ccc(c3c4c(nc(c5ccccc5)c(c6ccccc6)n4)c(c7ccc(N(c8ccc(OCCCCCCCC)cc8)c9ccc(OCCCCCCCC)cc9)cc7)c%10nsnc3%10)cc2)c%11ccc(OCCCCCCCC)cc%11)cc1,"Chem, 2019, 5, 2657-2677",1340,894,,AIE,ICT
+236,OTPA-TQ2,C#Cc1ccc(c2nc3c(c4ccc(N(c5ccc(OCCCCCCCC)cc5)c6ccc(OCCCCCCCC)cc6)cc4)c7nsnc7c(c8ccc(N(c9ccc(OCCCCCCCC)cc9)c%10ccc(OCCCCCCCC)cc%10)cc8)c3nc2c%11ccc(C#C)cc%11)cc1,"Chem, 2019, 5, 2657-2677",1388,911,,AIE,ICT
+237,OTPA-TQ3,CCCCCCCCOc1ccc(N(c2ccc(c3c4c(nc(c5ccc(C#Cc6ccccc6)cc5)c(c7ccc(C#Cc8ccccc8)cc7)n4)c(c9ccc(N(c%10ccc(OCCCCCCCC)cc%10)c%11ccc(OCCCCCCCC)cc%11)cc9)c%12nsnc3%12)cc2)c%13ccc(OCCCCCCCC)cc%13)cc1,"Biomaterials, 2020, 248, 120036",1540,910,,AIE,ICT
+238,PTZ-BT-TPA,CCCCCCCCN1c2ccc(c3c4nsnc4c(c5ccc(N(c6ccccc6)c7ccccc7)cc5)cc3)cc2Sc8cc(c9ccc(c%10ccc(N(c%11ccccc%11)c%12ccccc%12)cc%10)c%13nsnc%139)ccc18,"Chem. Sci., 2020,  DOI: 10.1039/D0SC03423A",1066,655,,AIE,ICT
+239,MTPE-TP1,COc1ccc(/C(c2ccc(OC)cc2)=C(c3ccccc3)/c4ccc(c5sc(c6ccc(/C(c7ccccc7)=C(c8ccc(OC)cc8)/c9ccc(OC)cc9)cc6)c%10nccnc%105)cc4)cc1,"Chem. Sci., 2020, DOI: 10.1039/D0SC03423A",917,660,,AIE,ICT
+240,MTPE-TP2,COc1ccc(/C(c2ccc(OC)cc2)=C(c3ccccc3)/c4ccc(c5sc(c6ccc(/C(c7ccccc7)=C(c8ccc(OC)cc8)/c9ccc(OC)cc9)cc6)c%10nc(c%11ccccc%11)c(c%12ccccc%12)nc%105)cc4)cc1,"Chem. Sci., 2020, DOI: 10.1039/D0SC03423A",1069,678,,AIE,ICT
+241,MTPE-TP3,COc1ccc(/C(c2ccc(OC)cc2)=C(c3ccccc3)/c4ccc(c5sc(c6ccc(/C(c7ccccc7)=C(c8ccc(OC)cc8)/c9ccc(OC)cc9)cc6)c%10nc(c%11ccc(/C(c%12ccccc%12)=C(c%13ccccc%13)/c%14ccccc%14)cc%11)c(c%15ccc(/C(c%16ccccc%16)=C(c%17ccccc%17)\c%18ccccc%18)cc%15)nc%105)cc4)cc1,"Angew. Chem. Int. Ed. 2020 , 59 , 9470",1578,685,,AIE,ICT
+242,4TPA-BQ,Cc1c[n+]2c(c3ccc(N(c4ccccc4)c5ccccc5)cc3)c(c6ccc(N(c7ccccc7)c8ccccc8)cc6)c9cc(N(c%10ccccc%10)c%11ccccc%11)ccc9c2c(c%12ccc(N(c%13ccccc%13)c%14ccccc%14)cc%12)c1,,1235.4491,570,,AIE,ICT
+249,APA,c12c(CN(Cc3ccccn3)Cc4ncccc4)c5ccccc5cc1cccc2,"Angew. Chem. Int. Ed. 2019, 58, 14911 –14914",,461,,AIE,neutral aromatic
+250,ASQ,CN(C)c1ccc(/C=C/c2nc3ccccc3[nH]c2=O)cc1,"Adv. Sci. 2020, 2001845",643,577,560,AIE,ICT
+251,TSSAM,C[n+]1c2ccccc2c(/C=C/c3sc(c4sc(c5ccc(N(c6ccccc6)c7ccccc7)cc5)cc4)cc3)c8ccccc81.FC(F)(S(=O)([O-])=O)F,"ACS Materials Lett. 2020, 2, 1033–1040",641,950,,AIE,ICT
+252,TSAM,C[n+]1c2ccccc2c(/C=C/c3sc(c4ccc(N(c5ccccc5)c6ccccc6)cc4)cc3)c7ccccc71.FC(F)(S(=O)([O-])=O)F,"ACS Materials Lett. 2020, 2, 1033–1040",637,847,,AIE,ICT
+253,TAM,C[n+]1c2ccccc2c(/C=C/c3ccc(N(c4ccccc4)c5ccccc5)cc3)c6ccccc61.FC(F)(S(=O)([O-])=O)F,"ACS Materials Lett. 2020, 2, 1033–1040",485,818,,AIE,ICT
+254,TFPy,C[n+]1ccc(/C=C/c2oc(c3ccc(N(c4ccccc4)c5ccccc5)cc3)cc2)cc1,"Angew. Chem. Int. Ed. 2020, 59, 9610–9616",492,660,,AIE,ICT
+255,TFVP,C[N+](C)(C)CCC[n+]1ccc(/C=C/c2oc(c3ccc(N(c4ccccc4)c5ccccc5)cc3)cc2)cc1.[Br-].[Br-],"Angew. Chem. Int. Ed. 2020, 59, 9610–9616",490,672,,AIE,ICT
+256,TPE-TFPy,C[n+]1ccc(/C=C/c2oc(c3ccc(N(c4ccc(/C(c5ccccc5)=C(c6ccccc6)/c7ccccc7)cc4)c8ccccc8)cc3)cc2)cc1,"Angew. Chem. Int. Ed. 2020, 59, 9610–9616",348,664,,AIE,ICT
+257,TTV,c1(c2sccc2)ccc(N(c3ccccc3)c4ccccc4)cc1,"Chem. Sci., 2019,10, 3494-3501",383,402,,AIE,ICT
+258,TTB,c1(c2sc(c3ccc(/C(c4ccccc4)=C(c5ccccc5)\c6ccccc6)cc3)cc2)ccc(N(c7ccccc7)c8ccccc8)cc1,"Chem. Sci., 2019,10, 3494-3501",398,482,,AIE,ICT
+259,TTG,O=Cc1sc(c2ccc(N(c3ccccc3)c4ccccc4)cc2)cc1,"Chem. Sci., 2019,10, 3494-3501",410,531,,AIE,ICT
+260,TTY,O=Cc1sc(c2ccc(N(c3ccc(OC)cc3)c4ccc(OC)cc4)cc2)cc1,"Chem. Sci., 2019,10, 3494-3501",438,580,,AIE,ICT
+261,TTO,O=Cc1ccc(c2sc(c3ccc(N(c4ccc(OC)cc4)c5ccc(OC)cc5)cc3)cc2)s1,"Chem. Sci., 2019,10, 3494-3501",443,612,,AIE,ICT
+262,TTR,O=Cc1sc(c2ccc(c3sc(c4ccc(N(c5ccc(OC)cc5)c6ccc(OC)cc6)cc4)cc3)s2)cc1,"Chem. Sci., 2019,10, 3494-3501",484,649,,AIE,ICT
+263,TTDR,N#C/C(C#N)=C/c1sc(c2ccc(N(c3ccccc3)c4ccccc4)cc2)cc1,"Chem. Sci., 2019,10, 3494-3501",512,667,,AIE,ICT
+264,TTNIR,COc1ccc(N(c2ccc(OC)cc2)c3ccc(c4sc(c5ccc(/C=C(C#N)/C#N)s5)cc4)cc3)cc1,"Chem. Sci., 2019,10, 3494-3501",470,724,,AIE,ICT
+265,PN-BTZ-Cz,c12c(c(N(c3ccccc3)c4cccc5ccccc45)ccc2n6c7ccccc7c8ccccc68)nsn1,"ACS Omega 2018, 3, 16347−16356 ",466,,,AIE,ICT
+266,DP-BTZ-Cz,c12c(c(N(c3ccccc3)c4ccccc4)ccc2n5c6ccccc6c7ccccc57)nsn1,"ACS Omega 2018, 3, 16347−16356 ",,,,AIE,ICT
+269,AMP-2HBT,CC(=O)COC1=CC(O)=C(C=C1)C1=NC2=C(S1)C=CC=C2,"ACS Appl. Mater. Interfaces, 2018, 10, 11436-11442.",351,482,,AIE,ESIPT
+270,SA-4CO2Na,Oc1c(/C=N/N=C/c2c(O)ccc(CN(CC(O[Na])=O)CC(O[Na])=O)c2)cc(CN(CC(O[Na])=O)CC(O[Na])=O)cc1,"ACS Appl. Mater. Interfaces, 2018, 10, 14410-14417",362,541,,AIE,ESIPT
+272,IND,O=C(c1ccccc1C/2=O)C2=C/c3ccc(N(CCCC)CCCC)cc3,"Mater. Horiz., 2019, 6, 546-553",364,639,,AIE,ICT
+273,AIE-Mito-TPP,Oc1c(/C=N/N=C/c2c(O)cc(OCCCCCC[P+](c3ccccc3)(c4ccccc4)c5ccccc5)cc2)ccc(OCCCCCC[P+](c6ccccc6)(c7ccccc7)c8ccccc8)c1,"Adv. Funct. Mater. 2018, 1804362",427,505,,AIE,ESIPT
+278,TBP,c1(c(ccc2c3ccncc3)c4c2nsn4)ccc(N(c5ccccc5)c6ccccc6)cc1,"J. Mater. Chem. B, 2020, 8, 1516",,621,,AIE,ICT
+279,TBP-1,CC[n+]1ccc(c2c3c(c(c4ccc(N(c5ccccc5)c6ccccc6)cc4)cc2)nsn3)cc1.[Br-],"Small Methods 2020, 2000046",,705,,AIE,ICT
+280,TBP-2,C[N+](C)(C)CCC[n+]1ccc(c2c3c(c(c4ccc(N(c5ccccc5)c6ccccc6)cc4)cc2)nsn3)cc1.[Br-].[Br-],"Small Methods 2020, 2000046",,685,,AIE,ICT
+281,CSMPP,CN(CC1)CCN1c2ccc(/C=C(C#N)/c3ccc(c4ccncc4)cc3)cc2,"Chem. Sci., 2020, 11, 3152",436,509,,AIE,ICT
+283,4(TPE-COO)-TPP,O=C(c1ccc(/C(c2ccccc2)=C(c3ccccc3)/c4ccccc4)cc1)Oc5ccc(c6c([N]7)C=Cc7c(c8ccc(OC(c9ccc(/C(c%10ccccc%10)=C(c%11ccccc%11)/c%12ccccc%12)cc9)=O)cc8)c%13[nH]c(cc%13)c(c%14ccc(OC(c%15ccc(/C(c%16ccccc%16)=C(c%17ccccc%17)\c%18ccccc%18)cc%15)=O)cc%14)c([N]%19)C=Cc%19c(c%20ccc(OC(c%21ccc(/C(c%22ccccc%22)=C(c%23ccccc%23)/c%24ccccc%24)cc%21)=O)cc%20)c%25[nH]c6cc%25)cc5,"Chin. Chem. Lett., 2019, 30  143–148",382,715,,AIE,ICT
+285,TPE-Gal,OCC(O1)C(O)C(O)C(O)C1n2nnc(CCCOc3ccc(/C(c4ccc(OCCCc5nnn(C6C(O)C(O)C(O)C(CO)O6)c5)cc4)=C(c7ccc(/C(c8ccccc8)=C(C#N)\C#N)cc7)/c9ccccc9)cc3)c2,"Anal. Chem. 2019, 91, 6836−6843",,580,,AIE,neutral aromatic
+286,TPE-Man,OCC(O1)C(O)C(O)C(O)C1c2nnn(CCCOc3ccc(/C(c4ccc(OCCCn5nnc(C6C(O)C(O)C(O)C(CO)O6)c5)cc4)=C(c7ccc(/C(c8ccccc8)=C(C#N)\C#N)cc7)/c9ccccc9)cc3)c2,"Anal. Chem. 2019, 91, 6836−6843",422,580,,AIE,neutral aromatic
+289,TPE-DOX,O=C(OCc1cc(C)cc(COC(NC2CC(CC3CC(C)(O)Cc4c(O)c(C(c5cccc(OC)c5C6=O)=O)c6c(O)c43)OC(C)C2O)=O)c1OCc7ccc(B8OC(C)(C)C(C)(C)O8)cc7)c9ccc(/C(c%10ccccc%10)=C(c%11ccccc%11)\c%12ccccc%12)cc9,"RSC Adv., 2018, 8, 10975–10979",205,480,,AIE,neutral aromatic
+290,(Z)-TPEDEPy,c1(C#Cc2ccncc2)ccc(/C(c3ccccc3)=C(c4ccccc4)\c5ccc(C#Cc6ccncc6)cc5)cc1,"J. Phys. Chem. B 2018, 122, 2165−2176",204,480,,AIE,neutral aromatic
+291,(E)-TPEDEPy,c1(C#Cc2ccncc2)ccc(/C(c3ccccc3)=C(c4ccccc4)/c5ccc(C#Cc6ccncc6)cc5)cc1,"J. Phys. Chem. B 2018, 122, 2165−2176",,510,,AIE,neutral aromatic
+292,(E)-TPEDEPy-DBz,c1(C#Cc2cc[n+](Cc3ccccc3)cc2)ccc(/C(c4ccccc4)=C(c5ccccc5)/c6ccc(C#Cc7cc[n+](Cc8ccccc8)cc7)cc6)cc1,"J. Mater. Chem. B, 2018, 6, 1279--1285",,570,,AIE,ICT
+293,TBZPy,C[n+]1ccc(/C=C/c2ccc(c3c4nsnc4c(c5ccc(N(c6ccccc6)c7ccccc7)cc5)cc3)cc2)cc1.[I-],"Adv. Funct. Mater. 2020, 2002057",,622,,AIE,ICT
+294,MTBZPy,C[n+]1ccc(/C=C/c2ccc(c3c4nsnc4c(c5ccc(N(c6ccc(OC)cc6)c7ccc(OC)cc7)cc5)cc3)cc2)cc1.[I-],"Adv. Funct. Mater. 2020, 2002058",,637,,AIE,ICT
+295,TNZPy,C[n+]1ccc(/C=C/c2ccc(c3c4nsnc4c(c5ccc(N(c6ccccc6)c7ccccc7)cc5)c8ccccc83)cc2)cc1.[I-],"Adv. Funct. Mater. 2020, 2002059",,666,,AIE,ICT
+296,MTNZPy,C[n+]1ccc(/C=C/c2ccc(c3c4nsnc4c(c5ccc(N(c6ccc(OC)cc6)c7ccc(OC)cc7)cc5)c8ccccc83)cc2)cc1.[I-],"Adv. Funct. Mater. 2020, 2002060",,681,,AIE,ICT
+297,PXZ-TBP-CN,N#Cc1ccc(c2c(c3ccccc3)cc(c4ccc(N5c6ccccc6Oc7ccccc75)cc4)c(c8ccccc8)c2)cc1,10.1002/ajoc.202000133,,458,495,AIE,ICT
+298,TPECNPB,C/C(C)=C(c1cc[n+](Cc2ccc(B(O)O)cc2)cc1)\c3ccc(/C(c4ccccc4)=C(c5ccc(OC)cc5)/c6ccc(OC)cc6)cc3.[Br-],"Adv. Optical Mater. 2020, 2001119",,,625,AIE,ICT
+300,2TPE-2NDTA,O=C(c1c(S/C(S2)=C(c3ccc(/C(c4ccccc4)=C(c5ccccc5)/c6ccccc6)cc3)/C#N)c2c(C(N(CC(CCCCCCCCCCCC)CCCCCCCCCC)C7=O)=O)c8c7c(S/C(S9)=C(\C(C#N)=C%10Sc%11c%12c%13c(C(N(CC(CCCCCCCCCCCC)CCCCCCCCCC)C%12=O)=O)c%14c(S/C(S%14)=C(c%15ccc(/C(c%16ccccc%16)=C(c%17ccccc%17)\c%18ccccc%18)cc%15)/C#N)c%19c%13c(C(N(CC(CCCCCCCCCCCC)CCCCCCCCCC)C%19=O)=O)c%11S/%10)C#N)c9c%20c81)N(CC(CCCCCCCCCCCC)CCCCCCCCCC)C%20=O,"Nat. Commun., 2019, 10, 768",,,,AIE,ICT
+301,COTh,c12ccsc1c3sccc3c4ccsc4c5sccc25,"Nat. commun. 2019, 10, 2952",,,520,AIE,neutral aromatic
+302,DCDMF-BP-PXZ,CC(c1cc(n2c3ccc(C(c4ccc(N5c6ccccc6Oc7ccccc75)cc4)=O)cc3c8ccccc28)ccc19)(C)c%10c9ccc(n%11c%12ccccc%12c%13ccccc%11%13)c%10,"Adv. Optical Mater. 2020, 2001027",,540,,AIE,ICT
+303,DCDPF-BP-PXZ,O=C(c1ccc(N2c3ccccc3Oc4ccccc42)cc1)c5ccc6n(c7ccc(c8ccc(n9c%10ccccc%10c%11ccccc9%11)cc8C%12(c%13ccccc%13)c%14ccccc%14)c%12c7)c%15ccccc%15c6c5,"Adv. Optical Mater. 2020, 2001028",,530,,AIE,ICT
+304,DCSBF-BP-PXZ,O=C(c1ccc(N2c3ccccc3Oc4ccccc42)cc1)c5ccc6n(c7ccc(c8ccc(n9c%10ccccc%10c%11ccccc9%11)cc8C%12%13c%14ccccc%14c%15ccccc%15%13)c%12c7)c%16ccccc%16c6c5,"Adv. Optical Mater. 2020, 2001029",,527,,AIE,ICT
+305,TPE-NA,c1(/C(c2ccccc2)=C(c3ccc(c4cccc5cccc(c6ccc(/C(c7ccccc7)=C(c8ccccc8)/c9ccccc9)cc6)c54)cc3)\c%10ccccc%10)ccccc1,"Adv. Mater. Interfaces 2020, 2000795",,,458,AIE,ICT
+309,DAMB-SA,C[C@@]12C(CCc3cc(/N=C/c4c(O)cccc4)c(Br)cc32)[C@](C)(C(OC)=O)CCC1," Nat Commun 12, 1773 (2021).",469.1,575,535,AIE,ESIPT
+310,DAMB-SAB,C[C@@]12C(CCc3cc(/N=C/c4c(O)c(C(C)(C)C)cc(C(C)(C)C)c4)c(Br)cc32)[C@](C)(C(OC)=O)CCC1," Nat Commun 12, 1773 (2022).",480.2,575,532,AIE,ESIPT
+311,DAMB-SAN,C[C@@]12C(CCc3cc(/N=C/c4c(O)ccc([N+]([O-])=O)c4)c(Br)cc32)[C@](C)(C(OC)=O)CCC1," Nat Commun 12, 1773 (2023).",514.1,575,532,AIE,ESIPT
+312,DB-BCZ,Cc1cc(C)c(B(c2c(C)cc(C)cc2C)c3ccc(c4cc(n5c6ccccc6c7ccccc57)cc(n8c9ccccc9c%10ccccc8%10)c4)cc3)c(C)c1,"Journal of Molecular Structure, Volume 1228, 2021, 129721",817.65,,410,AIE,ICT
+313,0-PP-2SMe,CSc1ccc(c2c(c3c(c4c(c5ccc(SC)cc5)cccc4)cccc3)cccc2)cc1,"Nat Commun 12, 167 (2021).",474.1476,,400,AIE,neutral aromatic
+314,0-TP-2Py,c1(c2ccncc2)c(c3c(c4c(c5ccncc5)cccc4)cccc3)cccc1,"Nat Commun 12, 167 (2022).",384.1426,,370,AIE,neutral aromatic
+315,o-PP-2CN,N#Cc1ccc(c2c(c3c(c4c(c5ccc(C#N)cc5)cccc4)cccc3)cccc2)cc1,"Nat Commun 12, 167 (2023).",432.1626,,470,AIE,neutral aromatic
+316,SPOC-SQ,[O-]C1=C(N(c2ccc(Cl)cc2)c3ccc(Cl)cc3)C(/C1=[N+](c4ccc(Cl)cc4)/c5ccc(Cl)cc5)=O,"J. Am. Chem. Soc. 2021, 143, 10, 3856–3864",551.9966,,525,AIE,ICT
+317,TBTO,CC[N+](CC)([O-])c1ccc(N(c2ccc([N+](CC)([O-])CC)cc2)c3ccc(c4c5c(c(c6ccc(N(c7ccc([N+](CC)([O-])CC)cc7)c8ccc([N+](CC)([O-])CC)cc8)cc6)cc4)nsn5)cc3)cc1,"iScience, Volume 24, Issue 3, 2021, 102261",971.5,,610,AIE,ICT
+318,o-TPBQ,Cc1c[n+]2c(c3ccccc3)c(c4ccccc4)c5ccccc5c2c(c6ccccc6)c1,"Chem. Sci., 2021,12, 709-717",422.1903,,450,AIE,ICT
+320,TQ-BPN,c12c(c(c3ccc(N(c4ccccc4)c5cccc6ccccc56)cc3)c7nc(c8ccccc8)c(c9ccccc9)nc7c2c%10ccc(N(c%11c%12ccccc%12ccc%11)c%13ccccc%13)cc%10)nsn1,"Chem. Res. Chin. Univ. 37, 171–176 (2021).",,,800,AIE,ICT
+321,TPEBe-I(TPEBe-ATP),CC[n+]1c2ccccc2sc1/C=C/c3ccc(C(c4ccccc4)C(c5ccccc5)c6ccccc6)cc3,"Chemical Research in Chinese Universities volume 37, pages166–170 (2021)",,,680,AIE,ICT
+322,ABCXF,CN(C)c1ccc(/C=C/C=C(C#N)/c2cc(C(F)(F)F)cc(C(F)(F)F)c2)cc1,"Mater. Chem. Front., 2021,5, 1853-1862",410.1218,,590,AIE,ICT
+323,OTTAB,Nc1c(N)c(C2=CC=C(c3ccc(N(c4ccc(OCCCCCCCC)cc4)c5ccc(OCCCCCCCC)cc5)cc3)S2)c6c(c1C7=CC=C(c8ccc(N(c9ccc(OCCCCCCCC)cc9)c%10ccc(OCCCCCCCC)cc%10)cc8)S7)nsn6,"Nature Communications volume 12, Article number: 960 (2021) ",1388.6452,,615,AIE,ICT
+324,TPE-CN,c1(C(C(c2ccccc2)c3ccccc3)c4ccc(/C=N/N=C/c5ccc(C(C(c6ccccc6)c7ccccc7)c8ccccc8)cc5)cc4)ccccc1,"J. Am. Chem. Soc. 2021, 143, 5, 2433–2440",717.327,,480,AIE,neutral aromatic
+325,CoTAPc,Nc1cc2c(N=C(c3ccc(N)cc34)N5C4=Nc6c7ccc(N)cc7c8n6[Co]95N%10C(c%11cc(N)ccc%11C%10=N8)=N%12)n9c%12c2cc1,"Energy Environ. Sci., 2021,14, 483-492",,,,AIE,ICT
+326,CoTMAPc,C[N+](C)(C)c1cc2c(N=C(c3ccc([N+](C)(C)C)cc34)N5C4=Nc6c7ccc([N+](C)(C)C)cc7c8n6[Co]95N%10C(c%11cc([N+](C)(C)C)ccc%11C%10=N8)=N%12)n9c%12c2cc1,"Energy Environ. Sci., 2021,14, 483-492",,,,AIE,ICT
+327,C6-BD,Oc1c(/C=N/N=C/c2ccc(OCCCCCC[n+]3ccccc3)cc2)ccc4ccccc41,"Mater. Chem. Front., 2021,5, 2724-2729",,,,AIE,ESIPT
+328,DTPA-BT-M,COc1ccc(N(c2ccc(OC)cc2)c3ccc(c4ccc(c5ccc(N(c6ccc(OC)cc6)c7ccc(OC)cc7)cc5)c8c4nsn8)cc3)cc1,"Mater. Chem. Front., 2021,5, 1872-1883",,,650,AIE,ICT
+329,TPE-DMAB,C[N+](C)(Cc1ccc(B(O)O)cc1)c2ccc(C(c3ccccc3)C(c4ccccc4)c5ccc([N+](C)(Cc6ccc(B(O)O)cc6)C)cc5)cc2,"Mater. Chem. Front., 2021,5, 1830-1835",,,,AIE,ICT
+330,TIOdB,CCC[n+]1c(c2ccccc2)c(c3ccccc3)c4ccc(/C(c5cc6c[n+](CCC)c(c7ccccc7)c(c8ccccc8)c6cc5)=C(c9ccc(OC)cc9)/c%10ccc(OC)cc%10)cc4c1,"Mater.Horiz.,2020,7,3005--3010",,,543,AIE,ICT
+331,CHE,COc1c(OC)c2c[n+](C)c3c4cc(OCO5)c5cc4ccc3c2cc1,"Mater. Horiz., 2020, 7, 2696--2701",,584,,AIE,ICT
+332,TPE-PTB,CC(C)(C)c1ccc(n2c3c4ccccc4c5ccccc5c3nc2c6sc(c7c8c(c(c9ccc(C(C(c%10ccccc%10)c%11ccccc%11)c%12ccccc%12)cc9)cc7)nsn8)cc6)cc1,"ACS Nano 2020, 14, 16840−16853 ",,,,AIE,ICT
+333,TNZ,c12c(cc3ccccc3c2c4ccc(N(c5ccccc5)c6ccccc6)cc4)nsn1,"J. Mater. Chem. C, 2020, 8, 14146--14154",,635,,AIE,ICT
+334,PyTNZ,c12c(c(c3ccc4ccc5cccc6c5c4c3cc6)c7ccccc7c2c8ccc(N(c9ccccc9)c%10ccccc%10)cc8)nsn1,"J. Mater. Chem. C, 2020, 8, 14146--14155",,657,,AIE,ICT
+335,PheTNZ,c12c(c(c3cc4ccccc4c5ccccc53)c6ccccc6c2c7ccc(N(c8ccccc8)c9ccccc9)cc7)nsn1,"J. Mater. Chem. C, 2020, 8, 14146--14156",,658,,AIE,ICT
+336,NpTNZ,c12c(c(c3cc4ccccc4cc3)c5ccccc5c2c6ccc(N(c7ccccc7)c8ccccc8)cc6)nsn1,"J. Mater. Chem. C, 2020, 8, 14146--14157",,656,,AIE,ICT
+337,DCQA,CCn1c2cc(/C=C/c3cc[n+](CCCC[N+](C)(C)C)c4ccccc34)ccc2c5ccc(N(c6ccccc6)c7ccccc7)cc51,"Mater. Horiz., 2021,8, 1816-1824",,,,AIE,ICT
+338,TPE-2BA,OB(O)c1ccc(/C(c2ccccc2)=C(c3ccccc3)/c4ccc(B(O)O)cc4)cc1,"Mater. Horiz., 2021,8, 1816-1824",,480,,AIE,neutral aromatic
+339,PTZ1,CCCN1c2ccccc2Sc2cc(\C=C(/C#N)c3nc4ccccc4s3)ccc12,"J. Mater. Chem. C, 2019, 7, 4185-4190",,650,672,AIE,ICT
+340,PTZ2,CCCN1c2ccccc2Sc2cc(\C=C(/C#N)c3nc4ccccc4o3)ccc12,"J. Mater. Chem. C, 2019, 7, 4185-4190",,655,671,AIE,ICT
+341,PTZ3,[H]n1c(nc2ccccc12)C(=C\c1ccc2N(CCC)c3ccccc3Sc2c1)\C#N,"J. Mater. Chem. C, 2019, 7, 4185-4190",,656,647,AIE,ICT
+342,PTZ4,CCCN1c2ccccc2Sc2cc(\C=C\C(=O)c3ccccc3O)ccc12,"J. Mater. Chem. C, 2019, 7, 4185-4190",,677,649,AIE,ICT
+343,PTZ5,CCCN1c2ccccc2Sc2cc(C=C(C#N)C#N)ccc12,"J. Mater. Chem. C, 2019, 7, 4185-4190",,660,674,AIE,ICT
+344,PTZ6,CCCN1c2ccccc2Sc2cc(\C=C(\C#N)C(=O)OCC)ccc12,"J. Mater. Chem. C, 2019, 7, 4185-4190",,620,646,AIE,ICT
+345,PTZ7,CCCN1c2ccccc2Sc2cc(C=C(C(O)=O)C(O)=O)ccc12,"J. Mater. Chem. C, 2019, 7, 4185-4190",,551,539,AIE,ICT
+346,PTZ8,CCCN1c2ccccc2Sc2cc(\C=C(\C#N)C(O)=O)ccc12,"J. Mater. Chem. C, 2019, 7, 4185-4190",,644,601,AIE,ICT
+347,PTZ9,CCCN1c2ccccc2Sc2cc(\C=C\C(=O)c3cccc(O)c3)ccc12,"J. Mater. Chem. C, 2019, 7, 4185-4190",,605,652,AIE,ICT
+348,PTZ10,CCCN1c2ccccc2Sc2cc(\C=C\C3=CC(CC(C)(C)C3)=C(C#N)C#N)ccc12,"J. Mater. Chem. C, 2019, 7, 4185-4190",,717,725,AIE,ICT
+349,PTZ11,CCCN1c2ccccc2Sc2cc(C=C3C(=O)c4ccccc4C3=O)ccc12,"J. Mater. Chem. C, 2019, 7, 4185-4190",,727,750,AIE,ICT
+350,bBTAE-Th,C(=C(c1nc2ccccc2s1)c1nc2ccccc2s1)c1cccs1,,,,468,AIE,ICT
+351,bBTAE-PhDMA,CN(C)c1ccc(C=C(c2nc3ccccc3s2)c2nc3ccccc3s2)cc1,,,589,538,AIE,ICT
+352,bBTAE-PhA,OC(=O)c1ccc(C=C(c2nc3ccccc3s2)c2nc3ccccc3s2)cc1,,,539,465,AIE,ICT
+353,bBTAE-Ph,C(=C(c1nc2ccccc2s1)c1nc2ccccc2s1)c1ccccc1,,,479,462,AIE,ICT
+354,bBTAE-PhM,Cc1ccc(C=C(c2nc3ccccc3s2)c2nc3ccccc3s2)cc1,,,479,425,AIE,ICT
+355,bBTAE-PhOM,COc1ccc(C=C(c2nc3ccccc3s2)c2nc3ccccc3s2)cc1,,,472,465,AIE,ICT
+356,bBTAE-NpOM,COc1ccc2cc(C=C(c3nc4ccccc4s3)c3nc4ccccc4s3)ccc2c1,,,486,467,AIE,ICT
+357,bBTAE-Pyr,C(=C(c1nc2ccccc2s1)c1nc2ccccc2s1)c1ccc2ccc3cccc4ccc1c2c34,,,581,530,AIE,ICT
+358,bBTAE-PTAB,CCCCN1c2ccccc2Sc2cc(C=C(c3nc4ccccc4s3)c3nc4ccccc4s3)ccc12,,,652,631,AIE,ICT
+359,bBTAE-BODIPYPh,Cc1cc(C)[n+]8c1=C(c2ccccc2)c7c(C)c(/C=C(c4nc3ccccc3s4)/c6nc5ccccc5s6)c(C)n7[B-]8(F)F,,,721,701,AIE,ICT
+1749,Py-2TPE,CC(C)(C)C1=CC2=C3C(C=CC4=C(C=C(C5=CC=C(C=C5)C(=C(C5=CC=CC=C5)C5=CC=CC=C5)C5=CC=CC=C5)C(C=C2)=C34)C2=CC=C(C=C2)C(=C(C2=CC=CC=C2)C2=CC=CC=C2)C2=CC=CC=C2)=C1,,918.4,456,456,AIE,ESIPT
+1751,Py-TPA,COC1=CC=C(C=C1)N(C1=CC=C(OC)C=C1)C1=CC=C(C=C1)C1=C2C=CC3=CC(=CC4=C3C2=C(C=C4)C=C1)C(C)(C)C,,561,495,495,AIE,ICT
+2001,DTPA-BT-H,C1(N(C2=CC=C(C3=CC=C(C4=CC=C(N(C5=CC=CC=C5)C6=CC=CC=C6)C=C4)C7=NSN=C37)C=C2)C8=CC=CC=C8)=CC=CC=C1,,622.22,595,,AIE,ESIPT
+2376,HPB-T3-SM,CSC(C=C1)=CC=C1C2=C(C3=CC=CS3)C(C4=CC=CS4)=C(C5=CC=C(SC)C=C5)C(C6=CC=CS6)=C2C7=CC=CS7,,644,,,AIE,other
+2408,HTPETPAN,[H]/C(C1=CC=C(C2=CC=C(/C(C#N)=C(C3=CC=CC=C3)\C4=CC=CC=C4)C=C2)C=C1)=C(C5=CC=CC=C5)\C6=CC=CC=C6,"Adv. Mater. 2013, 25, 2837-2843",535.69,457,510,AIE,other

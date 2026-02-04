@@ -57,3 +57,9 @@ _build/
 
 
 output/
+
+# Local data (do not commit)
+aie_data/Papers/
+
+aie_data/ready_data/emission_cache/
+third_party/scitopdf

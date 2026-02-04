@@ -1,0 +1,117 @@
+You are extracting photophysical emission peak data for a target molecule from papers / supplementary information.
+
+The target may appear in the paper as:
+	•	an explicit code/label/shorthand (e.g., "TPEAn", "TPECa", "BTPETD", "Compound 7"), OR
+	•	an unnamed derivative identifiable only by structure (SMILES/InChIKey/InChI in SI, structure diagram, substituent table, etc.).
+
+Your job is:
+	1.	Identify whether the target molecule appears in the provided content (identity matching),
+	2.	Extract two emission peak wavelengths (nm) under strict condition rules.
+
+⸻
+
+Target (priority order)
+
+Primary identity key (fast path)
+	•	TARGET_CODE = "t-BPITBT-TPATPE"
+	•	TARGET_ALIASES = ["t-BPITBT-TPATPE"]  (add more if you have them)
+
+Secondary identity key (fallback path)
+	•	TARGET_SMILES = "<INSERT_IF_AVAILABLE>"
+	•	TARGET_INCHIKEY = "<INSERT_IF_AVAILABLE>"
+
+If TARGET_SMILES/INCHIKEY is not provided, you can still attempt code/label matching only.
+If code is not found and SMILES is missing, you must return not_found.
+
+⸻
+
+Task
+
+Find the emission peak wavelength (λ_em,max, in nm) for the target under:
+
+1) Aggregated-state emission peak (emission_aggr_nm)
+
+Strict definition: emission maximum measured in an explicit aggregate condition such as:
+	•	"aggregate / aggregated / nanoaggregate"
+	•	solvent mixtures causing aggregation (e.g., THF/water at high water fraction fw)
+	•	poor-solvent induced aggregates
+	•	explicitly labeled "Em(agg)", "λ_em,agg", "λmax(agg)", "aggregates"
+
+2) Solid or film emission peak (emission_solid_or_film_nm)
+
+Emission maximum measured in:
+	•	thin film (spin-coated film, cast film, drop-cast film), or
+	•	solid state / powder / crystal (if film not available)
+
+⸻
+
+Identity Matching Strategy (code-first, SMILES fallback)
+
+Step 1 — Code/label match (accept if found)
+
+If the paper/SI explicitly contains TARGET_CODE or any TARGET_ALIASES in a data-bearing context
+(table row, figure caption, scheme label, SI compound list, spectra label):
+→ identity_match = "code_match"
+→ proceed to extraction.
+
+Step 2 — If code/label NOT found, use SMILES/InChIKey fallback
+
+Only if Step 1 fails AND (TARGET_SMILES or TARGET_INCHIKEY is provided):
+Try to locate the target as an unnamed derivative by:
+	•	Exact match: the paper/SI provides the same SMILES/InChIKey/InChI as the target
+→ identity_match = "exact"
+	•	Structure-equivalence reasoning (allowed but must be justified):
+target corresponds to "Compound #" via substituent mapping / structure diagram match / SI structure
+→ identity_match = "series_inferred" or "uncertain" depending on strength
+
+If you cannot justify a match:
+→ identity_match = "not_found"
+→ set both emission values to null.
+
+You must output identity_match_confidence in [0,1].
+
+Confidence guideline:
+	•	exact: 0.95–1.0
+	•	code_match: 0.70–0.95 (table row > caption > narrative mention)
+	•	series_inferred: 0.40–0.70
+	•	uncertain: 0.10–0.40
+	•	not_found: 0.0
+
+⸻
+
+Extraction Rules (strict)
+	•	Only extract values explicitly reported as emission peak wavelength in nm.
+	•	Prefer table/SI values over narrative text.
+	•	If multiple values exist:
+	•	Aggregated: choose the most aggregated condition clearly stated (e.g., highest fw).
+	•	Solid/film: choose film if available; otherwise solid/powder/crystal.
+
+Anti-leakage rule (do NOT violate)
+	•	Never reuse solid/film/crystal emission values as emission_aggr_nm.
+	•	emission_aggr_nm must come from an explicitly stated aggregate/aggregation condition.
+	•	If only solid/film is reported, set emission_aggr_nm = null.
+	•   If the evidence for emission_aggr_nm does NOT include explicit aggregate keywords or fw/solvent-mixture aggregation conditions, you MUST set emission_aggr_nm = null.
+
+⸻
+
+Output (STRICT JSON ONLY)
+
+Return ONLY valid JSON:
+
+{
+  "identity_match": "exact|code_match|series_inferred|uncertain|not_found",
+  "identity_match_confidence": 0.0,
+  "matched_entity_in_paper": {
+    "compound_label": "e.g., t-BPITBT-TPATPE / Compound 7 / (null if unknown)",
+    "where_found": "e.g., Table 1 / Fig. 2 / SI page 5 / section name"
+  },
+  "emission_aggr_nm": null,
+  "emission_solid_or_film_nm": null,
+  "evidence": {
+    "aggr_source": "table/figure/section locator or null",
+    "solid_or_film_source": "table/figure/section locator or null",
+    "conditions_aggr": "e.g., THF/water fw=90% or null",
+    "conditions_solid_or_film": "e.g., spin-coated film / powder / crystal or null"
+  },
+  "notes": "Short justification: whether code was found; if not, how SMILES/structure match was established; and why any field is null."
+}
