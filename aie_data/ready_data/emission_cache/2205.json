@@ -1,0 +1,17 @@
+{
+  "id": "2205",
+  "code": "l-TPE-PyH",
+  "SMILES": "C(/c1ccc(c2cc[nH+]cc2)cc1)(C3=CC=CC=C3)=C(C4=CC=CC=C4)c5ccc(c6cc[nH+]cc6)cc5.[Cl-].[Cl-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"l-TPE-PyH\",\n    \"where_found\": \"Chunk 4 (PDF description), Chunk 5 (fsTA spectra), Chunk 9 (synthesis and solvatochromism)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target code 'l-TPE-PyH' is explicitly mentioned multiple times in the context (e.g., fsTA spectra, synthesis, solvatochromism experiment in Table S1). However, the provided chunks contain no emission peak data for l-TPE-PyH. The PL data discussed (e.g., 526 nm in dioxane, 553 nm in acetonitrile) are for the folded isomer 'f-TPE-PyH', not the linear target 'l-TPE-PyH'. No aggregate-state or solid/film emission data for l-TPE-PyH are present in the given text. Therefore, both emission fields are null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T06:35:06"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2298",
+  "code": "3TPETPA",
+  "SMILES": "C1(N(C2=CC=C(C3=CC=C(/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)C6=CC=CC=C6)C=C3)C=C2)C7=CC=C(C8=CC=C(/C(C9=CC=CC=C9)=C(C%10=CC=CC=C%10)C%11=CC=CC=C%11)C=C8)C=C7)=CC=C(C%12=CC=C(/C(C%13=CC=CC=C%13)=C(C%14=CC=CC=C%14)C%15=CC=CC=C%15)C=C%12)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "484",
+  "emission_aggr": "484",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"3TPETPA\",\n    \"where_found\": \"Throughout text (e.g., page 2, Fig. 1 caption, Scheme 1, Table 1)\"\n  },\n  \"emission_aggr_nm\": 484,\n  \"emission_solid_or_film_nm\": 484,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 2 and page 2 text\",\n    \"solid_or_film_source\": \"Page 4 text (Fig. S8 reference)\",\n    \"conditions_aggr\": \"THF/water mixture with f_w = 90%\",\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Code '3TPETPA' is explicitly mentioned throughout the paper. Emission_aggr_nm (484 nm) is explicitly stated as the PL peak in THF/water mixture with f_w = 90%, which is an explicit aggregate condition. Emission_solid_or_film_nm (484 nm) is explicitly stated as the PL peak of the thin film of 3TPETPA (reference to Fig. S8). Both values are directly reported.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T09:58:53"
+}

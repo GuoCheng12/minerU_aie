@@ -1,0 +1,17 @@
+{
+  "id": "2409",
+  "code": "TPATPAN",
+  "SMILES": "N#C/C(C(C=C1)=CC=C1C(C=C2)=CC=C2N(C3=CC=CC=C3)C4=CC=CC=C4)=C(C5=CC=CC=C5)/C6=CC=CC=C6",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "478",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPATPAN\",\n    \"where_found\": \"Figure 1, Figure 3, Figure 4, page 2, page 4, page 5, page 6\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 478,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Figure 1, page 4 (as prepared solid powder emission)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"as prepared solid powder\"\n  },\n  \"notes\": \"Target code 'TPATPAN' is explicitly mentioned throughout the paper (Figure 1, 3, 4, text). No explicit aggregated-state emission peak (e.g., THF/water mixture) is reported for TPATPAN; only TPETPAN's aggregate emission in THF/water (fw=90%) is described (Figure 2). For TPATPAN, the solid-state emission maximum is given as 478 nm for the 'as prepared' powder in Figure 1 and page 4. The OLED EL peak at ~546 nm (page 5) is electroluminescence, not photoluminescence, and is not used. Therefore, emission_aggr_nm is null due to lack of explicit aggregate condition data for TPATPAN.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T12:01:50"
+}

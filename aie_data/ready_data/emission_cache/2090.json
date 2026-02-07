@@ -1,0 +1,17 @@
+{
+  "id": "2090",
+  "code": "HPS",
+  "SMILES": "C1([Si]2(C(C3=CC=CC=C3)=C(C(C4=CC=CC=C4)=C2C5=CC=CC=C5)C6=CC=CC=C6)C7=CC=CC=C7)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "503",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"HPS\",\n    \"where_found\": \"Throughout text, Fig. 1 caption, Fig. 2 caption, etc.\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 503,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Page 2, narrative: 'PL spectrum of the HPS film (λ_max ∼ 503 nm)'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Film (vapor-deposited on quartz)\"\n  },\n  \"notes\": \"Code 'HPS' is found extensively in the text, confirming identity. The paper discusses AIE and shows PL intensity changes in THF/water mixtures (Fig. 1), but no explicit emission peak wavelength (nm) for the aggregated state is reported in the provided text. The solid-state emission peak is explicitly given as ~503 nm for the HPS film. Therefore, emission_aggr_nm is set to null due to lack of explicit numerical value under aggregate conditions.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T03:04:08"
+}

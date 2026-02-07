@@ -1,0 +1,17 @@
+{
+  "id": "1987",
+  "code": "AIE-Y",
+  "SMILES": "CC[N+](C=C1)=CC=C1C(C=C2)=CC=C2/C(C3=CC=CC=C3)=C(C4=CC=CC=C4)/C5=CC=CC=C5.[Br]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "565",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"AIE-Y\",\n    \"where_found\": \"Figure 1 (page 12), page 2 narrative\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 565,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Figure S7, Supporting Information (page 8)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Hydrogel (G2)\"\n  },\n  \"notes\": \"Target code 'AIE-Y' is explicitly mentioned in Figure 1 and the narrative as one of the AIE-gens used to form hydrogels. The emission wavelength of 565 nm is reported for hydrogel G2 (formed with AIE-Y) in the fluorescence spectra (Figure S7). This qualifies as a solid-like/restricted environment (hydrogel) for emission_solid_or_film_nm. No explicit aggregate condition data (e.g., THF/water mixture) for the pure AIE-Y molecule is provided in the given context; only its emission within the hydrogel is reported. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T20:33:08"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2018",
+  "code": "TNZPy",
+  "SMILES": "C[N+](C=C1)=CC=C1/C=C/C(C=C2)=CC=C2C(C3=NSN=C34)=C5C(C=CC=C5)=C4C(C=C6)=CC=C6N(C7=CC=CC=C7)C8=CC=CC=C8.[I-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TNZPy\",\n    \"where_found\": \"Figure 1B, Figure 1D, page 3 text, Table S4 (referenced)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'TNZPy' is explicitly mentioned multiple times in text and figures (code_match). However, no explicit emission peak values for aggregated-state or solid/film conditions were found in the provided context. The text discusses AIE behavior and shows PL spectra in DMSO/water mixtures (Figure 1D) and mentions film measurements (Figure 1E, F), but the specific peak wavelengths (in nm) for TNZPy under these conditions are not provided in the given chunks. Therefore, both emission fields are set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T22:52:49"
+}

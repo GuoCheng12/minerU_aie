@@ -1,0 +1,17 @@
+{
+  "id": "2069",
+  "code": "PXZ-TPB-CN",
+  "SMILES": "N#CC(C=C1)=CC=C1C2=CC(C3=CC=CC=C3)=C(C4=CC=C(N5C(C=CC=C6)=C6OC7=C5C=CC=C7)C=C4)C=C2C8=CC=CC=C8",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "460",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"PXZ-TPB-CN\",\n    \"where_found\": \"Throughout text, Scheme 1, Figure captions, Abstract\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 460,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Page 2, Page 7\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"pristine powders / solid state\"\n  },\n  \"notes\": \"Code 'PXZ-TPB-CN' is explicitly found throughout the paper. For aggregated-state emission: Figure 1A/B shows PL spectra in THF/water mixtures with increasing water fraction (fw), indicating aggregation at high fw. However, the text describes peak shifts and intensity changes but does NOT explicitly report a numerical emission maximum for the aggregated state (e.g., 'peaked at X nm in aggregates'). Therefore, emission_aggr_nm must be null. For solid/film emission: The text explicitly states 'emits with maximum peak at 460 nm in its solid state' (page 2) and 'pristine powders ... show a deep blue emission at 460 nm' (page 7). This qualifies as solid-state emission. No film-specific peak is given, so the solid-state value is used.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T02:28:34"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1075",
+  "code": "(TPE)2SF",
+  "SMILES": "C12=C(C=C(C3=CC=C(/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)/C6=CC=CC=C6)C=C3)C=C2)C7(C8=C(C=CC=C8)C9=C7C=CC=C9)C%10=C1C=CC(C%11=CC=C(/C(C%12=CC=CC=C%12)=C(C%13=CC=CC=C%13)\\C%14=CC=CC=C%14)C=C%11)=C%10",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "495",
+  "emission_aggr": "496",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"(TPE)2SF\",\n    \"where_found\": \"Table 1, Fig. 2, narrative text (pages 3-4)\"\n  },\n  \"emission_aggr_nm\": 496,\n  \"emission_solid_or_film_nm\": 495,\n  \"evidence\": {\n    \"aggr_source\": \"Table 1, column 'λem(nm) Aggrb'\",\n    \"solid_or_film_source\": \"Table 1, column 'λem(nm) Filmc'\",\n    \"conditions_aggr\": \"Aggregates in THF/water mixture with 90% (vol%) water fraction\",\n    \"conditions_solid_or_film\": \"Film drop-casted on quartz plate\"\n  },\n  \"notes\": \"Target code '(TPE)2SF' is explicitly listed in Table 1, which provides both aggregated-state emission (496 nm, THF/water fw=90%) and film emission (495 nm, drop-cast film). The aggregated condition is explicitly stated in the table note. No SMILES fallback was needed.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:54:00"
+}

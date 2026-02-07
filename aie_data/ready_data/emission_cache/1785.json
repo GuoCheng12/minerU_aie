@@ -1,0 +1,17 @@
+{
+  "id": "1785",
+  "code": "TPP-4TPA",
+  "SMILES": "CC(C)(C)C(C=C1)=CC=C1N(C2=CC=C(C(C=C3)=CC=C3C4=C(C5=CC=C(C(C=C6)=CC=C6N(C7=CC=C(C(C)(C)C)C=C7)C8=CC=C(C(C)(C)C)C=C8)C=C5)N=C(C9=CC=C(C(C=C%10)=CC=C%10N(C%11=CC=C(C(C)(C)C)C=C%11)C%12=CC=C(C(C)(C)C)C=C%12)C=C9)C(C%13=CC=C(C(C=C%14)=CC=C%14N(C%15=CC=C(C(C)(C)C)C=C%15)C%16=CC=C(C(C)(C)C)C=C%16)C=C%13)=N4)C=C2)C%17=CC=C(C(C)(C)C)C=C%17",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPP–4TPA\",\n    \"where_found\": \"Throughout text (e.g., pages 3-6, Fig. 2B, Fig. 3, Fig. 5, Scheme 1)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule 'TPP–4TPA' is explicitly mentioned numerous times in the text, figures, and scheme, confirming its presence. However, no explicit emission peak wavelengths (in nm) for TPP–4TPA under aggregated-state conditions (e.g., specific THF/water fw) or solid/film state are provided in the given context. The text discusses PL spectra in THF/water mixtures (Fig. 2) and solid-state quantum yields (Table S1) for TPP–4TPA, but the specific peak values are not stated. Therefore, both required emission values cannot be extracted and are set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:16:36"
+}

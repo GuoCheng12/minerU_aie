@@ -1,0 +1,17 @@
+{
+  "id": "1985",
+  "code": "AIE-R",
+  "SMILES": "C[N+](C=C1)=CC=C1/C=C/C(S2)=CC=C2C3=CC=C(N(C4=CC=CC=C4)C5=CC=CC=C5)C=C3.F[P-](F)(F)(F)(F)F",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"AIE-R\",\n    \"where_found\": \"Figure 1 (page 12), page 2 narrative\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'AIE-R' is explicitly mentioned in the paper (Figure 1 and page 2). However, no explicit emission peak wavelengths for AIE-R are provided in the given context. The fluorescence spectra mentioned (page 5, Figure S7) report emission wavelengths for hydrogels G1 (653 nm), G2 (565 nm), and G3 (439 nm), where G1 contains AIE-R. However, this value is for the AIE-R within the hydrogel matrix, not for an explicit aggregate condition (e.g., THF/water mixture) or a solid/film state. According to strict anti-leakage rules, hydrogel emission cannot be used as emission_aggr_nm (requires explicit aggregate keywords or solvent-mixture aggregation) or emission_solid_or_film_nm (requires solid, powder, crystal, or film). Therefore, both fields are set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T20:24:00"
+}

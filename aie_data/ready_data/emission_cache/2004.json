@@ -1,0 +1,20 @@
+{
+  "id": "2004",
+  "code": "HPQ",
+  "SMILES": "O=C1=[NH]C(C2=C(O)C=CC=C2)=NC3=CC=CC=C31",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"HPQ\",\n    \"where_found\": \"Throughout text, Figure 1, Scheme 2, Experimental Section\"\n  },\n  \"emission_aggr_nm\": 492,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 1 caption and text (pages 2-3)\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"THF/water mixture with fw=99% (H2O/THF 99:1, v/v)\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target molecule HPQ is explicitly mentioned by code throughout the paper. Emission peak at 492 nm is explicitly reported for HPQ in aggregated state (THF/water mixture with 99% water fraction, fw=99%). No explicit emission value for solid state or film is provided in the given context; only quantum yield increase in solid state is mentioned without a specific λmax.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:aggr:not_in_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T21:47:59"
+}

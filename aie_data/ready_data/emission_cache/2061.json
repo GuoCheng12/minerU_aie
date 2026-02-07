@@ -1,0 +1,22 @@
+{
+  "id": "2061",
+  "code": "MeTTPy",
+  "SMILES": "CC(C=C1)=CC=C1N(C2=CC=C(C3=CC=C(/C=C/C4=CC=[N+](C)C=C4)S3)C=C2)C5=CC=C(C)C=C5.FP(F)(F)(F)F.[F-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"MeTTPy\",\n    \"where_found\": \"Figure 1, page 3 (text and caption), Table S1 reference\"\n  },\n  \"emission_aggr_nm\": 669,\n  \"emission_solid_or_film_nm\": 674,\n  \"evidence\": {\n    \"aggr_source\": \"Page 3, paragraph 2: 'The aggregates of TTPy and MeTTPy were intensely emissive with maxima at 665 and 669 nm'\",\n    \"solid_or_film_source\": \"Page 3, paragraph 3: 'In solid state, these two AIEgens emit efficiently... and the PL spectra were peaked at 668 and 674 nm'\",\n    \"conditions_aggr\": \"DMSO/toluene mixture with 95% toluene fraction (nanoaggregates confirmed by DLS)\",\n    \"conditions_solid_or_film\": \"Solid state (powder/crystal)\"\n  },\n  \"notes\": \"Code 'MeTTPy' is explicitly mentioned throughout the text and figures. Aggregated-state emission (669 nm) is explicitly reported for aggregates formed in DMSO/toluene (95% toluene). Solid-state emission (674 nm) is explicitly reported. Both values are directly extracted from the text.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "embedding_only:aggr:not_in_context",
+    "solid:not_in_final_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-07T01:55:17"
+}

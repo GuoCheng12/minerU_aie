@@ -1,0 +1,17 @@
+{
+  "id": "1024",
+  "code": "TPENp",
+  "SMILES": "C1(/C(C2=CC=CC=C2)=C(C3=CC=C(C4=CC=CC5=C4C=CC=C5)C=C3)\\C6=CC=CC=C6)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "469",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPENp\",\n    \"where_found\": \"Table 1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 469,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Film drop-casted on quartz plates\"\n  },\n  \"notes\": \"Target code 'TPENp' found explicitly in Table 1. The table provides emission in film state (469 nm) and crystalline state (452 nm). No explicit aggregate emission data (e.g., THF/water mixture) is reported for TPENp in the provided content; only TPEPy's aggregate emission in THF/water is discussed (Fig. 2b). Therefore, emission_aggr_nm is set to null per anti-leakage rule. Emission_solid_or_film_nm is taken from the film column (469 nm) as per extraction rules (film preferred over crystal).\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:43:22"
+}

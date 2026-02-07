@@ -1,0 +1,17 @@
+{
+  "id": "2091",
+  "code": "AIQ3",
+  "SMILES": "N12C=CC=C3C1C(O[Al]245(OC6=CC=CC7=C6[N]5=CC=C7)OC8=CC=CC9=C8[N]4=CC=C9)=CC=C3",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "536",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"AlQ₃\",\n    \"where_found\": \"Throughout text (e.g., page 1, page 2), Fig. 1 caption, Fig. 2(B), Fig. 3(B), Fig. 4\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 536,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Page 2, Fig. 2(B) context and page 3, line 3\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Film (presumably spin-coated or vapor-deposited)\"\n  },\n  \"notes\": \"Code match: The paper consistently uses 'AlQ₃' (which matches the target code 'AIQ3' with minor typographical variation). No explicit aggregated-state emission peak value is provided. The paper mentions AlQ₃ becomes less luminescent when aggregated in THF/water mixtures (Fig. 1), but no specific emission maximum for the aggregated state is given. A solid/film emission peak of ~536 nm is explicitly stated for the AlQ₃ film in the context of PL spectra comparison (page 3).\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T03:07:15"
+}

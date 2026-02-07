@@ -1,0 +1,17 @@
+{
+  "id": "1940",
+  "code": "MeOTTI",
+  "SMILES": "O=C(C1=C(C/2=O)C=CC=C1)C2=CC(S3)=CC=C3C(C=C4)=CC=C4N(C5=CC=C(OC)C=C5)C6=CC=C(OC)C=C6",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "704",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"MeOTTI\",\n    \"where_found\": \"Throughout text (e.g., page 4, Figure 1 caption, Scheme 1)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 704,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Page 4, text: 'the emission spectrum was centered at 704 nm in the solid state'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Code 'MeOTTI' is explicitly mentioned multiple times. An aggregated-state emission peak is not explicitly reported. The paper describes AIE behavior in CH2Cl2/hexane mixtures (Figure 1B) but does not provide a specific emission wavelength for the aggregated state. Only the solid-state emission at 704 nm is explicitly given.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T17:38:13"
+}

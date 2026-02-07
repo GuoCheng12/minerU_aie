@@ -1,0 +1,17 @@
+{
+  "id": "1927",
+  "code": "TTPy",
+  "SMILES": "C[N](C=C1)=CC=C1/C=C/C(S2)=CC=C2C(C=C3)=CC=C3N(C4=CC=CC=C4)C5=CC=CC=C5.FP(F)(F)(F)F.[F-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "658",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TTPy\",\n    \"where_found\": \"Figure 2, Table S1, and throughout text (pages 3-8)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 658,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Figure 2d and page 5 text\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Code 'TTPy' is explicitly mentioned multiple times in the text, figures, and tables. The aggregated-state emission peak cannot be extracted because the emission values given for toluene fractions (618-655 nm range) are for multiple compounds collectively, not individually for TTPy. The solid-state emission peak for TTPy is explicitly reported as 658 nm in the text on page 5 and corresponds to Figure 2d.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:47:47"
+}

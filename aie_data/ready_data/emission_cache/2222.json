@@ -1,0 +1,17 @@
+{
+  "id": "2222",
+  "code": "(m-BP)2PIO",
+  "SMILES": "O=P1(C2=CC=CC=C2)C(C3=CC=CC(C4=CC=CC=C4)=C3)=C(C5=CC=CC(C6=CC=CC=C6)=C5)C7=CC=CC=C71",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "460",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"(m-BP)2PIO\",\n    \"where_found\": \"Table 1, page 4 narrative, Fig. 3 caption\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 460,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-cast film on a quartz plate\"\n  },\n  \"notes\": \"Code '(m-BP)2PIO' is explicitly found in Table 1 and narrative text (e.g., page 4). Table 1 provides a solid film emission peak of 460 nm (under 'film' column). However, no explicit aggregate emission peak is reported for this compound. While Fig. 3 shows PL spectra in THF/water mixtures for (m-BP)2PIO, the text and table do not specify an emission maximum for the aggregated state (e.g., at high water fraction). Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T07:33:51"
+}

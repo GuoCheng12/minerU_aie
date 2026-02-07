@@ -1,0 +1,17 @@
+{
+  "id": "2348",
+  "code": "f-DBP-DBPE",
+  "SMILES": "c1(c2ccccc2)c(C(C3=CC=C(C4=CC=CC=C4)C=C3)=c(C5=CC=C(C6=CC=CC=C6)C=C5)c7c(c8ccccc8)cccc7)cccc1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "490",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-DBP-DBPE\",\n    \"where_found\": \"Table 1, page 5 (Chunk 3), page 4 (Chunk 1), page 8 (Chunk 8)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 490,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column), page 5 (Chunk 3)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Drop-casted film on quartz plate (Table 1 note)\"\n  },\n  \"notes\": \"Code 'f-DBP-DBPE' is explicitly found in Table 1 and narrative text. Table 1 provides emission in film (490 nm) and crystal (467 nm). The film value (490 nm) is extracted for emission_solid_or_film_nm. While Fig. 5 and page 5 discuss THF/water mixtures for f-DBP-DBPE, no explicit aggregate emission peak wavelength is reported in the provided text; only qualitative intensity changes are mentioned. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T10:28:16"
+}

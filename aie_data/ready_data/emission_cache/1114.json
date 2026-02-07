@@ -1,0 +1,17 @@
+{
+  "id": "1114",
+  "code": "TPEPBN",
+  "SMILES": "CB1(C)[N]2=CC=CC=C2C3=C1C=C(/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)\\C6=CC=CC=C6)C=C3",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "491",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPEPBN\",\n    \"where_found\": \"Table 1, Figure 2, Figure 3, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 491,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (film column), Figure 2B narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"spin-coated film (amorphous state)\"\n  },\n  \"notes\": \"Target code 'TPEPBN' is explicitly found in Table 1 and throughout the paper. Table 1 provides emission in crystalline (443 nm) and amorphous film (491 nm) states. Figure 3 shows PL spectra in THF/water mixtures for TPEPBN, indicating aggregation-induced emission (AIE) behavior, but no explicit emission peak wavelength for the aggregate state is reported in the provided text or table. Therefore, emission_aggr_nm is set to null as per anti-leakage rule (no explicit aggregate peak value given). Emission_solid_or_film_nm is taken from the film value (491 nm) in Table 1.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:00:02"
+}

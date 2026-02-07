@@ -1,0 +1,17 @@
+{
+  "id": "1982",
+  "code": "TPM",
+  "SMILES": "C1(C(C2=CC=CC=C2)C3=CC=CC=C3)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "402",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPM\",\n    \"where_found\": \"Table 1, Figure 1, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 402,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λ_TSC column), Figure 1d, page 2 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Code 'TPM' is explicitly found in Table 1 and throughout the text. For aggregated-state emission, the paper discusses THF/water mixtures (e.g., f_w = 80-90%) and shows a new broad peak at 350-380 nm (page 2), but no single, explicit emission maximum for the aggregate is reported in the provided text or table. The solid-state emission maximum is clearly reported as 402 nm (λ_TSC in Table 1) and confirmed in Figure 1d and narrative (page 2). Therefore, emission_aggr_nm is set to null due to lack of an explicit peak value under aggregate conditions.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T20:09:56"
+}

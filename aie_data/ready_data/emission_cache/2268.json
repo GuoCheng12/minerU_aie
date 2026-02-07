@@ -1,0 +1,17 @@
+{
+  "id": "2268",
+  "code": "AnMPS",
+  "SMILES": "C[Si]1(C2=CC=CC=C2)C(C3=CC4=C(C=C(C=CC=C5)C5=C4)C=C3)=C(C6=CC=CC=C6)C(C7=CC=CC=C7)=C1C8=CC(C=C(C=CC=C9)C9=C%10)=C%10C=C8",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "559",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"AnMPS\",\n    \"where_found\": \"Table 1, page 4 narrative, page 7 synthesis section\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 559,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Film drop-cast onto a quartz plate\"\n  },\n  \"notes\": \"Target code 'AnMPS' is explicitly listed in Table 1 and mentioned in the narrative (pages 4, 6). The synthesis section (page 7) confirms the compound name. Table 1 provides a film emission peak of 559 nm. No explicit aggregated-state emission data (e.g., THF/water mixture spectra) is reported for AnMPS in the provided context; only PyMPS aggregate data is shown in Figure 5. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T09:23:57"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1057",
+  "code": "f-3Ph",
+  "SMILES": "c1(c2ccc(c3ccccc3)cc2c(C4=CC=CC=C4)=C(C5=CC=CC=C5)c6cc(c7ccccc7)ccc6c8ccccc8)ccccc1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "471",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-3Ph\",\n    \"where_found\": \"Table 1, page 2 narrative, page 3 narrative, Supporting Information\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 471,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Target code 'f-3Ph' is explicitly found in Table 1 and narrative text. Table 1 provides λem(nm) values for 'solution', 'film', and 'crystal' states. For f-3Ph, the film emission is 471 nm. No explicit aggregate emission data (e.g., THF/water mixture, nanoaggregate) is reported for f-3Ph in the provided content. The aggregate discussion and spectra (e.g., Figure 3, Figure S12) focus on f-4Ph(Me) only. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:48:40"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2413",
+  "code": "mpCTPI",
+  "SMILES": "N#CC1=CC=CC(N2C(C3=CC=C(/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)C6=CC=CC=C6)C=C3)=NC7=C8C(C=CC=C8)=C9C(C=CC=C9)=C72)=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "503",
+  "emission_aggr": "485",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"mpCTPI\",\n    \"where_found\": \"Table 1, page 4 narrative\"\n  },\n  \"emission_aggr_nm\": 485,\n  \"emission_solid_or_film_nm\": 503,\n  \"evidence\": {\n    \"aggr_source\": \"Table 1 (λem aggr column)\",\n    \"solid_or_film_source\": \"Table 1 (λem film column) and page 5 narrative\",\n    \"conditions_aggr\": \"nanoaggregate formed in H2O/THF mixture with fw of 90%\",\n    \"conditions_solid_or_film\": \"vacuum-deposited neat film\"\n  },\n  \"notes\": \"Target code 'mpCTPI' is explicitly listed in Table 1 and discussed in the text. Table 1 provides explicit emission maxima for 'aggr' (aggregate) and 'film' conditions. The aggregate condition is explicitly defined in the table note as nanoaggregates in THF/water with 90% water fraction, meeting the strict definition. The film condition is explicitly stated as vacuum-deposited neat film.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T12:14:09"
+}

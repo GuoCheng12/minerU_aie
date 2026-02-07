@@ -1,0 +1,17 @@
+{
+  "id": "1827",
+  "code": "TPE-BEP",
+  "SMILES": "COCCOCCOCCOCCOC(C=C1)=CC=C1/C(C2=CC=C(OCCOCCOCCOCCOC)C=C2)=C(C3=CC=C(/C=C/C4=CC=NC=C4)C=C3)C5=CC=C(/C=C/C6=CC=NC=C6)C=C5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-BEP\",\n    \"where_found\": \"Throughout text (e.g., page 2, 3, 4, 5), Fig. 1, Fig. 3, Scheme S1-S3\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Code 'TPE-BEP' is explicitly found throughout the paper. Emission peaks are reported for TPE-BEP in solution at different pH values (530 nm at pH 7.4, 635 nm at pH 4). However, no explicit aggregated-state emission peak (e.g., in THF/water mixture at high fw) is provided as a single λmax value. The paper mentions aggregation in water and enhanced emission with increasing water fraction in DMF/water, but no specific emission maximum for the aggregate is given in the provided chunks. No solid-state or film emission data is reported.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:24:01"
+}

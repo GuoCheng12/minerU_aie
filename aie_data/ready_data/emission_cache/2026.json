@@ -1,0 +1,17 @@
+{
+  "id": "2026",
+  "code": "DBTBT-4C8",
+  "SMILES": "CCCCCCCCOC1=CC(C(S2)=CC=C2C(C3=NSN=C34)=CC=C4C(S5)=CC=C5C6=CC(OCCCCCCCC)=CC(OCCCCCCCC)=C6)=CC(OCCCCCCCC)=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DBTBT-4C8\",\n    \"where_found\": \"Table 1, Figure 2, and throughout text (e.g., pages 10, 12, 13)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'DBTBT-4C8' is explicitly mentioned multiple times in tables, figures, and text, confirming its presence. However, no explicit emission peak wavelengths (in nm) for aggregated-state conditions (e.g., THF/water mixture with specified f_w) or solid/film state are provided in the given context. The paper discusses PL spectra in aggregates (e.g., f_w > 60%) and solids (Figure 2E) but does not report the actual peak values in nm within these chunks. Table 1 provides Stokes shift and PLQYs but not λ_em,max for aggregates or solids. Therefore, both required emission peaks cannot be extracted.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T23:37:35"
+}

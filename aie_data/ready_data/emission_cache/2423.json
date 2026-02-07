@@ -1,0 +1,17 @@
+{
+  "id": "2423",
+  "code": "TPE-TADC",
+  "SMILES": "CC(C)(C)C1=CC2=C(C=C1)C(C3=CC(N4C(C=CC=C5)=C5C6=C4C=CC=C6)=CC(N7C(C=CC=C8)=C8C9=C7C=CC=C9)=C3)=C%10C(C=CC(C(C)(C)C)=C%10)=C2C(C=C%11)=CC=C%11/C(C%12=CC=CC=C%12)=C(C%13=CC=CC=C%13)/C%14=CC=CC=C%14",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "455",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-TADC\",\n    \"where_found\": \"Table 1, Figure 1, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 455,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λem(nm) film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Solid neat film\"\n  },\n  \"notes\": \"Code 'TPE-TADC' is explicitly found in Table 1, Figure 1, and narrative text. Table 1 provides a solid film emission peak of 455 nm. While the paper discusses PL enhancement in THF/water mixtures (aggregates) for TPE-TADC, no explicit emission peak wavelength for the aggregated state is reported in the provided text; only qualitative enhancement is mentioned. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T12:55:44"
+}

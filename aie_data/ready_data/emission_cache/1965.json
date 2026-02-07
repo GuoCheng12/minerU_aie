@@ -1,0 +1,20 @@
+{
+  "id": "1965",
+  "code": "TPR",
+  "SMILES": "COC1=CC=C(/C(C2=CC=C(OC)C=C2)=C(C3=CC=CC=C3)/C4=CC=C(/C=C5C(N(CC(O)=O)C(S5)=S)=O)C=C4)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPR\",\n    \"where_found\": \"Throughout text, e.g., Scheme 1A, Synthesis section, Figure 1A caption, Table S1 (implied)\"\n  },\n  \"emission_aggr_nm\": 630,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 1A and page 6 text\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"THF/water mixture with water fraction (fw) = 90%\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target molecule is explicitly referred to as 'TPR' throughout the paper (code_match). The PL spectra in Figure 1A show emission in THF/water mixtures. The text on page 6 explicitly states the emission maximum is '~630 nm' at a water fraction of 90%, which is an explicit aggregate condition (AIE property, aggregates formation). No data for solid state, powder, or thin film emission is reported in the provided context; only aggregated state in solvent mixtures and emission from nanoparticles is mentioned. Therefore, emission_solid_or_film_nm is set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:aggr:not_in_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T18:54:18"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2153",
+  "code": "DTFMP-BTO",
+  "SMILES": "O=S1(C2=C(C=CC=C2)C(C3=CC=C(C(F)(F)F)C=C3)=C1C4=CC=C(C(F)(F)F)C=C4)=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "436",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DTFMP-BTO\",\n    \"where_found\": \"Table 1, page 4\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 436,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, page 4\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid\"\n  },\n  \"notes\": \"Target code 'DTFMP-BTO' is explicitly listed in Table 1. The table provides a solid-state emission peak (λem(solid)) of 436 nm. No explicit aggregated-state emission peak (e.g., from THF/water mixtures) is reported for DTFMP-BTO in the provided content. The general discussion of aggregation (e.g., Fig. 3) does not include data for DTFMP-BTO. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T04:37:23"
+}

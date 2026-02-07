@@ -1,0 +1,17 @@
+{
+  "id": "2246",
+  "code": "PFDMS",
+  "SMILES": "C[Si]1(C)C(C(C=C2)=CC3=C2C(C=CC=C4)=C4C3(C5=CC=CC=C5)C6=CC=CC=C6)=C(C7=CC=CC=C7)C(C8=CC=CC=C8)=C1C9=CC%10=C(C=C9)C%11=C(C=CC=C%11)C%10(C%12=CC=CC=C%12)C%13=CC=CC=C%13",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "522",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"PFDMS\",\n    \"where_found\": \"Table 1, page 3; synthesis description page 8\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 522,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (film column), page 3\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Drop-cast film on quartz plate\"\n  },\n  \"notes\": \"Code 'PFDMS' is explicitly listed in Table 1 and in the synthesis section, providing a clear identity match. Table 1 reports a film emission peak of 522 nm for PFDMS. While the paper discusses aggregated-state emission (AEE) for the silole series in THF/water mixtures (e.g., Figure 5), no explicit aggregated-state emission wavelength for PFDMS is provided in the given text chunks. The aggregated-state data shown is for MFMPS and SFMPS only. Therefore, emission_aggr_nm is set to null as per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T07:58:32"
+}

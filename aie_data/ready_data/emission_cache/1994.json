@@ -1,0 +1,17 @@
+{
+  "id": "1994",
+  "code": "BTPE-C12",
+  "SMILES": "C1(/C(C2=CC=CC=C2)=C(C3=CC=C(OCCCCCCCCCCCCOC(C=C4)=CC=C4/C(C5=CC=CC=C5)=C(C6=CC=CC=C6)/C7=CC=CC=C7)C=C3)C8=CC=CC=C8)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "474",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"BTPE-C12\",\n    \"where_found\": \"Table 1, Figure 2, Figure 4, and throughout text (e.g., pages 3-6)\"\n  },\n  \"emission_aggr_nm\": 474,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Table 1, column 'λem e) [nm]'\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"THF/water mixtures with 90% fraction of water\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'BTPE-C12' is explicitly mentioned multiple times in tables and figures. Table 1 provides an aggregated-state emission peak (λem) of 474 nm measured in THF/water with 90% water fraction, which meets the strict definition for emission_aggr_nm. While Figure 4 and text discuss PL spectra of pristine powders, no explicit emission maximum value for the solid/powder state is provided in the given context for BTPE-C12 (only a qualitative 'bathochromic shift' is mentioned). Therefore, emission_solid_or_film_nm is set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T21:05:39"
+}

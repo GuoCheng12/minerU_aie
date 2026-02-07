@@ -1,0 +1,17 @@
+{
+  "id": "1064",
+  "code": "o-2-TPENp",
+  "SMILES": "c1(/C(c2ccccc2c3cc4ccccc4cc3)=C(c5ccccc5)\\c6ccccc6)ccccc1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "467",
+  "emission_aggr": "468",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"o-2-TPENp\",\n    \"where_found\": \"Table 2, Fig. 3C, pages 3-4 narrative\"\n  },\n  \"emission_aggr_nm\": 468,\n  \"emission_solid_or_film_nm\": 467,\n  \"evidence\": {\n    \"aggr_source\": \"Table 2 (column 'Aggr')\",\n    \"solid_or_film_source\": \"Table 2 (column 'Film')\",\n    \"conditions_aggr\": \"THF/water mixtures (V/V 1/99), fw = 99%\",\n    \"conditions_solid_or_film\": \"Film drop-cast on a quartz plate\"\n  },\n  \"notes\": \"Target code 'o-2-TPENp' is explicitly listed in Table 2 and mentioned in figures/text. Table 2 provides clear emission maxima: 468 nm under aggregated conditions (THF/water fw=99%) and 467 nm for the drop-cast film. Both values are explicitly reported and meet the strict condition definitions.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:50:07"
+}

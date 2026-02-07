@@ -1,0 +1,17 @@
+{
+  "id": "1906",
+  "code": "OBP",
+  "SMILES": "C1(OC2=CC=CC(OC3=NC4=CN=C3)=C2)=NC(OC5=CC=CC(O4)=C5)=CN=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"OBP\",\n    \"where_found\": \"Multiple mentions in text (pages 3-4), Figure 2 caption, Table S1 reference\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target molecule OBP is explicitly mentioned multiple times throughout the paper (code_match). However, while the text discusses aggregated-state emission for OBP in H2O/DMSO mixtures (e.g., fw=99%) and solid-state emission in temperature-dependent studies, no explicit numerical emission peak wavelengths (λ_em,max in nm) are provided in the given context chunks for either condition. Figure 2 shows spectra but values aren't listed in text. Therefore, both emission fields must be set to null per extraction rules requiring explicit numerical values.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:35:46"
+}

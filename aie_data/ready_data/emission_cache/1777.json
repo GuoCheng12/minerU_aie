@@ -1,0 +1,20 @@
+{
+  "id": "1777",
+  "code": "TPP",
+  "SMILES": "C1(C2=CC=CC=C2)=C(C3=CC=CC=C3)N=C(C4=CC=CC=C4)C(C5=CC=CC=C5)=N1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPP\",\n    \"where_found\": \"Chart 1, Fig. 2, Fig. 4, Table S1, and throughout text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 390,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Fig. 4 and Table S1 (ESI)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Code 'TPP' is explicitly found throughout the paper (Chart 1, figures, tables). Emission in THF solution is reported at ca. 390 nm, but this is not an aggregate condition. The paper discusses aggregation-enhanced emission in THF/water mixtures (e.g., fw > 60%), but no explicit emission peak wavelength for TPP in the aggregated state is provided in the given context (only PL intensity trends are shown in Fig. 2). For solid/film, Fig. 4 and Table S1 (ESI) report the emission maximum of TPP in thin film as ca. 390 nm. Therefore, emission_aggr_nm is set to null due to lack of explicit aggregate emission peak data, while emission_solid_or_film_nm is extracted from the thin film measurement.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "solid:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T16:14:12"
+}

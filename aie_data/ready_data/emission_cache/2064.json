@@ -1,0 +1,17 @@
+{
+  "id": "2064",
+  "code": "TFM",
+  "SMILES": "COC(C=C1)=CC=C1N(C2=CC=C(OC)C=C2)C(C=C3)=CC=C3C4=CC=C(C(C=CC(C5=CC=C(N(C6=CC=C(OC)C=C6)C7=CC=C(OC)C=C7)C=C5)=C8)=C8/C9=C(C#N)/C#N)C9=C4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "838",
+  "emission_aggr": "836",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TFM\",\n    \"where_found\": \"Chunk 1, page 3 (narrative text); Abstract; Figure 1 caption\"\n  },\n  \"emission_aggr_nm\": 836,\n  \"emission_solid_or_film_nm\": 838,\n  \"evidence\": {\n    \"aggr_source\": \"Chunk 1, page 3: 'maximum emissions in the nano-aggregation ... are located at 836 ... nm (Figure S5)'\",\n    \"solid_or_film_source\": \"Chunk 1, page 3: 'maximum emissions in the ... solid states are located at 838 nm (Figure S5)'\",\n    \"conditions_aggr\": \"nano-aggregates formed with increasing H2O fraction in THF/water mixture\",\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Target code 'TFM' is explicitly mentioned throughout the text as the primary compound. Emission peaks for both nano-aggregates (836 nm) and solid state (838 nm) are explicitly reported in Chunk 1, satisfying the strict condition rules. No SMILES fallback was needed.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T02:07:50"
+}

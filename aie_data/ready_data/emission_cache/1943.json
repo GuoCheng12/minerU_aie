@@ -1,0 +1,20 @@
+{
+  "id": "1943",
+  "code": "TPAP-C5-yne",
+  "SMILES": "O=C(C#C)OCCCCC[N+](C=C1)=CC=C1C(C=C2)=CC=C2N(C3=CC=CC=C3)C4=CC=CC=C4.[Br-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPAP-C5-yne\",\n    \"where_found\": \"Throughout text (e.g., pages 2-3, Fig. 1, Results and discussion)\"\n  },\n  \"emission_aggr_nm\": 600,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Page 2-3, Fig. 1B-C\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"THF/hexane mixture with f_Hex = 80% (nanoaggregates)\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'TPAP-C5-yne' is explicitly mentioned multiple times in the text and figures. An aggregated-state emission peak of 600 nm is explicitly reported for nanoaggregates in THF/hexane (80% hexane). No emission data for solid state, powder, crystal, or thin film is reported in the provided context.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:aggr:not_in_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T17:53:29"
+}

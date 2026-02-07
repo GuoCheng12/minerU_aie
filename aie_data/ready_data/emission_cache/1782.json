@@ -1,0 +1,20 @@
+{
+  "id": "1782",
+  "code": "TPP-4M",
+  "SMILES": "COC(C=C1)=CC=C1C2=NC(C3=CC=C(OC)C=C3)=C(C4=CC=C(OC)C=C4)N=C2C5=CC=C(OC)C=C5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPP-4M\",\n    \"where_found\": \"Figure 4 caption, page 4 text, Scheme 1, Table S1 (referenced)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 428,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Figure 4 caption and page 4 text\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Code 'TPP-4M' is explicitly mentioned multiple times in the text (e.g., page 4, Scheme 1). The emission in thin film is reported as 428 nm (blue-shifted from solution). However, no explicit aggregate emission peak value for TPP-4M is provided in the given context. While aggregation behavior in THF/water mixtures is discussed (e.g., highest emission enhancement at fw=80%), the specific emission wavelength under those aggregate conditions is not stated for TPP-4M. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "solid:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T16:16:13"
+}

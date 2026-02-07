@@ -1,0 +1,17 @@
+{
+  "id": "2395",
+  "code": "TNPE",
+  "SMILES": "C(/C1=CC=C(C=CC=C2)C2=C1)(C3=CC=CC=C3)=C(C4=CC=C(C=CC=C5)C5=C4)/C6=CC(C=CC=C7)=C7C=C6",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "493",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TNPE\",\n    \"where_found\": \"Table 1, Table 2, Fig. 2 caption, narrative text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 493,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λem/nm Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Film drop-casted on quartz plate\"\n  },\n  \"notes\": \"Code 'TNPE' is explicitly listed in Table 1 and Table 2, confirming identity. Table 1 provides a solid/film emission peak of 493 nm for TNPE (drop-cast film). While the paper discusses AIE behavior in THF/water mixtures for the series (e.g., TNE at fw ≥ 70% emits at 492 nm), and states similar behavior for TNPE (Fig. S6†), no explicit emission peak value for TNPE under aggregate conditions (e.g., specific fw) is provided in the given text chunks. Therefore, emission_aggr_nm must be set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T11:20:37"
+}

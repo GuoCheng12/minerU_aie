@@ -1,0 +1,17 @@
+{
+  "id": "2304",
+  "code": "4TPEDTPA",
+  "SMILES": "C1(N(C2=CC=C(C3=CC=C(/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)C6=CC=CC=C6)C=C3)C=C2)C7=CC=C(C8=CC=C(/C(C9=CC=CC=C9)=C(C%10=CC=CC=C%10)C%11=CC=CC=C%11)C=C8)C=C7)=CC=C(C%12=CC=C(N(C%13=CC=C(C%14=CC=C(/C(C%15=CC=CC=C%15)=C(C%16=CC=CC=C%16)C%17=CC=CC=C%17)C=C%14)C=C%13)C%18=CC=C(C%19=CC=C(/C(C%20=CC=CC=C%20)=C(C%21=CC=CC=C%21)C%22=CC=CC=C%22)C=C%19)C=C%18)C=C%12)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"4TPEDTPA\",\n    \"where_found\": \"Throughout text, e.g., page 2, page 4, Scheme 1, Fig. 1, Table 1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Code '4TPEDTPA' is found explicitly and repeatedly in the text (e.g., page 2, page 4, Scheme 1, Fig. 1, Table 1). However, while the paper states that 4TPEDTPA exhibits AIE behavior similar to 3TPETPA (Fig. S4), no explicit emission peak wavelength (λ_em,max) for 4TPEDTPA in an aggregated state (e.g., THF/water mixture) is provided in the given context. Similarly, no explicit emission peak for its solid or film state is given. The PL peak for 3TPETPA in aggregates (484 nm) and its film (mentioned in relation to EL) are reported, but these values cannot be transferred to 4TPEDTPA due to the anti-leakage rule. Therefore, both emission fields are set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T10:02:44"
+}

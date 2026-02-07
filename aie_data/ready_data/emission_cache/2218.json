@@ -1,0 +1,17 @@
+{
+  "id": "2218",
+  "code": "(o-DMP)2PIO",
+  "SMILES": "O=P1(C2=CC=CC=C2)C(C3=C(C)C=CC=C3C)=C(C4=C(C)C=CC=C4C)C5=CC=CC=C51",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "418",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"(o-DMP)2PIO\",\n    \"where_found\": \"Table 1, page 4 narrative, Fig. 3 caption\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 418,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-cast film on a quartz plate\"\n  },\n  \"notes\": \"Target code '(o-DMP)2PIO' is explicitly listed in Table 1 and mentioned in the narrative (page 4). Table 1 provides a solid-state emission peak of 418 nm for the drop-cast film. While the text (page 4) and Fig. 3 discuss aggregation in THF/water mixtures for (o-DMP)2PIO, no explicit emission peak wavelength for the aggregated state is reported in the provided text or table. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T07:26:15"
+}

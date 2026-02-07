@@ -1,0 +1,17 @@
+{
+  "id": "1821",
+  "code": "5CzBN-PPhCz",
+  "SMILES": "N#CC1=[C@@]([N@@]2C(C=CC=C3OCCCCCCOC4=CC=C(N5C(C=CC=C6)=C6C7=C5C=CC=C7)C=C4)=C3C8=C2C=CC=C8)[C@@]([N@@]9C(C=CC=C%10OCCCCCCOC%11=CC=C(N%12C(C=CC=C%13)=C%13C%14=C%12C=CC=C%14)C=C%11)=C%10C%15=C9C=CC=C%15)=C(N%16C%17=C(C(OCCCCCCOC%18=CC=C(N%19C(C=CC=C%20)=C%20C%21=C%19C=CC=C%21)C=C%18)=CC=C%17)C%22=C%16C=CC=C%22)[C@@]([N@@]%23C%24=C(C(OCCCCCCOC%25=CC=C(N%26C(C=CC=C%27)=C%27C%28=C%26C=CC=C%28)C=C%25)=CC=C%24)C%29=C%23C=CC=C%29)=[C@@]1[N@@]%30C%31=C(C(OCCCCCCOC%32=CC=C(N%33C(C=CC=C%34)=C%34C%35=C%33C=CC=C%35)C=C%32)=CC=C%31)C%36=C%30C=CC=C%36",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "507",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"5CzBN-PPhCz\",\n    \"where_found\": \"Table 1, Figure 2E, Figure 3F, narrative text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 507,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"pure film\"\n  },\n  \"notes\": \"Target code '5CzBN-PPhCz' is explicitly listed in Table 1 and mentioned throughout the text. Table 1 provides a solid/film emission peak of 507 nm. While the paper discusses aggregation (AEE/AIDF) in THF/water mixtures for 5CzBN-PPhCz (e.g., Figure 2E), no explicit aggregate-state emission wavelength (nm) is reported in the provided chunks for this specific compound. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:23:20"
+}

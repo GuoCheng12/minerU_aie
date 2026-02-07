@@ -1,0 +1,17 @@
+{
+  "id": "2257",
+  "code": "TriPE-TAPBI",
+  "SMILES": "[H]/C(C(C=C1)=CC=C1C2=C(C=C(C(C)(C)C)C=C3)C3=C(C4=CC=C(C5=NC(C=CC=C6)=C6N5C7=CC=CC=C7)C=C4)C8=CC(C(C)(C)C)=CC=C82)=C(C9=CC=CC=C9)/C%10=CC=CC=C%10",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "460",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TriPE-TAPBI\",\n    \"where_found\": \"Table 1, Figure 1, Figure 2, Scheme 1, and throughout text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 460,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λem[nm] Filmb) and Figure 1B caption\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Code 'TriPE-TAPBI' is explicitly found throughout the paper (Table 1, figures, scheme, synthesis). Table 1 provides emission in film (λem[nm] Filmb) as 460 nm. Figure 2 shows PL spectra in THF/water mixtures for TriPE-TAPBI, but no explicit emission peak wavelength for the aggregated state is reported in the provided text or table. The narrative discusses PL intensity changes with water fraction but does not state a specific λmax for aggregates. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T08:39:53"
+}

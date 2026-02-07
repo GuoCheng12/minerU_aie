@@ -1,0 +1,17 @@
+{
+  "id": "2359",
+  "code": "But-Phc",
+  "SMILES": "O=C(C=C1NCCCC)N(CC2=CC=CC=C2)C1=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "486",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"But-Phc\",\n    \"where_found\": \"Table 2 (Entry 5), Chunk 7 (synthesis section)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 486,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 2, Entry 5, row 'powder'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"powder\"\n  },\n  \"notes\": \"Target code 'But-Phc' is found explicitly in Table 2 (Entry 5) and in the synthesis section (Chunk 7). No explicit aggregate emission data (e.g., THF/water mixture, nanoaggregate) is reported for But-Phc. Only solution and powder data are provided. The powder emission (486 nm) is extracted as emission_solid_or_film_nm. emission_aggr_nm is set to null due to lack of explicit aggregate condition reporting.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T10:48:47"
+}

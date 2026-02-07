@@ -1,0 +1,19 @@
+{
+  "id": "1844",
+  "code": "c6-TPBQ",
+  "SMILES": "Cc1cn2[c-](c3c(C4=c(cccc5)c5=c6ccccc6=C42)cccc3)c(c7ccccc7)c1.FB(F)F.[F-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "not_found",
+  "identity_match_confidence": 0.0,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"not_found\",\n  \"identity_match_confidence\": 0.0,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": null,\n    \"where_found\": null\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target code 'c6-TPBQ' is not found in the provided content. The paper discusses 'o-TPBQ' and its photocyclization product 'c5-TPBQ' extensively. The target 'c6-TPBQ' is mentioned only as a hypothetical product ('c6-TPBQ' or 'c6-TPBQ''') that was not formed (see Chunk 2, 5). No SMILES or InChIKey was provided for the target to attempt a structural match. Therefore, the target molecule is not present in this paper.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "identity_confidence_below_threshold:0.000"
+  ],
+  "timestamp": "2026-02-06T16:25:22"
+}

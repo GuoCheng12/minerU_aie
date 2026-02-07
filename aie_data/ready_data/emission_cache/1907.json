@@ -1,0 +1,17 @@
+{
+  "id": "1907",
+  "code": "TPA-Se",
+  "SMILES": "N(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=C(C4=CC=C(C5=CC=C(N(C6=CC=CC=C6)C7=CC=CC=C7)C=C5)C8=N[Se]N=C84)C=C3",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "626",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPA-Se\",\n    \"where_found\": \"Throughout text (Abstract, Section 2.2, 2.3, 2.4, Figure 3, Figure 4, Figure 7), Table S1 (inferred from SI mention)\"\n  },\n  \"emission_aggr_nm\": 626,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 7 and page 5 text: 'TPA-Se NPs 的发射峰的峰值...位于 626 nm'\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"Nanoparticles (NPs) in aqueous system, formed via nanoprecipitation with MPEG2000-DSPE (explicit aggregate/aggregation condition)\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Code 'TPA-Se' is explicitly found throughout the paper. Emission in aggregated state is reported for TPA-Se NPs (nanoparticles) at 626 nm (page 5, Figure 7). This qualifies as an explicit aggregate condition (nanoparticle state). No emission data for solid, powder, crystal, or thin film is reported for TPA-Se; only solution (THF: 647 nm) and nanoparticle (626 nm) data are given. Therefore, emission_solid_or_film_nm is null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:35:58"
+}

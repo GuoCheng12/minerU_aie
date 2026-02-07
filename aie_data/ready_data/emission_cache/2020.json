@@ -1,0 +1,20 @@
+{
+  "id": "2020",
+  "code": "TNZTPE",
+  "SMILES": "C1(N(C2=CC=C(C3=C(C=CC=C4)C4=C(C5=CC=C(/C(C6=CC=CC=C6)=C(C7=CC=CC=C7)/C8=CC=CC=C8)C=C5)C9=NSN=C93)C=C2)C%10=CC=CC=C%10)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TNZTPE\",\n    \"where_found\": \"Fig. 2 caption, page 3 text, Fig. 1, Table S1 reference\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 651,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Fig. 2B and page 3 text\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"neat film\"\n  },\n  \"notes\": \"Target code 'TNZTPE' is explicitly mentioned throughout the paper (Fig. 2, page 3 text, Fig. 1, etc.). Emission in neat film is reported as 651 nm. While the paper discusses AIE and shows PL spectra in DMF/water mixtures (Fig. 2D), no explicit emission peak wavelength for the aggregated state (e.g., at high f_w) is numerically reported in the provided text. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "solid:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T23:04:28"
+}

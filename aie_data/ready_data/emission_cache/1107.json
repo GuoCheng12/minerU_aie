@@ -1,0 +1,17 @@
+{
+  "id": "1107",
+  "code": "TPEBPy",
+  "SMILES": "C1(/C(C2=CC=CC=C2)=C(C3=CC=CC=C3)/C4=CC=C(C5=CC=C(C=C6)C7=C5C=CC8=C7C6=CC=C8)C=C4)=CC=C(C9=CC=C(C=C%10)C%11=C9C=CC%12=CC=CC%10=C%11%12)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "488",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPEBPy\",\n    \"where_found\": \"Table 1, Table 2, Figure 2 caption, narrative text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 488,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λem(nm)Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Target code 'TPEBPy' is explicitly found in Table 1 and Table 2. Table 1 provides a solid-state (film) emission peak of 488 nm. Figure 2 shows PL spectra of TPEBPy in THF/water mixtures, which is an explicit aggregate condition (fw ≥ 70%), but no specific emission peak wavelength is reported in the provided text for the aggregated state; only intensity enhancement is discussed. Therefore, emission_aggr_nm must be set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:58:34"
+}

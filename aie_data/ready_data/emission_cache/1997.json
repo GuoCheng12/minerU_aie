@@ -1,0 +1,17 @@
+{
+  "id": "1997",
+  "code": "HBT-C18",
+  "SMILES": "OC1=CC=C(C[N+](CCCCCCCCCCCCCCCCCCC)(C)C)C=C1C2=NC3=CC=CC=C3S2.[Cl-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "510",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"HBT-C18\",\n    \"where_found\": \"Throughout text, e.g., Abstract, Scheme 1, Figure 2, Figure 3\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 510,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Figure 2B caption and page 3 text\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Code 'HBT-C18' is found repeatedly in the text (exact match). Emission in solid state is explicitly reported as 510 nm in Figure 2B and page 3 text. No explicit aggregate-state emission peak is reported for the pure compound alone. The paper discusses emission enhancement upon forming aggregates with anionic surfactants (e.g., SDBS), but the reported 510 nm peak in those mixtures is for the catanionic aggregate system (HBT-C18/SDBS), not for aggregates of HBT-C18 alone in a solvent mixture (e.g., THF/water). Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T21:16:48"
+}

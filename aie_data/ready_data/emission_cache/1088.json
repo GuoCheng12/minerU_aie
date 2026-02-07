@@ -1,0 +1,17 @@
+{
+  "id": "1088",
+  "code": "(PPI)2MPPS",
+  "SMILES": "C[Si]1(C2=CC=CC=C2)C(C3=CC=C(C4[N](C5=CC=CC=C5)=C6C(C(C=CC=C7)=C7C8=C6C=CC=C8)=N4)C=C3)=C(C9=CC=CC=C9)C(C%10=CC=CC=C%10)=C1C%11=CC=C(C%12N=C%13C(C(C=CC=C%14)=C%14C%15=C%13C=CC=C%15)=[N]%12C%16=CC=CC=C%16)C=C%11",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "536",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"(PPI)2MPPS\",\n    \"where_found\": \"Table 1, page 5 narrative, and multiple mentions throughout text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 536,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"vacuum deposited film on a quartz plate\"\n  },\n  \"notes\": \"Target code (PPI)2MPPS is explicitly listed in Table 1 and mentioned multiple times in the text. Table 1 provides emission maxima for THF solution (520 nm) and solid film (536 nm). However, the aggregated-state emission is not explicitly reported for (PPI)2MPPS. Figure 2 and the associated discussion (pages 4, 6) only present aggregated-state PL data for (PBI)2DMTPS and (PPI)2DMTPS in THF/water mixtures. Therefore, emission_aggr_nm is set to null as per the anti-leakage rule. Emission_solid_or_film_nm is taken from the 'film' column of Table 1 for (PPI)2MPPS.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:56:31"
+}

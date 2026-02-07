@@ -1,0 +1,17 @@
+{
+  "id": "2251",
+  "code": "NpMPS",
+  "SMILES": "C[Si]1(C(C2=CC3=C(C=C2)C=CC=C3)=C(C(C4=CC=CC=C4)=C1C5=CC6=C(C=C5)C=CC=C6)C7=CC=CC=C7)C8=CC=CC=C8",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "515",
+  "emission_aggr": "515",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"NpMPS\",\n    \"where_found\": \"Table 1, page 2 narrative, Fig. 1 caption\"\n  },\n  \"emission_aggr_nm\": 515,\n  \"emission_solid_or_film_nm\": 515,\n  \"evidence\": {\n    \"aggr_source\": \"Table 1, column 'Aggr'\",\n    \"solid_or_film_source\": \"Table 1, column 'Film'\",\n    \"conditions_aggr\": \"Aggregates formed in THF–water mixtures with a water fraction of 99% (vol%)\",\n    \"conditions_solid_or_film\": \"Film drop-casted on quartz plate\"\n  },\n  \"notes\": \"Target code 'NpMPS' is explicitly listed in Table 1 and mentioned throughout the text. Table 1 provides both aggregated-state emission (515 nm, under 99% water fraction) and film emission (515 nm, drop-cast film). Both values are explicitly reported in nm. Confidence is high due to clear table entry and consistent narrative references.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T08:20:32"
+}

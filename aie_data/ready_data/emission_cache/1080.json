@@ -1,0 +1,17 @@
+{
+  "id": "1080",
+  "code": "5-BTDMS",
+  "SMILES": "C[Si]1(C)C(C2=CC(C=CS3)=C3C=C2)=C(C4=CC=CC=C4)C(C5=CC=CC=C5)=C1C6=CC=C(C=CS7)C7=C6",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "494",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"5-BTDMS\",\n    \"where_found\": \"Table 1, Figure 3 caption, Figure 4 caption, synthesis section, crystal data section\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 494,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column), Figure 3C description\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Vacuum-deposited film (Table 1 footnote)\"\n  },\n  \"notes\": \"Target code '5-BTDMS' is explicitly found throughout the paper (Table 1, figures, synthesis). Emission in solid film is reported as 494 nm in Table 1 and text. While Figure 4 shows PL spectra in THF/water mixtures (aggregation condition), no explicit emission peak wavelength for the aggregated state is provided in the text or table for 5-BTDMS; only quantum yield trends are discussed. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:55:08"
+}

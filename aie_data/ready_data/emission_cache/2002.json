@@ -1,0 +1,17 @@
+{
+  "id": "2002",
+  "code": "DTPA-BT-M",
+  "SMILES": "COC1=CC=C(N(C2=CC=C(OC)C=C2)C3=CC=C(C4=CC=C(C5=CC=C(N(C6=CC=C(OC)C=C6)C7=CC=C(OC)C=C7)C=C5)C8=NSN=C84)C=C3)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "676",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DTPA-BT-M\",\n    \"where_found\": \"Table 1, Figure 1B, Figure 1D, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 676,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λEm[b])\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solids (powder/crystal)\"\n  },\n  \"notes\": \"Target code 'DTPA-BT-M' is explicitly found multiple times in tables and text. Table 1 provides emission in solids (λEm[b] = 676 nm). While the paper discusses aggregation in THF/water mixtures (e.g., fw > 60%), no explicit emission peak wavelength for the aggregated state is reported in the provided text chunks for DTPA-BT-M; only relative intensity trends are mentioned. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T21:36:53"
+}

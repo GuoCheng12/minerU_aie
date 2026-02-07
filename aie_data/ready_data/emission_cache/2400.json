@@ -1,0 +1,17 @@
+{
+  "id": "2400",
+  "code": "TPETPAN",
+  "SMILES": "N#C/C(C(C=C1)=CC=C1C(C=C2)=CC=C2/C(C3=CC=CC=C3)=C(C4=CC=CC=C4)/C5=CC=CC=C5)=C(C6=CC=CC=C6)/C7=CC=CC=C7",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "443",
+  "emission_aggr": "507",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPETPAN\",\n    \"where_found\": \"Figure 1, Figure 2, Figure 3, Scheme 1, Table 1, and throughout text\"\n  },\n  \"emission_aggr_nm\": 507,\n  \"emission_solid_or_film_nm\": 443,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 2A and accompanying text (pages 2-3)\",\n    \"solid_or_film_source\": \"Figure 3G and accompanying text (pages 3-4)\",\n    \"conditions_aggr\": \"THF/water mixture with fw = 90%\",\n    \"conditions_solid_or_film\": \"as prepared solid powder\"\n  },\n  \"notes\": \"Target molecule TPETPAN is explicitly named throughout the paper. For aggregated-state emission: Figure 2A shows emission spectra in THF/water mixtures, with the plot in Figure 2B referencing intensity at 507 nm, which corresponds to the emission peak under high water fraction (fw=90%) aggregation conditions. For solid-state emission: Figure 3G shows PL spectra of as-prepared powders, with the text stating TPETPAN emits at 443 nm in its as-prepared solid state. The solid-state value is explicitly for powder, not film, but meets the 'solid or film' criteria. The aggregated emission is explicitly from a solvent mixture inducing aggregation (fw=90%).\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T11:27:46"
+}

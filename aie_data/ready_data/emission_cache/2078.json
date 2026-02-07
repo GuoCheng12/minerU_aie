@@ -1,0 +1,17 @@
+{
+  "id": "2078",
+  "code": "2M-DABS",
+  "SMILES": "OC1=CC=CC=C1/N=N/C=C(C2=CC=C(OCCCCCCN3CCOCC3)C=C2)/C4=CC=C(OCCCCCCN5CCOCC5)C=C4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"2M-DABS\",\n    \"where_found\": \"Materials section (page 2), Figure captions, Results and Discussion sections\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule '2M-DABS' is explicitly mentioned multiple times in the text (Materials, Methods, Results). This is a clear code_match. However, the provided context contains no photophysical data (emission peak wavelengths) for this compound. Only emission wavelength *ranges* for microscopy channels are given (e.g., 519–673 nm, 575–673 nm), and a lambda scan range (517–632 nm in Figure S3). No explicit emission maximum (λ_em,max) values under aggregated-state or solid/film conditions are reported. Therefore, both required emission peaks are set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T02:43:00"
+}

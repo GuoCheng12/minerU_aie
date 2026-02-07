@@ -1,0 +1,20 @@
+{
+  "id": "2052",
+  "code": "TTPY-Py",
+  "SMILES": "N(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=C(C4=CC=C(/C=C/C5=CC=[N+](CCCC[N+]6=CC=CC=C6)C=C5)S4)C=C3.[Br-].[Br-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TTPY-Py\",\n    \"where_found\": \"Chunk 1, Chunk 6, Scheme 1, Figure 2, etc. (throughout text)\"\n  },\n  \"emission_aggr_nm\": 680,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Chunk 1, page 5: 'Upon the gradual addition of unfavorable solvent, that is, THF, into the MeOH solution of TTPY-Py, the fluorescence intensity at 680 nm was enhanced continuously (Figure S28, Supporting Information).'\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"THF added into MeOH solution (solvent mixture inducing aggregation/AIE)\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'TTPY-Py' is explicitly mentioned throughout the paper (code_match). An aggregated-state emission peak of 680 nm is reported for TTPY-Py in a solvent mixture (THF/MeOH) that induces aggregation and AIE enhancement. No explicit solid-state or film emission data for pure TTPY-Py is found in the provided context; only emission in solution/aggregate conditions and within host-guest complexes is discussed.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:aggr:not_in_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-07T01:12:48"
+}

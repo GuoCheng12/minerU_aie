@@ -1,0 +1,17 @@
+{
+  "id": "1868",
+  "code": "TPE-4EP+",
+  "SMILES": "C[N+](C=C1)=CC=C1/C=CC(C=C2)=CC=C2/C(C3=CC=C(/C=CC4=CC=[N+](C)C=C4)C=C3)=C(C5=CC=C(/C=CC6=CC=[N+](C)[C-]=C6)C=C5)C7=CC=C(/C=CC8=CC=[N](C)C=C8)C=C7.[I-].[I-].[I].[I]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-4EP+\",\n    \"where_found\": \"Figure 1A, page 3 narrative, multiple mentions throughout text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'TPE-4EP+' is explicitly mentioned multiple times (Figure 1A, page 3 narrative, etc.), confirming identity. However, no explicit emission peak wavelengths for aggregated-state or solid/film conditions were found in the provided content. The text mentions 'peak emission = 610 nm' in context of increasing EtOH fraction (poor solvent), but this appears to be a general statement about the series' AIE characteristics, not a specific reported value for TPE-4EP+ under defined aggregate conditions. No solid/film emission data is provided. Therefore, both emission fields are set to null per anti-leakage and strict extraction rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:30:00"
+}

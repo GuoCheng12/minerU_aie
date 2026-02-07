@@ -1,0 +1,17 @@
+{
+  "id": "2022",
+  "code": "DPCE-ECh",
+  "SMILES": "O=C(O[C@@H]1CC2=CC[C@]([C@@](CC[C@]3([H])[C@H](C)CCCC(C)C)([H])[C@]3(C)CC4)([H])[C@@]4([H])[C@@]2(C)CC1)COC(C=C5)=CC=C5/C(C#N)=C/C6=CC=C(OCCCCCCCCCCCCCCCCCCCCCCCCCC)C(OCCCCCCCCCCCCCCCCCCCCCCCCCC)=C6",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DPCE-ECh\",\n    \"where_found\": \"Throughout text (e.g., pages 3-5, 7-9), Figure 1A, Table S1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Code 'DPCE-ECh' is explicitly mentioned throughout the paper, confirming identity. However, no explicit emission peak wavelengths (in nm) for DPCE-ECh under aggregated conditions (e.g., THF/water mixtures) or in solid/film state are provided in the given context. The text mentions fluorescence in THF solution (430 nm) and quantum yields in solid powders, but not the actual solid-state emission maximum. The CPL/g_lum discussions for films (e.g., Fig. 5G) refer to dissymmetry factors at 510 nm, not the unpolarized emission peak. Therefore, both required emission values cannot be extracted.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T23:15:40"
+}

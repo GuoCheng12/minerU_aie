@@ -1,0 +1,20 @@
+{
+  "id": "1825",
+  "code": "DMTPA-PDI3",
+  "SMILES": "CC1(C2=C3C(C(C)(C4=CC(C#CC5=CC(C(N(C(C6=CC=C78)=O)C(CCCCCC)CCCCCC)=O)=C6C8=C5C9=C%10C7=CC=C%11C(N(C(C(C=C9)=C%10%11)=O)C(CCCCCC)CCCCCC)=O)=CC%12=C4N3C%13=C1C=C(C=C%13C%12(C)C)C#CC%14=CC%15=C%16C(C(N(C%15=O)C(CCCCCC)CCCCCC)=O)=CC=C%17C%18=CC=C%19C(N(C(C%20=C%19C%18=C(C%14=C%17%16)C=C%20)=O)C(CCCCCC)CCCCCC)=O)C)CC(C#CC%21=CC%22=C%23C(C%24=CC=C%23C(N(C%22=O)C(CCCCCC)CCCCCC)=O)=C%21C%25=C%26C%24=CC=C%27C(N(C(C(C=C%25)=C%26%27)=O)C(CCCCCC)CCCCCC)=O)=C2)C",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DMTPA-PDI3\",\n    \"where_found\": \"Throughout text (e.g., pages 2-3, 5), Scheme 1, Figure 1, Figure 5\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 780,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Figure 5b caption and page 5 text\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"thin film (excited at 500 nm)\"\n  },\n  \"notes\": \"Target code 'DMTPA-PDI3' is explicitly mentioned numerous times in the text, figures, and scheme. An emission peak of 780 nm is explicitly reported for DMTPA-PDI3 in thin film (Figure 5b, page 5: 'DMTPA-PDI acceptor each exhibited strong photoluminescence effects at respectively 810 and 780 nm'). No explicit aggregate-state emission measurement (e.g., in THF/water mixtures or labeled as 'aggregate emission') is reported in the provided context. Therefore, emission_aggr_nm is set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "solid:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T16:23:36"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2277",
+  "code": "(MesB)2HPS",
+  "SMILES": "CC1=CC(C)=CC(C)=C1B(C2=C(C)C=C(C)C=C2C)C3=CC=C(C4=C(C5=CC=CC=C5)C(C6=CC=CC=C6)=C(C7=CC=C(B(C8=C(C)C=C(C)C=C8C)C9=C(C)C=C(C)C=C9C)C=C7)[Si]4(C%10=CC=CC=C%10)C%11=CC=CC=C%11)C=C3",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "526",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"(MesB)2HPS\",\n    \"where_found\": \"Table 1, Chunk 1 (page 3), Chunk 3 (page 4), Chunk 5 (page 3), Chunk 6 (page 3), Chunk 9 (pages 7-8)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 526,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Chunk 5) and narrative text (Chunk 1)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"film state\"\n  },\n  \"notes\": \"Target code '(MesB)2HPS' is explicitly found multiple times in tables and text. Table 1 provides emission maximum in film state as 526 nm. While the paper discusses AIE behavior in THF/water mixtures (Chunks 3, 7) and mentions the target exhibits this behavior, no explicit emission peak wavelength for the aggregated state (e.g., at a specific water fraction fw) is reported for (MesB)2HPS in the provided context. Only relative intensity changes are shown in Figure S2 and discussed. Therefore, emission_aggr_nm must be set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T09:41:53"
+}

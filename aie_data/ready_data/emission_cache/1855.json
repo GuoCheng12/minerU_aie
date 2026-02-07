@@ -1,0 +1,17 @@
+{
+  "id": "1855",
+  "code": "TPPTPE",
+  "SMILES": "C%12(/C(=C(C3=CC=C(C2=CC=[N+](CC1=CC=CC=C1)C=C2)C=C3)/C6=CC=C(C5=CC=[N+](CC4=CC=CC=C4)C=C5)C=C6)C9=CC=C(C8=CC=[N+](CC7=CC=CC=C7)C=C8)C=C9)=CC=C(C%11=CC=[N+](CC%10=CC=CC=C%10)C=C%11)C=C%12.[Br-].[Br-].[Br-].[Br-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPPTPE\",\n    \"where_found\": \"Throughout text (e.g., page 2, 3, 4, 5), Scheme 2, Figure captions\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Code 'TPPTPE' is explicitly mentioned numerous times throughout the paper, confirming identity. However, no explicit emission peak wavelengths (in nm) are reported in the provided text chunks for either aggregated-state or solid/film conditions. The text discusses AIE properties in toluene/DMSO mixtures and emission enhancement with ATP in buffer, but specific λmax values are not given. Figure 1 mentions emission at 500 nm, but this is for the TPPTPE+ATP complex in solution/buffer, not for pure TPPTPE aggregates in a solvent mixture or for solid/film. Therefore, both required emission values are set to null per strict extraction rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:27:05"
+}

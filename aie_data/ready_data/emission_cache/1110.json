@@ -1,0 +1,17 @@
+{
+  "id": "1110",
+  "code": "TPEBNp",
+  "SMILES": "C1(/C(C2=CC=CC=C2)=C(C3=CC=CC=C3)/C4=CC=C(C5=CC=CC6=C5C=CC=C6)C=C4)=CC=C(C7=CC=CC8=C7C=CC=C8)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "474",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPEBNp\",\n    \"where_found\": \"Table 1, Table 2\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 474,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λ_em(nm)Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Target code 'TPEBNp' is explicitly listed in Table 1 and Table 2. Table 1 provides a solid-state emission peak of 474 nm for TPEBNp in the 'λ_em(nm)Film' column. The paper discusses aggregation-induced emission (AIE) and shows PL spectra for TPEBPy in THF/water mixtures (Figure 2), but no explicit aggregate emission peak value for TPEBNp is reported in the provided text or tables. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:59:10"
+}

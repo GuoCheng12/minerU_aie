@@ -1,0 +1,17 @@
+{
+  "id": "1027",
+  "code": "TPEIq",
+  "SMILES": "C1(/C(C2=CC=CC=C2)=C(C3=CC=C(N4C5=C(C=CC=C5)C6=C4C=CC=C6)C=C3)\\C7=CC=CC=C7)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "471",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPEIq\",\n    \"where_found\": \"Table 1, page 2\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 471,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, page 2\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Film drop-casted on quartz plates\"\n  },\n  \"notes\": \"Target code 'TPEIq' found explicitly in Table 1. The table provides emission in film state (471 nm) but no explicit aggregated-state emission value for TPEIq. The paper discusses aggregation-induced emission for the series (e.g., TPEPy in THF/water mixtures), but no specific aggregate emission wavelength is reported for TPEIq in the provided content. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:44:16"
+}

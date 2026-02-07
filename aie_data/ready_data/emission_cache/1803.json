@@ -1,0 +1,17 @@
+{
+  "id": "1803",
+  "code": "AuIB-C5",
+  "SMILES": "FC1=C(F)C(F)=C(F)C([Au]C#[N]C2=C(OCCCCC)C=C([N]#C[Au]C3=C(F)C(F)=C(F)C(F)=C3F)C(OCCCCC)=C2)=C1F",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "503",
+  "emission_aggr": "500",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"C5\",\n    \"where_found\": \"Throughout text (e.g., page 2, Fig. 1, Scheme S1) as part of series AuIB-Cn (n=5-10)\"\n  },\n  \"emission_aggr_nm\": 500,\n  \"emission_solid_or_film_nm\": 503,\n  \"evidence\": {\n    \"aggr_source\": \"Page 2, paragraph 2: '...their dimethylformamide (DMF)-water mixtures emit uniform green luminescences with maximum peaks at ~500nm... when the water fraction (f_w) reaches 30% or 50%.'\",\n    \"solid_or_film_source\": \"Page 2, paragraph 4: '...a remarkable emission change from green to orange, with a prominent PL shift from 503nm to 596nm, was observed after grinding...' (refers to pristine solid state before grinding)\",\n    \"conditions_aggr\": \"DMF/water mixture, f_w = 30% or 50%\",\n    \"conditions_solid_or_film\": \"Solid powder (pristine state)\"\n  },\n  \"notes\": \"Target molecule is explicitly part of the series 'AuIB-Cn (n=5-10)' and is referred to as 'C5' throughout the paper. Aggregated-state emission peak (~500 nm) is explicitly reported for DMF/water mixtures at f_w=30% or 50%, which are defined as aggregate conditions (AIE-active). Solid-state emission peak (503 nm) is reported for the pristine powder before grinding. Confidence is high due to clear code match and explicit numerical values in the text.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:20:46"
+}

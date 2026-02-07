@@ -1,0 +1,17 @@
+{
+  "id": "2386",
+  "code": "PCz-BDTO",
+  "SMILES": "CCC(COC1=C2C(C=C(S2(=O)=O)C3=CC=C(N(C4=CC=CC=C4)C5=C6C=CC=C5)C6=C3)=C(C7=C1C=C(C8=CC=C(C(C=CC=C9)=C9N%10C%11=CC=CC=C%11)C%10=C8)S7(=O)=O)OCC(CC)CCCC)CCCC",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "602",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"PCz-BDTO\",\n    \"where_found\": \"Table 1, page 3-4 (Chunk 2); narrative text page 2 (Chunk 1)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 602,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, column 'λem [nm] Solidb)'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid\"\n  },\n  \"notes\": \"Target code 'PCz-BDTO' is explicitly listed in Table 1 and narrative text, providing a clear code_match. Table 1 reports a solid-state emission peak of 602 nm for PCz-BDTO. No explicit aggregate emission data (e.g., THF/water mixture spectra) is reported for PCz-BDTO in the provided context; only TPA-BDTO and CzP-BDTO have aggregate PL data shown in Figure 6. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T11:02:43"
+}

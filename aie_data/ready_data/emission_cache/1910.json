@@ -1,0 +1,17 @@
+{
+  "id": "1910",
+  "code": "BT-2ATPE",
+  "SMILES": "C1(N(C2=CC=C(/C(C3=CC=CC=C3)=C(C4=CC=CC=C4)/C5=CC=CC=C5)C=C2)C6=CC=CC=C6)=CC=C(N(C7=CC=C(/C(C8=CC=CC=C8)=C(C9=CC=CC=C9)C%10=CC=CC=C%10)C=C7)C%11=CC=CC=C%11)C%12=NSN=C%121",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "674",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"BT-2ATPE\",\n    \"where_found\": \"Table 1, Figure 1, Figure 2, Scheme 1, Scheme 2, and narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 674,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column), page 6 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Target code 'BT-2ATPE' is explicitly mentioned numerous times in tables, figures, and text. Table 1 provides λ_em for 'Film' as 674 nm. Figure 1(B) shows PL spectra in THF/water mixtures, but no explicit aggregate emission peak value is reported in the provided text chunks. The narrative discusses AIE properties but does not state a specific λ_em,max for the aggregated state (e.g., at a specific high water fraction). Therefore, emission_aggr_nm is set to null per the anti-leakage rule, as no explicit aggregate emission peak value was found.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:36:46"
+}

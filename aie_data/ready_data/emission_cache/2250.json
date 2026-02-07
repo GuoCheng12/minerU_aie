@@ -1,0 +1,17 @@
+{
+  "id": "2250",
+  "code": "NpDMS",
+  "SMILES": "C[Si]1(C)C(C2=CC3=C(C=CC=C3)C=C2)=C(C4=CC=CC=C4)C(C5=CC=CC=C5)=C1C6=CC(C=CC=C7)=C7C=C6",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "500",
+  "emission_aggr": "509",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"NpDMS\",\n    \"where_found\": \"Table 1, page 2 narrative, Fig. 1 caption\"\n  },\n  \"emission_aggr_nm\": 509,\n  \"emission_solid_or_film_nm\": 500,\n  \"evidence\": {\n    \"aggr_source\": \"Table 1, column 'Aggr'\",\n    \"solid_or_film_source\": \"Table 1, column 'Film'\",\n    \"conditions_aggr\": \"Aggregates formed in THF–water mixtures with a water fraction of 99% (vol%)\",\n    \"conditions_solid_or_film\": \"Film drop-casted on quartz plate\"\n  },\n  \"notes\": \"Target code 'NpDMS' is explicitly listed in Table 1 and mentioned throughout the text. Table 1 provides explicit emission values for 'Aggr' (aggregates in THF/water fw=99%) and 'Film' (drop-cast film) conditions. Both values are directly extracted from the table.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T08:16:57"
+}

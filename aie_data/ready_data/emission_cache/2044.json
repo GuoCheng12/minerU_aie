@@ -1,0 +1,17 @@
+{
+  "id": "2044",
+  "code": "TPEPCl",
+  "SMILES": "O=C(C(C=C1)=CC=C1N2C3=C(C(C=CC=C4)=C4C5=C3C=CC=C5)N=C2C(C=C6)=CC=C6/C(C7=CC=CC=C7)=C(C8=CC=CC=C8)/C9=CC=CC=C9)O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "495",
+  "emission_aggr": "409",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPEPCI\",\n    \"where_found\": \"Throughout text (e.g., page 2, Table S1, Fig. 1, Scheme 1B)\"\n  },\n  \"emission_aggr_nm\": 409,\n  \"emission_solid_or_film_nm\": 495,\n  \"evidence\": {\n    \"aggr_source\": \"Page 2, Fig. 1 description: 'the emission blue-shifts from about 533 nm to 409 nm' with increasing water fraction (fw). The value 409 nm corresponds to the highest water fraction condition (fw=99%) shown in Fig. 1(A), which is an explicit aggregate condition (THF/water mixture).\",\n    \"solid_or_film_source\": \"Page 2: 'its emission peak in powder is shifted to 495 nm (Table S1 and Fig. S1, ESI†)' and 'TPEPCl shows green emission (λ_em-max = 495 nm)' in aggregate state (powder).\",\n    \"conditions_aggr\": \"THF/water mixed solvent with high water fraction (fw=99%)\",\n    \"conditions_solid_or_film\": \"Powder state\"\n  },\n  \"notes\": \"Target code 'TPEPCI' (variant spelling of TPEPCl) is found extensively. Emission_aggr_nm = 409 nm is taken from the explicit aggregate condition (THF/water, fw=99%) described in the text for TPEPCI. Emission_solid_or_film_nm = 495 nm is explicitly reported for powder state of TPEPCI in the same text. Confidence is high due to direct code match and explicit numerical values in context.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T00:34:28"
+}

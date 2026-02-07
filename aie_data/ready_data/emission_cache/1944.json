@@ -1,0 +1,17 @@
+{
+  "id": "1944",
+  "code": "QLZ",
+  "SMILES": "O=C(OC)C1=C2N(C(C(OC)=O)C(C(OC)=O)=C1C(OC)=O)C=CC=C2",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"QLZ\",\n    \"where_found\": \"Figure 1, Figure 1C, Figure 1D, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 1C\",\n    \"solid_or_film_source\": \"Figure S9 (referenced), Figure 3 narrative\",\n    \"conditions_aggr\": \"THF/water mixture with fw=80%\",\n    \"conditions_solid_or_film\": \"Crystal (pristine, ground) / powder\"\n  },\n  \"notes\": \"Code 'QLZ' is found extensively in the text, figures, and captions, providing a high-confidence match. An aggregate emission condition is explicitly described (THF/water fw=80%), but the specific peak wavelength in nm is not provided in the given context chunks; only relative intensity changes are mentioned. Solid-state emission is discussed for crystals and powder, and PL spectra are referenced (Figure S9), but the specific peak wavelength(s) in nm are not provided in the given chunks. Therefore, both emission values must be set to null due to lack of explicit numerical data.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T17:57:53"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1901",
+  "code": "TTVPHA",
+  "SMILES": "OC(CCCCC[N+](C=C1)=CC=C1/C=C/C2=CC=C(S2)C(C=C3)=CC=C3N(C4=CC=CC=C4)C5=CC=CC=C5)=O.[Br-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "621",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TTVPHA\",\n    \"where_found\": \"Throughout text (pages 3, 4, 6, 7), Scheme 1, Fig. 1\"\n  },\n  \"emission_aggr_nm\": 621,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Page 3, narrative text describing DMSO/toluene mixture with f_tol = 90%\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"DMSO/toluene mixture with toluene fraction f_tol = 90%\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target molecule TTVPHA is explicitly mentioned multiple times in the text, Scheme 1, and Fig. 1. Emission peak of 621 nm is reported for aggregated state in DMSO/toluene mixture with f_tol = 90%. No explicit solid-state or film emission data is provided in the given context. The aggregated emission is explicitly tied to solvent mixture aggregation conditions (increasing toluene fraction).\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:34:50"
+}

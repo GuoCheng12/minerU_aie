@@ -1,0 +1,17 @@
+{
+  "id": "1864",
+  "code": "GlcNAc-TPE",
+  "SMILES": "COc7ccc(/C(=C(c1ccccc1)c5ccc(c4cc[n+](Cc3ccc(OC2O[C@H](CO)C(O)[C@H](O)C2NC(C)=O)cc3)cc4)cc5)c6ccc(OC)cc6)cc7.[Br-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "612",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"GlcNAc-TPE\",\n    \"where_found\": \"Throughout text, e.g., Abstract, Figure 1, Scheme 1, Figure S9\"\n  },\n  \"emission_aggr_nm\": 612,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Figure S9, page 3 narrative\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"THF/hexane mixture with hexane volume fraction (f_H) > 20%\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'GlcNAc-TPE' is explicitly mentioned throughout the paper (code_match). Emission at 612 nm is explicitly reported for aggregated conditions in THF/hexane mixtures (f_H > 20%) in Figure S9 and associated text, satisfying the strict definition for emission_aggr_nm. No explicit emission data for solid state, powder, crystal, or thin film is provided in the given context; therefore, emission_solid_or_film_nm is null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:29:08"
+}

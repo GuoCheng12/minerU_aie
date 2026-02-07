@@ -1,0 +1,17 @@
+{
+  "id": "1115",
+  "code": "TPEQBN",
+  "SMILES": "CB1(C)[N]2=C3C(C=CC=C3)=CC=C2C4=C1C=C(/C(C5=CC=CC=C5)=C(C6=CC=CC=C6)\\C7=CC=CC=C7)C=C4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "500",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPEQBN\",\n    \"where_found\": \"Table 1, Figure 2, Figure 3, Experimental Section\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 500,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (film column), Figure 2B narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"spin-coated film on quartz plate\"\n  },\n  \"notes\": \"Code 'TPEQBN' is explicitly found in Table 1, Figure captions, and text. Table 1 provides emission in film state (500 nm). Figure 3 shows PL spectra in THF/water mixtures for TPEQBN, indicating aggregate formation, but no explicit emission peak value for the aggregated state is reported in the provided text or table. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:00:14"
+}

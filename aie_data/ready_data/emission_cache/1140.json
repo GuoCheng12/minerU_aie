@@ -1,0 +1,17 @@
+{
+  "id": "1140",
+  "code": "DEATPE",
+  "SMILES": "CCN(CC)C(C=C1)=CC=C1/C(C2=CC=C(N(CC)CC)C=C2)=C(C3=CC=CC=C3)\\C4=CC=CC=C4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "481",
+  "emission_aggr": "477",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DEATPE\",\n    \"where_found\": \"Throughout text (e.g., Scheme 1, Fig. 3, page 4, page 5)\"\n  },\n  \"emission_aggr_nm\": 477.0,\n  \"emission_solid_or_film_nm\": 481.0,\n  \"evidence\": {\n    \"aggr_source\": \"Fig. 3A and page 4 narrative\",\n    \"solid_or_film_source\": \"Page 5 narrative (Fig. S13)\",\n    \"conditions_aggr\": \"THF/water mixture with f_w = 70%\",\n    \"conditions_solid_or_film\": \"Single crystals\"\n  },\n  \"notes\": \"Code 'DEATPE' is explicitly mentioned throughout the paper. For aggregated-state emission: Page 4 states DEATPE emits at ~477 nm in THF/water mixture with f_w = 70%, which is explicitly described as an aggregation condition (luminogenic molecules are aggregated as floating solids). For solid-state emission: Page 5 states single crystals of DEATPE present predominantly LE emissions at 481 nm (Fig. S13). No explicit film data found, so crystal emission is used for solid/film field.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:01:34"
+}

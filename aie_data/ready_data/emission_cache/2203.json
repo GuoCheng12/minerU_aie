@@ -1,0 +1,17 @@
+{
+  "id": "2203",
+  "code": "f-TPE-Fu",
+  "SMILES": "C(/C1=C(C2=CC=CO2)C=CC=C1)(C3=CC=CC=C3)=C(C4=CC=CC=C4C5=CC=CO5)C6=CC=CC=C6",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "469",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-TPE-Fu\",\n    \"where_found\": \"Table 2 (page 10-11), narrative text (pages 2, 3, 5, 10)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 469,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 2, column 'Film'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-casted film on a quartz plate at RT\"\n  },\n  \"notes\": \"Code 'f-TPE-Fu' is explicitly listed in Table 2 and mentioned multiple times in the text, providing a clear identity match. Table 2 reports a solid-state emission peak of 469 nm for 'f-TPE-Fu' under the 'Film' column. While the paper discusses aggregated-state emission properties and AEE for the series (Chunk 1), and mentions THF/water mixtures for aggregation studies (Supporting Information Figure S11), no explicit aggregated-state emission peak value for 'f-TPE-Fu' is provided in the given context. Therefore, emission_aggr_nm is set to null in strict adherence to the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T06:25:58"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2012",
+  "code": "TNZtPPI",
+  "SMILES": "CC(C)(C)C(C=C1)=CC=C1N2C3=C(C(C=CC=C4)=C4C5=C3C=CC=C5)N=C2C(C=C6)=CC=C6C(C7=NSN=C78)=C9C(C=CC=C9)=C8C(C=C%10)=CC=C%10N(C%11=CC=CC=C%11)C%12=CC=CC=C%12",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "665",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TNZtPPI\",\n    \"where_found\": \"Table 1, Figure 1, and throughout text (e.g., pages 1, 2, 4, 5)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 665,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column under λemb) and page 5 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"neat film (80 nm thickness, likely vacuum-evaporated or spin-coated)\"\n  },\n  \"notes\": \"Target code 'TNZtPPI' is explicitly found in Table 1 and throughout the paper. Table 1 provides a clear emission maximum for 'Film' (665 nm). The paper discusses AIE activity and aggregation in DMF/water mixtures (Figure 5, S10-S12), but no explicit aggregate emission peak value for TNZtPPI is reported in the provided text chunks—only relative intensity changes (I/I0) are shown in Figure 5B. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T22:25:53"
+}

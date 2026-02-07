@@ -1,0 +1,17 @@
+{
+  "id": "2334",
+  "code": "TPPIO",
+  "SMILES": "O=P1(C2=CC=CC=C2)C3=C(C=CC=C3)C(C4=CC=CC=C4)=C1C5=CC=CC=C5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "478",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPPIO\",\n    \"where_found\": \"Table 1, Figure 2, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 478,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (solid column), page 4 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Target code 'TPPIO' is explicitly found in Table 1 and throughout the text. The solid-state emission peak is explicitly reported as 478 nm in Table 1 and on page 4 ('The solid of TPPIO shows an emission peak at λ = 478 nm'). While the paper discusses aggregation-induced emission (AIE) and shows PL spectra in water/acetonitrile mixtures (Figure 2B), no explicit emission peak wavelength for the aggregated state (e.g., at a specific high water fraction) is numerically reported in the provided text or table for TPPIO. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T10:19:19"
+}

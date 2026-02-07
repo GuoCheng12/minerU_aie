@@ -1,0 +1,17 @@
+{
+  "id": "1045",
+  "code": "DPA3a",
+  "SMILES": "ClC1=CC=C(Br)C=C1C2=C(C=CC(Br)=C3)C3=C(C4=CC=CC=C4)C5=C2C=CC=C5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DPA3a\",\n    \"where_found\": \"Figure 1, Scheme 3, pages 2-4 (multiple mentions)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Code 'DPA3a' is explicitly found in the text (Figure 1, Scheme 3, crystallography data, narrative). However, the provided chunks only report photophysical properties (absorption and emission maxima 427-435 nm) for DPA derivatives in dilute THF solution. No explicit aggregate condition (e.g., THF/water mixture, nanoaggregate) or solid/film (e.g., powder, crystal, spin-coated film) emission data is reported for DPA3a specifically or for the series in these chunks. Therefore, both emission_aggr_nm and emission_solid_or_film_nm must be set to null per the anti-leakage and strict condition rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:46:13"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1092",
+  "code": "(Z)-o-BTPATPE",
+  "SMILES": "C1(/C(C2=CC=CC=C2C3=CC=C(N(C4=CC=CC=C4)C5=CC=CC=C5)C=C3)=C(C6=C(C7=CC=C(N(C8=CC=CC=C8)C9=CC=CC=C9)C=C7)C=CC=C6)\\C%10=CC=CC=C%10)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "490",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"(Z)-o-BTPATPE\",\n    \"where_found\": \"Table 1, Figure 2 caption, narrative text (pages 2-5)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 490,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Film (thin film, likely spin-coated)\"\n  },\n  \"notes\": \"Target code '(Z)-o-BTPATPE' is explicitly mentioned multiple times in tables, figures, and narrative. Table 1 provides a solid/film emission peak of 490 nm. While the paper discusses aggregation in THF/water mixtures for (Z)-o-BTPATPE (Figure S7a), no explicit emission peak wavelength for the aggregated state is reported in the provided text chunks. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:56:57"
+}

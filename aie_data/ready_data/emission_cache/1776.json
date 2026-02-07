@@ -1,0 +1,17 @@
+{
+  "id": "1776",
+  "code": "TETPE",
+  "SMILES": "C#CC(C=C1)=CC=C1/C(C2=CC=C(C#C)C=C2)=C(C3=CC=C(C#C)C=C3)C4=CC=C(C#C)C=C4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "475",
+  "emission_aggr": "504",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TETPE\",\n    \"where_found\": \"Throughout text, Figure 1 caption, Table 1, Scheme S1\"\n  },\n  \"emission_aggr_nm\": 504,\n  \"emission_solid_or_film_nm\": 475,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 1 caption / page 3 narrative\",\n    \"solid_or_film_source\": \"Table 1 / page 3 narrative\",\n    \"conditions_aggr\": \"THF/water mixture with water fraction (f_w) = 95%\",\n    \"conditions_solid_or_film\": \"Doped in polystyrene (PS) film at 2 wt%\"\n  },\n  \"notes\": \"Code 'TETPE' is explicitly mentioned throughout the paper as the target molecule. For aggregated-state emission: The text states 'the PL maximum is about 459 nm at the water fraction between 70% and 90%, which redshifted to 504 nm at the water fraction of 95%' (Figure 1 caption/page 3). The 95% water fraction condition is an explicit aggregation condition (AIE-active, high f_w). For solid/film emission: Table 1 reports 'PS film' emission at 475 nm, which is a doped film condition. The crystal (451 nm) and powder (458 nm) are also reported, but the film value is chosen per extraction rules (film if available).\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:13:48"
+}

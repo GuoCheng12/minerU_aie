@@ -1,0 +1,17 @@
+{
+  "id": "2385",
+  "code": "CzP-BDTO",
+  "SMILES": "CCC(COC1=C2C(C=C(S2(=O)=O)C3=CC=C(N4C5=C(C6=C4C=CC=C6)C=CC=C5)C=C3)=C(C7=C1C=C(C8=CC=C(N9C%10=C(C%11=C9C=CC=C%11)C=CC=C%10)C=C8)S7(=O)=O)OCC(CC)CCCC)CCCC",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "592",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"CzP-BDTO\",\n    \"where_found\": \"Table 1, pages 3-4 (text and table)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 592,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, column 'λem [nm] Solid'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid\"\n  },\n  \"notes\": \"Target code 'CzP-BDTO' is explicitly listed in Table 1 and narrative text. Table 1 provides a solid-state emission peak of 592 nm. While the paper discusses aggregation-induced emission (AIE) and shows PL spectra in THF/water mixtures for TPA-BDTO and CzP-BDTO (Figure 6), no explicit aggregate emission peak value for CzP-BDTO is reported in the provided text or table. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T10:57:39"
+}

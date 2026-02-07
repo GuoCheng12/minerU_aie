@@ -1,0 +1,17 @@
+{
+  "id": "1984",
+  "code": "TPM-DMA",
+  "SMILES": "CN(C)C1=CC=C(C(C2=CC=C(N(C)C)C=C2)C3=CC=C(N(C)C)C=C3)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "447",
+  "emission_aggr": "460",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPM-DMA\",\n    \"where_found\": \"Table 1, Figure 3 caption and text, narrative sections\"\n  },\n  \"emission_aggr_nm\": 460,\n  \"emission_solid_or_film_nm\": 447,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 3b and page 3 text\",\n    \"solid_or_film_source\": \"Table 1 (λ_TSC column) and Figure 3d\",\n    \"conditions_aggr\": \"THF/water mixture with f_w ≥ 80%, specifically at f_w = 90%\",\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Target code 'TPM-DMA' is explicitly found in Table 1 and throughout the text (Figures 3, narrative). Aggregated emission peak of 460 nm is explicitly stated for f_w ≥ 80% (long-wavelength emission observed at f_w ≥ 80%). Solid-state emission peak of 447 nm is explicitly given in Table 1 (λ_TSC) and mentioned in Figure 3d caption/text. Both values meet strict condition definitions.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T20:19:16"
+}

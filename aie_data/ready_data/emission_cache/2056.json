@@ -1,0 +1,17 @@
+{
+  "id": "2056",
+  "code": "TBTO",
+  "SMILES": "CC[N+](CC)([O-])C(C=C1)=CC=C1N(C2=CC=C([N+](CC)([O-])CC)C=C2)C(C=C3)=CC=C3C4=CC=C(C5=CC=C(N(C6=CC=C([N+](CC)([O-])CC)C=C6)C7=CC=C([N+](CC)([O-])CC)C=C7)C=C5)C8=NSN=C84",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "600",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TBTO\",\n    \"where_found\": \"Table 1, Table S1, Figure captions, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 600,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λ_em,max b in solid state)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Target code 'TBTO' is explicitly found in tables and text. Table 1 reports solid-state emission maximum (λ_em,max b) as 600 nm for TBTO. No explicit aggregate emission peak is reported; while THF/water mixtures are discussed (Figure S10B), no specific emission maximum for aggregated conditions (e.g., at high water fraction) is provided in the extracted content. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T01:32:09"
+}

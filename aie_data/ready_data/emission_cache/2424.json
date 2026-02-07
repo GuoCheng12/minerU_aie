@@ -1,0 +1,17 @@
+{
+  "id": "2424",
+  "code": "TPE-FB",
+  "SMILES": "CC1(C)C2=CC(C(C=C3)=CC=C3/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)/C6=CC=CC=C6)=CC=C2C7=CC=C(B(C8=C(C)C=C(C)C=C8C)C9=C(C)C=C(C)C=C9C)C=C71",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "481",
+  "emission_aggr": "481",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-FB\",\n    \"where_found\": \"Throughout text, Table 1, Fig. 1, Fig. 2, etc.\"\n  },\n  \"emission_aggr_nm\": 481,\n  \"emission_solid_or_film_nm\": 481,\n  \"evidence\": {\n    \"aggr_source\": \"Fig. 1C & Fig. 2B (PL in THF/water mixtures), narrative text page 3\",\n    \"solid_or_film_source\": \"Table 1, Fig. 1B, narrative text page 3\",\n    \"conditions_aggr\": \"THF/water mixtures with high water fraction (fw > 70%)\",\n    \"conditions_solid_or_film\": \"vacuum-deposited neat solid film\"\n  },\n  \"notes\": \"Code 'TPE-FB' is explicitly mentioned throughout the paper. Emission at 481 nm is reported for both aggregated state (in THF/water mixtures with fw > 70%) and solid film (vacuum-deposited neat film). The same value is reported for both conditions in Table 1 and supporting figures/text.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T13:00:35"
+}

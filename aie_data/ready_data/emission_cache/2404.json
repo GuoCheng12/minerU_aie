@@ -1,0 +1,19 @@
+{
+  "id": "2404",
+  "code": "bT-PIO",
+  "SMILES": "O=P(C1=CC=CC=C1)(C2=C3C=CC=C2)C(C4=CSC=C4)=C3C5=CSC=C5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "not_found",
+  "identity_match_confidence": 0.0,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"not_found\",\n  \"identity_match_confidence\": 0.0,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": null,\n    \"where_found\": null\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'bT-PIO' not found in provided content. The paper discusses αT-PIO, βT-PIO, and βMT-PIO, but no 'bT-PIO'. No SMILES/InChIKey provided for fallback matching. Therefore, target molecule is not found.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "identity_confidence_below_threshold:0.000"
+  ],
+  "timestamp": "2026-02-07T11:44:45"
+}

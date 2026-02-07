@@ -1,0 +1,17 @@
+{
+  "id": "1801",
+  "code": "2TPAVDPP",
+  "SMILES": "C1=CC=CC=C1N(C2=CC=CC=C2)C8=CC=C(/C=C/C7=C6C(=C(/C=C/C5=CC=C(N(C3=CC=CC=C3)C4=CC=CC=C4)C=C5)N(CCCC)C6=O)C(=O)N7CCCC)C=C8",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"2TPAVDPP\",\n    \"where_found\": \"Multiple: Figure 1 caption, page 3 text, page 5 synthesis section, Table S1 reference\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code '2TPAVDPP' is explicitly mentioned multiple times in the text (pages 3, 5, 10) and figures (Figure 1). However, no explicit emission peak wavelengths (in nm) for aggregated state or solid/film are provided in the given context. The PL spectra are shown normalized (Figure 1C), but no numerical peak values are reported. The AIE behavior is discussed with relative intensity plots (Figure 1D), but no aggregate emission maxima are given. No data for thin films, powders, or crystals is presented in the provided chunks.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:20:12"
+}

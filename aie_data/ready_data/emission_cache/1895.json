@@ -1,0 +1,17 @@
+{
+  "id": "1895",
+  "code": "TTFMN",
+  "SMILES": "N#C/C(C#N)=C/C(O1)=CC=C1C2=CC=C(N(C3=CC=C(/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)/C6=CC=CC=C6)C=C3)C7=CC=CC=C7)C=C2",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TTFMN\",\n    \"where_found\": \"Throughout text, Table S1, Figure 2, synthesis section\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Figure 2D\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Target code 'TTFMN' is explicitly mentioned throughout the paper. Figure 2D shows normalized PL spectra in solid state, but no explicit emission peak wavelength (nm) is provided in the text for either aggregated or solid state. The text mentions emission maxima >650 nm in solid state, but this is a range, not a specific numerical value. No explicit aggregate emission peak value is reported. Therefore, both required numerical values are unavailable.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:34:17"
+}

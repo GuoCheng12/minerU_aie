@@ -1,0 +1,20 @@
+{
+  "id": "2040",
+  "code": "CBBHA-12",
+  "SMILES": "O=C(N/N=C/C1=CC(C(C2=CC(/C=N/NC(C3=CC=C(OCCCCCCCCCCCC)C=C3)=O)=C(O)C=C2)=O)=CC=C1O)C4=CC=C(OCCCCCCCCCCCC)C=C4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"CBBHA-12\",\n    \"where_found\": \"Chunk 1 (page 2), Chunk 3 (page 3), Chunk 5 (pages 4-5), Chunk 7 (page 2), Fig. 5\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 515,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Chunk 1 (page 2), Fig. 2a and Fig. S7 and S6 (ESI)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"1,2-DCE gel state\"\n  },\n  \"notes\": \"Target code 'CBBHA-12' is explicitly mentioned multiple times in the text (synthesis, properties, gelation). An emission peak of 515 nm is reported for the '1,2-DCE gel' of CBBHA-12. This is considered a solid/film state (gel) rather than an explicit aggregate condition in solvent mixture (e.g., THF/water). No explicit aggregate emission data (e.g., in THF/water mixtures) is found for CBBHA-12 in the provided chunks. Therefore, emission_aggr_nm is set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "solid:not_in_final_context"
+  ],
+  "timestamp": "2026-02-07T00:24:34"
+}

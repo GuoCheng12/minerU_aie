@@ -1,0 +1,17 @@
+{
+  "id": "2152",
+  "code": "DFP-BTO",
+  "SMILES": "O=S1(C2=C(C=CC=C2)C(C3=CC=C(F)C=C3)=C1C4=CC=C(F)C=C4)=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "439",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DFP-BTO\",\n    \"where_found\": \"Table 1, page 4\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 439,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, page 4\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid\"\n  },\n  \"notes\": \"Target code 'DFP-BTO' is explicitly listed in Table 1. The table provides λ_em(solid) = 439 nm. No explicit aggregate emission data (e.g., THF/water mixture spectra or λ_em(agg) values) are reported for DFP-BTO in the provided text. The paper discusses aggregate PL behavior for some compounds (e.g., DBP-BTO, o-DMP-BTO, DTPA-BTO) in THF/water mixtures (Fig. 3), but DFP-BTO is not mentioned in that context. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T04:33:58"
+}

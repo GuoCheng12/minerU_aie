@@ -1,0 +1,17 @@
+{
+  "id": "2403",
+  "code": "aT-PIO",
+  "SMILES": "O=P(C1=CC=CC=C1)(C2=C3C=CC=C2)C(C4=CC=CS4)=C3C5=CC=CS5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "521",
+  "emission_aggr": "440",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"αT-PIO\",\n    \"where_found\": \"Table 1, Scheme 1, Fig. 5, narrative text\"\n  },\n  \"emission_aggr_nm\": 440,\n  \"emission_solid_or_film_nm\": 521,\n  \"evidence\": {\n    \"aggr_source\": \"Fig 5 / page 12-13 narrative\",\n    \"solid_or_film_source\": \"Table 1 / page 12 narrative\",\n    \"conditions_aggr\": \"THF/water mixture with fw = 90%\",\n    \"conditions_solid_or_film\": \"Drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Code match: 'αT-PIO' (equivalent to target 'aT-PIO') appears extensively in tables, figures, and text. Aggregated emission peak (440 nm) explicitly reported for THF/water mixture at fw = 90% (Fig 5 / page 12-13). Solid/film emission peak (521 nm) from Table 1 for drop-casted film. Both values are directly stated in the provided context.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T11:40:29"
+}

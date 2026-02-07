@@ -1,0 +1,17 @@
+{
+  "id": "1998",
+  "code": "FKP-PTA",
+  "SMILES": "O=C(C1=CC=C(C(C=CC=C2)=C2C3(CCC(C)CCCC(C)C)CCC(C)CCCC(C)C)C3=C1)C4=CC=C(N5C6=CC=CC=C6SC7=C5C=CC=C7)C=C4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "537",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"FKP-PTA\",\n    \"where_found\": \"Figure 1, Figure 2, Figure 4, Results and Discussion section, multiple mentions throughout text\"\n  },\n  \"emission_aggr_nm\": 537,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Page 3, Results and Discussion: 'bright yellow PL of FKP-POA and FKP-PTA was observed at 529 and 537 nm, respectively (Figure 1a,b)'\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"THF/water mixtures with high water fractions (aggregate condition)\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'FKP-PTA' is explicitly mentioned multiple times in the text. Emission at 537 nm is reported for FKP-PTA in THF/water mixtures (aggregate condition). No explicit solid-state, powder, crystal, or thin-film emission data is found in the provided context. The emission from nanoparticles (NPs) at 540 nm (mentioned in Chunks 2 & 3) is also an aggregate condition (nanoaggregates), but the 537 nm value from the initial aggregate formation in THF/water is chosen as the primary aggregated-state emission peak as it is the first and clearest aggregate emission report. Solid/film emission is not reported.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T21:21:03"
+}

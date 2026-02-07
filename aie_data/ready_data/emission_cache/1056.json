@@ -1,0 +1,17 @@
+{
+  "id": "1056",
+  "code": "(Z)-o-BBPTPE",
+  "SMILES": "c1(c2ccccc2c(C3=CC=CC=C3)=C(C4=CC=CC=C4)c5ccccc5c6ccc(c7ccccc7)cc6)ccc(c8ccccc8)cc1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "472",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"(Z)-o-BBPTPE\",\n    \"where_found\": \"Table 1, Scheme 1, page 2 (text)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 472,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Target code '(Z)-o-BBPTPE' is explicitly listed in Table 1 and mentioned in Scheme 1/text. Table 1 provides emission values for 'sol' (THF solution), 'film', and 'crystal'. The film emission (λ_em(nm) film column) is 472 nm. No explicit aggregate condition (e.g., THF/water mixture, nanoaggregate) is reported for (Z)-o-BBPTPE in the provided content. The aggregate discussion and spectra (e.g., Figure 3, Figure S11) focus on other compounds like f-4Ph(Me). Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:48:27"
+}

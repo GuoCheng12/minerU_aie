@@ -1,0 +1,17 @@
+{
+  "id": "1792",
+  "code": "TPP-PDCV",
+  "SMILES": "N#C/C(C#N)=CC1=CC=C(C(C=C2)=CC=C2C3=C(C4=CC=CC=C4)N=C(C5=CC=CC=C5)C(C6=CC=CC=C6)=N3)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "545",
+  "emission_aggr": "511",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPP-PDCV\",\n    \"where_found\": \"Throughout paper: Abstract, Scheme 1, Figure captions, Table 1, narrative text\"\n  },\n  \"emission_aggr_nm\": 511,\n  \"emission_solid_or_film_nm\": 545,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 2 & narrative text on page 5\",\n    \"solid_or_film_source\": \"Table 1 & narrative text on page 4\",\n    \"conditions_aggr\": \"DMSO/water mixture with fw = 50%\",\n    \"conditions_solid_or_film\": \"Powder B (crystalline powder obtained from toluene recrystallization)\"\n  },\n  \"notes\": \"Code 'TPP-PDCV' is explicitly found throughout the paper. For aggregated-state emission: The paper states that at fw = 50% in DMSO/water mixtures, an emission peak emerges at 511 nm, and molecular aggregation is explicitly mentioned as occurring at fw ≥ 50%. This qualifies as an explicit aggregate condition. For solid/film emission: Table 1 reports λem for 'Powder B' as 545 nm. Powder B is a crystalline solid (powder), qualifying as solid-state emission. The value 545 nm is not reused for the aggregate condition; the aggregate condition uses the 511 nm value from the solvent mixture experiment.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:18:06"
+}

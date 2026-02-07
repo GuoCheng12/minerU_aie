@@ -1,0 +1,17 @@
+{
+  "id": "2032",
+  "code": "tp8",
+  "SMILES": "COC1=CC=C(/C(C2=CC=C(OC)C=C2)=C(C3=CC=CC=C3)/C4=CC=C(C5=CC=C(/C(C6=CC=CS6)=C(C#N)/C#N)C=C5)C=C4)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "660",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TP8\",\n    \"where_found\": \"Multiple mentions in text (pages 3-5), Figure 2 label, and series TP1-TP8\"\n  },\n  \"emission_aggr_nm\": 660,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Page 5, final summary paragraph\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"aggregate state (explicitly stated)\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'TP8' is explicitly mentioned throughout the paper as part of series TP1-TP8. The emission maximum of 660 nm is explicitly stated for TP8 in aggregate state in the summary (page 5). No explicit solid/film emission measurement is reported for TP8 specifically; only aggregate emission is mentioned. The DMSO/water (v/v = 1/99) condition mentioned for TP1-TP8 in Figure 2 is an explicit aggregate condition, but the specific 660 nm value for TP8 is given in the narrative summary without specifying the exact solvent condition, though it refers to aggregate state emission.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T00:05:25"
+}

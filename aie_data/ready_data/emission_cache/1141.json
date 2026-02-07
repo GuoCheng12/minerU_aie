@@ -1,0 +1,17 @@
+{
+  "id": "1141",
+  "code": "DFDEATPE",
+  "SMILES": "CCN(CC)C(C=C1)=CC=C1/C(C2=CC=C(N(CC)CC)C=C2)=C(C3=CC=C(F)C=C3)\\C4=CC=C(F)C=C4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "487",
+  "emission_aggr": "480",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DFDEATPE\",\n    \"where_found\": \"Throughout text (pages 3-8), Scheme 1, Fig. 4, Fig. 5, Fig. 9\"\n  },\n  \"emission_aggr_nm\": 480,\n  \"emission_solid_or_film_nm\": 487,\n  \"evidence\": {\n    \"aggr_source\": \"Fig. 5 / page 5 text: 'in the 60% aqueous mixture... displaying a single LE emission peak at 480 nm'\",\n    \"solid_or_film_source\": \"page 5 text: 'single crystals of DFDEATPE present predominantly LE emissions at... 487 nm'\",\n    \"conditions_aggr\": \"THF/water mixture with fw = 60%\",\n    \"conditions_solid_or_film\": \"single crystal\"\n  },\n  \"notes\": \"Code 'DFDEATPE' appears explicitly throughout the paper. For aggregated emission: The text states that in the 60% aqueous mixture (aggregation condition), a single LE emission peak appears at 480 nm. This qualifies as an explicit aggregate condition (THF/water mixture inducing aggregation). For solid/film emission: The single crystal emission is explicitly reported as 487 nm. Other solid-state values (e.g., ground powders at 490 nm, as-prepared crystalline solids at 467/481 nm) exist, but the single crystal value is the most fundamental solid-state measurement and is explicitly reported.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:01:48"
+}

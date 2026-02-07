@@ -1,0 +1,17 @@
+{
+  "id": "2350",
+  "code": "DBP-DPy",
+  "SMILES": "C1(C2=C(C(C3=C(C=CC4=CC=C5)C(C4=C5C=C6)=C6C=C3)C(C(C=C7)=C8C=CC9=CC=CC%10=C9C8=C7C=C%10)C%11=CC=CC=C%11C%12=CC=CC=C%12)C=CC=C2)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "502",
+  "emission_aggr": "468",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DBP-DPy\",\n    \"where_found\": \"Table 1, page 5 narrative, Fig. 5/6 captions, SI synthesis section\"\n  },\n  \"emission_aggr_nm\": 468,\n  \"emission_solid_or_film_nm\": 502,\n  \"evidence\": {\n    \"aggr_source\": \"Page 5 narrative and Fig. 5C caption\",\n    \"solid_or_film_source\": \"Table 1 (Film column) and page 5 narrative\",\n    \"conditions_aggr\": \"THF/water mixture at high water fraction (aggregate condition)\",\n    \"conditions_solid_or_film\": \"Drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Code 'DBP-DPy' is explicitly found throughout the paper (Table 1, synthesis, figures). For aggregated emission: Page 5 states emission red-shifts to 468 nm at high water fraction in THF/water mixture (Fig. 5C), which is an explicit aggregate condition. For solid/film emission: Table 1 reports λ_em(film) = 502 nm for DBP-DPy (drop-casted film). Page 5 also mentions film emission at 503 nm, consistent with table. No leakage between aggregate and solid values.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T10:36:30"
+}

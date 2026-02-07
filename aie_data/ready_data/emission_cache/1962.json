@@ -1,0 +1,17 @@
+{
+  "id": "1962",
+  "code": "TPA-TQ1",
+  "SMILES": "C1(N(C2=CC=CC=C2)C3=CC=C(C4=C(N=CC=N5)C5=C(C6=CC=C(N(C7=CC=CC=C7)C8=CC=CC=C8)C=C6)C9=NSN=C94)C=C3)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPA-TQ1\",\n    \"where_found\": \"Throughout text, e.g., Figure 1a, Table S1, Figure S14-S16, Figure 3\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule TPA-TQ1 is explicitly mentioned multiple times (code_match). However, no explicit emission peak wavelengths in nm are provided for TPA-TQ1 under the required strict conditions. The PL spectra in aggregate states (THF/water mixtures) are discussed qualitatively (Figure S16) but no numerical peak values are given for TPA-TQ1. The PL spectra of TPA-TQ1-3 NPs (nanoparticles, an aggregated form) are shown in Figure 3c with maxima 'at about 820 nm', but this is a collective statement for all three compounds, not a specific value for TPA-TQ1. No solid-state or film emission peak is reported for TPA-TQ1 individually. Therefore, both emission fields must be set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T18:41:01"
+}

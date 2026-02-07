@@ -1,0 +1,20 @@
+{
+  "id": "2122",
+  "code": "TPE-DTAB",
+  "SMILES": "CCCCCCCCOC(C=C1)=CC=C1/C(C2=CC=CC=C2)=C(C3=CC=C(C=C3)OCCCC[N+](C)(C)C)C4=CC=CC=C4.[Br-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-DTAB\",\n    \"where_found\": \"Throughout text (e.g., page 2, page 3, page 6), Figure 2 caption, synthesis section\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 490.0,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Figure 3d / page 3\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"TPE-DTAB-modified MMT powder (solid state)\"\n  },\n  \"notes\": \"Code 'TPE-DTAB' is explicitly mentioned throughout the paper. Emission at 490 nm is reported for TPE-DTAB surfactant solution (likely below CMC, not aggregated) and for TPE-DTAB-modified MMT powder (solid state). No explicit aggregate condition (e.g., THF/water mixture, nanoaggregate, Em(agg)) is reported for the pure compound. Therefore, emission_aggr_nm is set to null per anti-leakage rule. Emission_solid_or_film_nm is extracted from the solid-state measurement on the modified MMT powder.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "solid:not_in_final_context"
+  ],
+  "timestamp": "2026-02-07T03:51:16"
+}

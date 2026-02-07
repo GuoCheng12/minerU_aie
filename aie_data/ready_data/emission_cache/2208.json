@@ -1,0 +1,17 @@
+{
+  "id": "2208",
+  "code": "f-TPE-[2]BTh",
+  "SMILES": "C(/C1=C(C2=CC(C=CC=C3)=C3S2)C=CC=C1)(C4=CC=CC=C4)=C(C5=CC=CC=C5C6=CC(C=CC=C7)=C7S6)C8=CC=CC=C8",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "462",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-TPE-[2]BTh\",\n    \"where_found\": \"Table 2 (page 10-11), narrative text (pages 9-10, 11-12)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 462,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 2, column 'Film'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-casted film on a quartz plate at RT\"\n  },\n  \"notes\": \"Code 'f-TPE-[2]BTh' is explicitly listed in Table 2 and mentioned multiple times in the text, providing a high-confidence match. Table 2 reports a solid-state emission peak of 462 nm for 'f-TPE-[2]BTh' under the 'Film' condition. While the text (Chunk 1) discusses aggregated-state emission properties and THF/water mixtures for the series, no explicit aggregated-state emission wavelength is reported for the specific target 'f-TPE-[2]BTh' in the provided content. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T06:44:09"
+}

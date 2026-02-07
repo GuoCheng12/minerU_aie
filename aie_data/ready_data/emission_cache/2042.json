@@ -1,0 +1,17 @@
+{
+  "id": "2042",
+  "code": "2N-DPAS",
+  "SMILES": "OC(C=CC=C1)=C1/C=N/N=C(C2=CC=C(N(CC)CC)C=C2)/C3=CC=C(N(CC)CC)C=C3",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "545",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"2N-DPAS\",\n    \"where_found\": \"Table 1, Fig. 2, Fig. 3, narrative text\"\n  },\n  \"emission_aggr_nm\": 545,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Table 1 (Aggregation (fw = 95%) column), Fig. 3C narrative (fw = 90%)\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"THF/water mixture, fw = 95% (Table 1) / fw = 90% (Fig. 3C narrative)\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code '2N-DPAS' is explicitly listed in Table 1 and throughout the text. Table 1 provides an emission value (545 nm) under the 'Aggregation (fw = 95%)' column, satisfying the strict aggregate condition rule. The narrative (Chunk 3) also confirms the K-emission peak at 545 nm in THF/water mixtures (aggregate state). No explicit solid-state, powder, crystal, or film emission data is reported for 2N-DPAS in the provided context. The 'Solid' column in Table 1 contains PLQY values, not emission wavelengths.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T00:29:33"
+}

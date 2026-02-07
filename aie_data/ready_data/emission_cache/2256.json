@@ -1,0 +1,17 @@
+{
+  "id": "2256",
+  "code": "TPE4Mes",
+  "SMILES": "CCCCCC(CC1)CCC1C(C=C2)=CC=C2C#CC(C=C3)=CC=C3OCCCCCCCCCCCCOC(C=C4)=CC=C4/C(C5=CC=C(OCCCCCCCCCCCCOC6=CC=C(C#CC7=CC=C(C8CCC(CCCCC)CC8)C=C7)C=C6)C=C5)=C(C9=CC=C(OCCCCCCCCCCCCOC%10=CC=C(C#CC%11=CC=C(C%12CCC(CCCCC)CC%12)C=C%11)C=C%10)C=C9)C%13=CC=C(OCCCCCCCCCCCCOC%14=CC=C(C#CC%15=CC=C(C%16CCC(CCCCC)CC%16)C=C%15)C=C%14)C=C%13",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "380",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE4Mes\",\n    \"where_found\": \"Throughout text (e.g., page 2, Scheme 1, Fig. 1 caption)\"\n  },\n  \"emission_aggr_nm\": 380,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Fig. 1 and page 2 text\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"THF/water mixture with fw=90% (nanosuspension/aggregate)\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Code 'TPE4Mes' is explicitly mentioned throughout the paper (Scheme 1, Fig. 1, text). For aggregated-state emission, the text states: 'upon aggregation, TPE4Mes nanosuspensions exhibit a peak ... at 380 nm' and refers to PL in 10/90 THF/water mixture (fw=90%), which is an explicit aggregate condition. The paper mentions solid film quantum yield (Φ_F,f = 67.4%) but does NOT report a specific emission peak wavelength for the solid film or powder. Only visual observation of 'strong light' from solids is mentioned, no numerical λ_em,max for solid/film is provided. Therefore, emission_solid_or_film_nm is set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T08:36:09"
+}

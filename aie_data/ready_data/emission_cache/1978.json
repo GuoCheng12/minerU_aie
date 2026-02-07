@@ -1,0 +1,17 @@
+{
+  "id": "1978",
+  "code": "DPA-TPE-SCP",
+  "SMILES": "N#C/C(C1=CC=C(C2=CC=[N+](C)C=C2)C=C1)=CC(C=C3)=CC=C3/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)/C(C=C6)=CC=C6N(C7=CC=CC=C7)C8=CC=CC=C8.F[P-](F)(F)(F)(F)F",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "638",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DPA-TPE-SCP\",\n    \"where_found\": \"Chunk 1 (Figure 1 caption), Chunk 2 (photophysical properties section), Chunk 5, Chunk 8\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 638,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Chunk 2: 'The PL quantum yields (QYs) of DPA-TPE-SCP... in the solid state' and 'gradual red-shifting maximum emission wavelengths are located at 628, 630, and 638 nm'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Target code 'DPA-TPE-SCP' is explicitly mentioned multiple times in the text (Figure 1 caption, photophysical properties section, etc.). An emission maximum of 638 nm is reported for DPA-TPE-SCP in the context of solid-state PL quantum yields. While aggregation (AIE) in DMSO/toluene mixtures is discussed, no explicit emission peak wavelength for the aggregated state is provided in the given context; only PL intensity enhancement is mentioned. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T19:50:10"
+}

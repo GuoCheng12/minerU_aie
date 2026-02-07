@@ -1,0 +1,17 @@
+{
+  "id": "1774",
+  "code": "MTPE-M",
+  "SMILES": "COC1=CC=C(/C(C2=CC=CC=C2)=C(C3=CC=C(C4=CC=C(/C=C(C#N)C#N)C=C4)C=C3)C5=CC=C(OC)C=C5)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "595",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"MTPE-M\",\n    \"where_found\": \"Throughout text (e.g., Scheme 1, Fig. S5, narrative)\"\n  },\n  \"emission_aggr_nm\": 595,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Fig. S5 and page 3 narrative\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"DMSO/water mixture with water fraction increased from 50 to 99 vol%\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Code 'MTPE-M' is explicitly mentioned multiple times as the probe/nanoprobe. The AIE behavior is studied in DMSO/water mixtures (Fig. S5), with emission at 595 nm sharply enhanced at high water fractions (50-99 vol%), which is an explicit aggregate condition (solvent mixture causing aggregation). No data for solid state, powder, crystal, or thin film emission is reported in the provided context.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:13:01"
+}

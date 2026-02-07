@@ -1,0 +1,17 @@
+{
+  "id": "2200",
+  "code": "f-TPE-Py",
+  "SMILES": "C(/C1=CC=CC=C1)(c2ccccc2c3ccncc3)=C(C4=CC=CC=C4)c5c(c6ccncc6)cccc5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-TPE-Py\",\n    \"where_found\": \"Figure 1A, Figure 2A, narrative text (pages 2-4)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target code 'f-TPE-Py' is explicitly mentioned multiple times in figures and text (e.g., Figure 1A, Figure 2A, pages 2-4). However, the provided context only reports photoluminescence (PL) spectra in various pure solvents (e.g., 1,4-dioxane, THF, DMF, MeCN) with peaks around 480 nm. No explicit aggregate conditions (e.g., solvent mixtures like THF/water, nanoaggregates) are mentioned for f-TPE-Py. Also, no solid-state, film, powder, or crystal emission data for f-TPE-Py is reported in the provided chunks. Therefore, both emission_aggr_nm and emission_solid_or_film_nm must be set to null per the strict anti-leakage rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T06:14:49"
+}

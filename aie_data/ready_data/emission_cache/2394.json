@@ -1,0 +1,17 @@
+{
+  "id": "2394",
+  "code": "DNDPE",
+  "SMILES": "C(/C1=CC=CC=C1)(C2=CC(C=CC=C3)=C3C=C2)=C(C4=CC=CC=C4)/C5=CC(C=CC=C6)=C6C=C5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "491",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DNDPE\",\n    \"where_found\": \"Table 1, Table 2, page 3-4 narrative\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 491,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λem/nm Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Film drop-casted on quartz plate\"\n  },\n  \"notes\": \"Code 'DNDPE' is explicitly listed in Table 1 and Table 2. Table 1 provides a solid-state/film emission peak of 491 nm for DNDPE (drop-cast film). While the paper discusses AIE behavior in THF/water mixtures for the series (e.g., TNE shows aggregate emission at 492 nm in fw ≥ 70%), no explicit aggregate emission wavelength is reported for DNDPE itself in the provided text. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T11:17:00"
+}

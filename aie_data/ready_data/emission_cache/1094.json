@@ -1,0 +1,17 @@
+{
+  "id": "1094",
+  "code": "m2Cz-TAn-CN",
+  "SMILES": "CC(C)C1=CC2=C(C=C1)C(C3=CC=C(C#N)C=C3)=C4C(C=CC(C(C)C)=C4)=C2C5=CC(N6C7=C(C=CC=C7)C8C6C=CC=C8)=CC(N9C%10=C(C=CC=C%10)C%11=C9C=CC=C%11)=C5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "454",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"m2Cz-TAn-CN\",\n    \"where_found\": \"Table 1, Fig. 1, Scheme 1, and throughout text (e.g., pages 2, 3, 6)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 454,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λem(nm)/Solna/filmb column, film value)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Neat solid film obtained by vacuum-deposition\"\n  },\n  \"notes\": \"Target code 'm2Cz-TAn-CN' is explicitly found multiple times. Table 1 provides emission in THF solution (438 nm) and in neat solid film (454 nm). No explicit aggregate condition (e.g., THF/water mixture, nanoaggregate) is mentioned for emission measurements; only solution and neat film data are reported. Therefore, emission_aggr_nm is set to null per anti-leakage rule, and emission_solid_or_film_nm is extracted from the film value.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:57:20"
+}

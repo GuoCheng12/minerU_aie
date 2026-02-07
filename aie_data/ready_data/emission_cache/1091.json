@@ -1,0 +1,17 @@
+{
+  "id": "1091",
+  "code": "(Z)-o-BCaPTPE",
+  "SMILES": "C1(/C(C2=CC=CC=C2C3=CC=C(N4C(C=CC=C5)=C5C6=C4C=CC=C6)C=C3)=C(C7=C(C8=CC=C(N9C(C=CC=C%10)=C%10C%11=C9C=CC=C%11)C=C8)C=CC=C7)\\C%12=CC=CC=C%12)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "477",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"(Z)-o-BCaPTPE\",\n    \"where_found\": \"Table 1, Figure 2a, narrative text (pages 1-6)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 477,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Film\"\n  },\n  \"notes\": \"Target code '(Z)-o-BCaPTPE' is explicitly mentioned throughout the paper (Table 1, Figure 2a, etc.). Table 1 provides a clear emission value for 'Film' (477 nm). While Figure 2a and narrative text discuss PL in THF/water mixtures (aggregate conditions), no explicit emission peak wavelength for the aggregated state is reported in the provided text; only a qualitative description of emission increase and blue-shift is given. Therefore, emission_aggr_nm must be set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:56:44"
+}

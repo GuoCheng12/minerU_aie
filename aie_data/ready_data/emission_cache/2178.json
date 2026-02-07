@@ -1,0 +1,17 @@
+{
+  "id": "2178",
+  "code": "DCSBF-BP-PXZ",
+  "SMILES": "O=C(C1=CC=C(N(C2=CC=C(C(C=CC(N3C(C=CC=C4)=C4C5=C3C=CC=C5)=C6)=C6C78C9=CC=CC=C9C%10=C8C=CC=C%10)C7=C2)C%11=C%12C=CC=C%11)C%12=C1)C%13=CC=C(N%14C(C=CC=C%15)=C%15OC%16=C%14C=CC=C%16)C=C%13",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "527",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DCSBF-BP-PXZ\",\n    \"where_found\": \"Table 1, Table 2, and narrative text (e.g., pages 4, 5, 6)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 527,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column), Table 2 (Neat film row)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Neat film (deposited on quartz substrate)\"\n  },\n  \"notes\": \"Target molecule DCSBF-BP-PXZ is explicitly named in tables and text (code_match). Table 1 reports a film emission peak at 527 nm. While the paper discusses aggregation-induced emission in THF/water mixtures (e.g., page 5), no explicit emission wavelength for DCSBF-BP-PXZ under aggregate conditions is provided in the given context. Only general trends (blue-shift, enhanced intensity) are described. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T05:42:08"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1795",
+  "code": "TPP-o-TPE",
+  "SMILES": "C1(C2=CC=CC=C2)=C(C(C=CC=C3)=C3/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)/C6=CC=CC=C6)N=C(C7=CC=CC=C7)C(C8=CC=CC=C8)=N1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "454",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPP-o-TPE\",\n    \"where_found\": \"Table 1, Figure 3 caption, narrative text (pages 3-5)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 454,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"film (coated on quartz sheet)\"\n  },\n  \"notes\": \"Target code 'TPP-o-TPE' is explicitly mentioned multiple times in tables, figures, and text. Table 1 provides λ_em[nm] = 454 for films. While the paper discusses nanoaggregates in THF/water mixtures (e.g., fw=90%) and shows PL spectra for aggregates (Figure 3, Figure 7), no explicit emission peak wavelength (nm) for the aggregated state of TPP-o-TPE is numerically reported in the provided text/table chunks. The narrative states film emission results are consistent with nanoaggregates, but the anti-leakage rule prohibits using the film value (454 nm) as emission_aggr_nm. Therefore, emission_aggr_nm is set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:19:04"
+}

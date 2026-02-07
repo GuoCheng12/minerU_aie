@@ -1,0 +1,17 @@
+{
+  "id": "1911",
+  "code": "DPASI",
+  "SMILES": "C[N+](C=C1)=CC=C1/C=C/C(C=C2)=CC=C2N(C3=CC=CC=C3)C4=CC=CC=C4.[I-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DPASI\",\n    \"where_found\": \"Throughout text, e.g., page 5 (Synthesis and characterization), Fig. 2, Table S1 (implied)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'DPASI' is found explicitly and frequently throughout the paper (e.g., synthesis, characterization, PL measurements). However, while the paper discusses AIE properties and shows PL spectra in solvent mixtures (DMSO/Toluene, DMSO/Water), it does not explicitly report a single emission peak wavelength for an aggregated state (e.g., 'Em(agg)' or a peak at a specific high f_w). Figure 2C shows spectra in DMSO/Water mixtures, but no peak value is given in the text for the aggregated condition. The paper mentions a PLQY in 'thin film mode' but does not report the corresponding emission peak wavelength for the solid/film state. Therefore, both required emission values are unavailable under the strict extraction rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:36:58"
+}

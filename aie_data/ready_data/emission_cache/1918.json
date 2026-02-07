@@ -1,0 +1,17 @@
+{
+  "id": "1918",
+  "code": "Si-tPE",
+  "SMILES": "C(/C1=CC=CC=C1)(C(C=C2)=CC3=C2C(C=CC(/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)/C6=CC=CC=C6)=C7)=C7[Si]3(C8=CC=CC=C8)C9=CC=CC=C9)=C(C%10=CC=CC=C%10)/C%11=CC=CC=C%11",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "496",
+  "emission_aggr": "498",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"Si-tPE\",\n    \"where_found\": \"Table 1, Figure 8, narrative text (multiple instances)\"\n  },\n  \"emission_aggr_nm\": 498,\n  \"emission_solid_or_film_nm\": 496,\n  \"evidence\": {\n    \"aggr_source\": \"Table 1, column 'PL λmax(ajgr)g(nm)'\",\n    \"solid_or_film_source\": \"Table 1, column 'PL λmax(film)(nm)'\",\n    \"conditions_aggr\": \"THF:H₂O = 1:99 solution (fw = 99%)\",\n    \"conditions_solid_or_film\": \"spin-coated thin film\"\n  },\n  \"notes\": \"Target code 'Si-tPE' is explicitly listed in Table 1 and throughout the text. Table 1 provides both aggregated-state PL (498 nm, measured in THF/water fw=99%) and film PL (496 nm). Figure 8 also references solid thin film PL spectra. The aggregated emission condition is explicitly defined in the table footnote as THF:H₂O = 1:99, meeting the strict definition for emission_aggr_nm.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:38:32"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2114",
+  "code": "TPCI",
+  "SMILES": "[CH2-][N+](C=C1)=CC=C1C(C=C2)=CC=C2N(C3=CC=C(C4=CC=[N+](C)C=C4)C=C3)C(C=C5)=CC=C5/C=C(C#N)/C6=CC=C(/C(C#N)=C/C7=CC=C(N(C8=CC=C(C9=CC=[N+](C)C=C9)C=C8)C%10=CC=C(C%11=CC=[N+]([CH2-])C=C%11)C=C%10)C=C7)C=C6.[I].[I-].[I].[I-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPCI\",\n    \"where_found\": \"Throughout text (e.g., page 2, 4, 10), synthesis section, Figure 2 caption\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule 'TPCI' is explicitly mentioned numerous times in the provided text (code_match). However, no explicit emission peak wavelengths (λ_em,max) are reported in the provided chunks. While there is discussion of fluorescence increase upon aggregation with ctDNA (Figure 2D), no specific emission maximum value in nm is given. No data for solid/film emission is provided. Therefore, both emission fields must be set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T03:29:35"
+}

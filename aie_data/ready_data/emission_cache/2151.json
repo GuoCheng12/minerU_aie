@@ -1,0 +1,17 @@
+{
+  "id": "2151",
+  "code": "DMOP-BTO",
+  "SMILES": "O=S1(C2=C(C=CC=C2)C(C3=CC=C(OC)C=C3)=C1C4=CC=C(OC)C=C4)=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "466",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DMOP-BTO\",\n    \"where_found\": \"Table 1, page 4; narrative text pages 4-5\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 466,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (solid column), page 4; narrative page 5\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Code 'DMOP-BTO' is explicitly found in Table 1 and narrative text, providing a clear identity match. Table 1 reports a solid-state emission peak of 466 nm. While the paper discusses aggregate-state PL behavior (e.g., THF/water mixtures) and shows PL spectra for some compounds (Fig. 3), no explicit aggregate emission peak value for DMOP-BTO is provided in the given text or table. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T04:30:36"
+}

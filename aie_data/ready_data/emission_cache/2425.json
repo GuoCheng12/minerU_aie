@@ -1,0 +1,17 @@
+{
+  "id": "2425",
+  "code": "TPECa",
+  "SMILES": "N1(C(C=CC=C2)=C2C3=C1C=CC=C3)C4=CC=C(C=C4)/C(C5=CC=CC=C5)=C(C6=CC=CC=C6)/C7=CC=CC=C7",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "468",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPECa\",\n    \"where_found\": \"Table 1, page 3 (data for comparison from ref. 6d)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 468,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, page 3 (Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-casted film\"\n  },\n  \"notes\": \"Target code 'TPECa' is explicitly listed in Table 1 as a reference compound from a previous paper (ref. 6d). The table provides an emission maximum (λ_em/nm) of 468 nm under the 'Film' condition. No explicit aggregate-state emission data (e.g., THF/water mixture) for TPECa is reported in the provided context; the aggregate PL studies (Fig. 2) are only shown for TPECaP, BTPECaP, and TTPECaP. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T13:04:23"
+}

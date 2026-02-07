@@ -1,0 +1,17 @@
+{
+  "id": "1101",
+  "code": "CZ2TPAN",
+  "SMILES": "CCN(C1=CC=C(C2=CC=C(/C(C#N)=C(C3=CC=CC=C3)\\C4=CC=CC=C4)C=C2)C=C15)C6=C5C=C(C7=CC=C(/C(C#N)=C(C8=CC=CC=C8)\\C9=CC=CC=C9)C=C7)C=C6",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "504",
+  "emission_aggr": "541",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"CZ2TPAN\",\n    \"where_found\": \"Throughout text, Scheme 1, Figure captions, Table 1\"\n  },\n  \"emission_aggr_nm\": 541,\n  \"emission_solid_or_film_nm\": 504,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 2 / page 2 narrative\",\n    \"solid_or_film_source\": \"Figure 4 / page 3 narrative\",\n    \"conditions_aggr\": \"THF/water fw=90% (nanoaggregates)\",\n    \"conditions_solid_or_film\": \"as prepared solid powder (crystalline state)\"\n  },\n  \"notes\": \"Code 'CZ2TPAN' is explicitly mentioned throughout the paper. For aggregated-state emission: PL intensity at 541 nm is reported for THF/water mixture at fw=90%, explicitly described as nanoaggregates. For solid/film emission: The as-prepared solid powder emission maximum is reported as 504 nm. Both values are explicitly stated in the text.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:57:58"
+}

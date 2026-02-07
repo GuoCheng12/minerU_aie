@@ -1,0 +1,17 @@
+{
+  "id": "1828",
+  "code": "MeOTTVP",
+  "SMILES": "C[N+](C)(C)CCC[N+](C=C1)=CC=C1/C=C/C(S2)=CC=C2C(C=C3)=CC=C3N(C4=CC=C(OC)C=C4)C5=CC=C(OC)C=C5.[Br-].[Br-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "750",
+  "emission_aggr": "670",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"MeOTTVP\",\n    \"where_found\": \"Throughout text, Figure 1a (chemical structure), Table S1\"\n  },\n  \"emission_aggr_nm\": 670,\n  \"emission_solid_or_film_nm\": 750,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 1c,d,g; Section 2.1 narrative\",\n    \"solid_or_film_source\": \"Figure 1f; Section 2.1 narrative\",\n    \"conditions_aggr\": \"Water/THF mixtures (aggregation induced by increasing THF fraction) and aqueous solution above CMC (15 μM)\",\n    \"conditions_solid_or_film\": \"Solid powder\"\n  },\n  \"notes\": \"Code 'MeOTTVP' is explicitly found throughout the paper. Emission_aggr_nm = 670 nm is explicitly stated for aqueous solution (Figure 1g) and water/THF mixtures (Figure 1c,d), which are explicit aggregate conditions (AIE feature investigation in solvent mixtures). Emission_solid_or_film_nm = 750 nm is explicitly stated for solid powder (Figure 1f). Both values are directly reported.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:24:16"
+}

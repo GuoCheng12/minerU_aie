@@ -1,0 +1,17 @@
+{
+  "id": "2401",
+  "code": "TCzP-BDT",
+  "SMILES": "CCC(CCCC)COC1=C2C(C=C(C(C=C3)=CC=C3N4C5=C(C=C(C(C)(C)C)C=C5)C6=C4C=CC(C(C)(C)C)=C6)S2)=C(OCC(CCCC)CC)C7=C1C=C(S7)C(C=C8)=CC=C8N9C%10=C(C=C(C(C)(C)C)C=C%10)C%11=C9C=CC(C(C)(C)C)=C%11",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "606",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TCzP-BDTO\",\n    \"where_found\": \"Table 1, pages 2-3 (text listing), page 7 (text)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 606,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Solid column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid\"\n  },\n  \"notes\": \"Target code 'TCzP-BDTO' is explicitly listed in Table 1 and in the text on pages 2-3 and 7. Table 1 provides emission in THF (612 nm) and in the solid state (606 nm). No explicit aggregate condition data (e.g., THF/water mixture) is reported for TCzP-BDTO in the provided context. The solid-state emission is clearly labeled 'Solid' in the table. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T11:31:34"
+}

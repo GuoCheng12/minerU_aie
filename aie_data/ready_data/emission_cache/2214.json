@@ -1,0 +1,17 @@
+{
+  "id": "2214",
+  "code": "α-TPA-PIO",
+  "SMILES": "O=P1(OCC)C(C2=CC=C(N(C3=CC=CC=C3)C4=CC=CC=C4)C=C2)=C(C5=CC=NC=C5)C6=CC=CC=C61",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "576",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"α-TPA-PIO\",\n    \"where_found\": \"Throughout text, e.g., page 3, Table S1, Fig. 2A\"\n  },\n  \"emission_aggr_nm\": 576,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Page 4, Fig. 2A caption and narrative: 'In aggregates, α-TPA-PIO and β-TPA-PIO show PL peaks at 576 and 563 nm'\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"PBS with 1 vol% DMSO (explicit aggregate condition)\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'α-TPA-PIO' is explicitly mentioned multiple times. An aggregated-state emission peak of 576 nm is explicitly reported for aggregates formed in PBS with 1 vol% DMSO. No explicit emission value for solid state or thin film is found in the provided context; only aggregated and solution data are present. Therefore, emission_solid_or_film_nm is set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T07:16:07"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2161",
+  "code": "DBT-BZ-DMAC",
+  "SMILES": "O=C(C1=CC(C(C=CC=C2)=C2S3)=C3C=C1)C4=CC=C(N5C(C=CC=C6)=C6C(C)(C)C7=C5C=CC=C7)C=C4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "505",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DBT-BZ-DMAC\",\n    \"where_found\": \"Throughout text (e.g., pages 2, 3), Table 1, Figure captions\"\n  },\n  \"emission_aggr_nm\": 509,\n  \"emission_solid_or_film_nm\": 505,\n  \"evidence\": {\n    \"aggr_source\": \"Page 3, text describing THF/water nanoaggregates; Figure 3B implied\",\n    \"solid_or_film_source\": \"Page 3, text describing neat film; Table 1 (Neat film column)\",\n    \"conditions_aggr\": \"THF/water mixture, nanoaggregates formed (high water fraction implied)\",\n    \"conditions_solid_or_film\": \"Neat film on quartz plate by vacuum deposition\"\n  },\n  \"notes\": \"Code 'DBT-BZ-DMAC' is explicitly mentioned throughout the paper. Aggregated emission peak (509 nm) is explicitly stated for nanoaggregates in THF/water mixture. Solid/film emission peak (505 nm) is explicitly stated for the neat film in text and confirmed in Table 1. Both values are directly reported and meet the strict condition definitions.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:aggr:not_in_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-07T05:10:12"
+}

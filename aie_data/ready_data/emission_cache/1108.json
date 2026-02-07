@@ -1,0 +1,17 @@
+{
+  "id": "1108",
+  "code": "TPEBAn",
+  "SMILES": "C1(/C(C2=CC=CC=C2)=C(C3=CC=CC=C3)/C4=CC=C(C5=C(C=CC=C6)C6=CC7=C5C=CC=C7)C=C4)=CC=C(C8=C(C=CC=C9)C9=CC%10=C8C=CC=C%10)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "486",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPEBAn\",\n    \"where_found\": \"Table 1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 486,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Target code 'TPEBAn' is explicitly listed in Table 1. The table provides λ_em(nm)Film = 486 nm for TPEBAn, satisfying the solid/film condition. While the paper discusses aggregation-induced emission (AIE) and shows PL spectra in THF/water mixtures (e.g., Figure 2 for TPEBPy), no explicit emission peak wavelength (λ_em,max) for TPEBAn under aggregate conditions (e.g., in THF/water mixtures) is reported in the provided text or tables. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:58:46"
+}

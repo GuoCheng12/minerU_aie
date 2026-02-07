@@ -1,0 +1,17 @@
+{
+  "id": "2059",
+  "code": "BITT",
+  "SMILES": "CC1(C)C2=C(C=CC3=C2C=CC=C3)[N+](CCC[S-](=O)(=O)=O)=C1/C=C/C(S4)=CC=C4C(C=C5)=CC=C5N(C6=CC=CC=C6)C7=CC=CC=C7",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "818",
+  "emission_aggr": "731",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"BITT\",\n    \"where_found\": \"Throughout text (e.g., page 3, Table S2, Scheme 2, Figure 3)\"\n  },\n  \"emission_aggr_nm\": 731,\n  \"emission_solid_or_film_nm\": 818,\n  \"evidence\": {\n    \"aggr_source\": \"Page 3, Table S2 (Supporting Information)\",\n    \"solid_or_film_source\": \"Page 3, Figure 3C\",\n    \"conditions_aggr\": \"Aggregates in ethanol/hexane mixture (95% hexane fraction)\",\n    \"conditions_solid_or_film\": \"Solid state\"\n  },\n  \"notes\": \"Code 'BITT' is explicitly mentioned throughout the paper. Emission in aggregates (731 nm) is explicitly stated in the text with reference to Table S2 and the condition (ethanol/hexane mixture, 95% hexane). Emission in solid state (818 nm) is explicitly stated in the text with reference to Figure 3C. Both values are directly reported emission maxima.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T01:46:16"
+}

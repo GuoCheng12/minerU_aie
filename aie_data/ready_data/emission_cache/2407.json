@@ -1,0 +1,17 @@
+{
+  "id": "2407",
+  "code": "bMT-BTO",
+  "SMILES": "O=S(C1=C2C=CC=C1)(C(C3=C(C)SC(C)=C3)=C2C4=C(C)SC(C)=C4)=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "453",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"βMT-BTO\",\n    \"where_found\": \"Table 1, Scheme 1, Experimental Section (pages 7-8), Figure labels\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 453,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (column 'Film')\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Target code 'βMT-BTO' is explicitly found throughout the paper (Table 1, synthesis section, figures). Table 1 provides emission in THF (465 nm), film (453 nm), and crystal (449 nm). No explicit aggregated-state emission data (e.g., THF/water mixture) is reported for βMT-BTO in the provided context. The paper discusses aggregation for αT-PIO in THF/water (fw=90%), but not for βMT-BTO. Therefore, emission_aggr_nm is set to null per anti-leakage rule. Emission_solid_or_film_nm is taken from the 'Film' column (453 nm).\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T11:57:34"
+}

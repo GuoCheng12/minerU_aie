@@ -1,0 +1,17 @@
+{
+  "id": "2406",
+  "code": "bT-BTO",
+  "SMILES": "O=S(C1=C2C=CC=C1)(C(C3=CSC=C3)=C2C4=CSC=C4)=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "476",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"βT-BTO\",\n    \"where_found\": \"Table 1, Scheme 1, Experimental Section (page 8)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 476,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (column 'λem^a(nm) Film^b')\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Target code 'bT-BTO' not found exactly, but 'βT-BTO' (beta-T-BTO) is present in Table 1, Scheme 1, and synthesis section, which matches the target's structure (2,3-di(thiophen-3-yl)benzo[b]thiophene 1,1-dioxide). No explicit aggregate emission data (e.g., THF/water mixture) is reported for βT-BTO in the provided content. Only film (476 nm) and crystal (466 nm) emission peaks are given in Table 1. Film value is selected for emission_solid_or_film_nm. Emission_aggr_nm is set to null due to lack of explicit aggregate condition data for this compound.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T11:53:12"
+}

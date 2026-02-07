@@ -1,0 +1,17 @@
+{
+  "id": "1937",
+  "code": "TPE-TTMN-TPA",
+  "SMILES": "N#C/C(C#N)=CC(S1)=CC=C1C(C=C2)=CC=C2N(C3=CC=C(N(C4=CC=CC=C4)C5=CC=CC=C5)C=C3)C(C=C6)=CC=C6/C(C7=CC=CC=C7)=C(C8=CC=CC=C8)/C9=CC=CC=C9",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "770",
+  "emission_aggr": "712",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-TTMN-TPA\",\n    \"where_found\": \"Page 3 (multiple mentions), Figure 1 caption, Table S1 (implied)\"\n  },\n  \"emission_aggr_nm\": 712,\n  \"emission_solid_or_film_nm\": 770,\n  \"evidence\": {\n    \"aggr_source\": \"Page 3, paragraph 1: '...emission maxima were respectively red-shifted to...712 nm in aggregates...'\",\n    \"solid_or_film_source\": \"Page 4, paragraph 1: '...photoluminescence spectra of these AIEgens in the solid state peaked at...770 nm...' (Figure 1D)\",\n    \"conditions_aggr\": \"acetonitrile/water mixtures with different water fractions (aggregate/nanoaggregate formation)\",\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Target code 'TPE-TTMN-TPA' is explicitly mentioned multiple times in the text and figures. Emission_aggr_nm = 712 nm is explicitly reported for the aggregate state in acetonitrile/water mixtures. Emission_solid_or_film_nm = 770 nm is explicitly reported for the solid state. Both values are directly extracted from the provided text chunks.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T17:20:31"
+}

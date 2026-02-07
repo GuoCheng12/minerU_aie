@@ -1,0 +1,17 @@
+{
+  "id": "1933",
+  "code": "TTFMN",
+  "SMILES": "N#C/C(C#N)=C/C(O1)=CC=C1C(C=C2)=CC=C2N(C3=CC=CC=C3)C(C=C4)=CC=C4/C(C5=CC=CC=C5)=C(C6=CC=CC=C6)/C7=CC=CC=C7",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TTFMN\",\n    \"where_found\": \"Throughout text, Table S1, Figure 2, synthesis section\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 2B/C/E, Table S1 (implied)\",\n    \"solid_or_film_source\": \"Figure 2D/E\",\n    \"conditions_aggr\": \"ACN/water mixtures with fw=90%\",\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Code 'TTFMN' is explicitly found throughout the paper (Table S1, Figure 2, synthesis). Emission peaks are discussed in the NIR region (>650 nm) for solid state and aggregate state, but specific numerical values for the emission maxima (λ_em,max) are not provided in the given text chunks. The paper states emission maxima fall in the NIR region (>650 nm) in solid state (Fig 2D) and discusses aggregate emission (Fig 2B, fw=90%), but the exact peak wavelengths in nm are not extracted from the provided content. Therefore, both emission values are set to null as per strict extraction rules requiring explicit numerical values.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:59:34"
+}

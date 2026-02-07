@@ -1,0 +1,17 @@
+{
+  "id": "1934",
+  "code": "DAdDMA",
+  "SMILES": "O=C(CCCCCCCOC1=CC(C=O)=C(C=C1C=O)OCCCCCCCC(NC23CC4CC(CC(C3)C4)C2)=O)NC56CC7CC(CC(C6)C7)C5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "479",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DAdDMA\",\n    \"where_found\": \"Chunk 1 (page 2), Chunk 2 (page 2), Figure 1 caption, etc. (mentioned throughout text)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 479,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Chunk 1 (page 2) referencing Figure S8\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Code 'DAdDMA' is explicitly found multiple times in the text. For aggregated-state emission: The paper discusses emission in THF/water mixtures (Figure 1A) and shows enhanced intensity with water addition, but no explicit emission peak wavelength for the aggregated state is provided in the given text chunks. The text mentions emission intensity maxima at 60% water fraction but does not state the corresponding wavelength. Therefore, emission_aggr_nm must be set to null per anti-leakage rule. For solid/film emission: Chunk 1 explicitly states 'its solid emission peak shifts from 466 to 479 nm (Figure S8)', providing a clear solid-state emission value.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T17:05:14"
+}

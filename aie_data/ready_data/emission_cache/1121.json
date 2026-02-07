@@ -1,0 +1,17 @@
+{
+  "id": "1121",
+  "code": "(Z)-o-BBPTPE",
+  "SMILES": "c1(c2ccc(c3ccccc3/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)/c6ccccc6c7ccc(c8ccccc8)cc7)cc2)ccccc1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "472",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"(Z)-o-BBPTPE\",\n    \"where_found\": \"Chunk 1 (page 3), Chunk 3 (Fig. 3 caption), Chunk 5 (page 2)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 472,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Chunk 1 (page 3): 'The film of (Z)-o-BBPTPE shows intense emission with a maximum at 472 nm.'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"film\"\n  },\n  \"notes\": \"Target code '(Z)-o-BBPTPE' is explicitly mentioned multiple times in the text and figure captions. An aggregated-state emission peak is not explicitly reported as a numerical value in the provided chunks. Figure 3 shows PL spectra in THF-water mixtures, but no specific λmax for aggregates is given in the text. Only the film emission peak (472 nm) is explicitly stated. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:00:59"
+}

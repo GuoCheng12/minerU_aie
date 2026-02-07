@@ -1,0 +1,17 @@
+{
+  "id": "1885",
+  "code": "TPETPyP",
+  "SMILES": "C/1=CC%18=NC1=C(C6=CC=[N+](CC5=CC=C(/C(C2=CC=CC=C2)=C(C3=CC=CC=C3)C4=CC=CC=C4)C=C5)C=C6)/C7=CC=C(N7)/C(C%12=CC=[N+](CC%11=CC=C(/C(C8=CC=CC=C8)=C(C9=CC=CC=C9)C%10=CC=CC=C%10)C=C%11)C=C%12)=C/%25N=C(/C(C%17=CC=[N+](CC%16=CC=C(/C(C%13=CC=CC=C%13)=C(C%14=CC=CC=C%14)C%15=CC=CC=C%15)C=C%16)C=C%17)=C/%24N/C(=C%18/C%23=CC=[N+](CC%22=CC=C(/C(C%19=CC=CC=C%19)=C(C%20=CC=CC=C%20)C%21=CC=CC=C%21)C=C%22)C=C%23)C=C%24)C=C%25.[Br-].[Br-].[Br-].[Br-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPETPyP\",\n    \"where_found\": \"Throughout text, Fig. 1 caption, Abstract, Graphical abstract\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'TPETPyP' is explicitly mentioned throughout the paper (e.g., Chunk 1, Fig. 1 caption, Abstract). However, the provided content only reports emission peaks (668 and 723 nm) for TPETPyP in PBS solution (Chunk 1). No explicit aggregate condition (e.g., THF/water mixture, nanoaggregate, Em(agg)) or solid/film state (powder, crystal, spin-coated film) emission data is reported. Therefore, both emission_aggr_nm and emission_solid_or_film_nm must be set to null per the anti-leakage and strict condition rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:32:02"
+}

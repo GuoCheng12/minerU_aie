@@ -1,0 +1,17 @@
+{
+  "id": "2160",
+  "code": "DBT-BZ-PTZ",
+  "SMILES": "O=C(C1=CC(C(C=CC=C2)=C2S3)=C3C=C1)C4=CC=C(N5C(C=CC=C6)=C6SC7=C5C=CC=C7)C=C4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "547",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DBT-BZ-PTZ\",\n    \"where_found\": \"Table 1, Figure 4, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 547,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (neat film column), page 5 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"vacuum-deposited neat film\"\n  },\n  \"notes\": \"Target code 'DBT-BZ-PTZ' is explicitly found in tables and text. Emission for neat film (solid/film) is reported as 547 nm in Table 1 and page 5 narrative. No explicit aggregate emission data (e.g., THF/water mixtures) is reported for DBT-BZ-PTZ; Figure 4C/D and related discussion only cover DBT-BZ-PXZ in THF/water. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T05:05:47"
+}

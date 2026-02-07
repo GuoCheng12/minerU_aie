@@ -1,0 +1,17 @@
+{
+  "id": "2014",
+  "code": "TNZ",
+  "SMILES": "C1(N(C2=CC=C(C3=C(C=CC=C4)C4=CC5=NSN=C53)C=C2)C6=CC=CC=C6)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "635",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TNZ\",\n    \"where_found\": \"Table 1, page 3\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 635,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, page 3\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"neat film, 80 nm\"\n  },\n  \"notes\": \"Target code 'TNZ' found explicitly in Table 1. Table 1 provides a film emission peak of 635 nm for TNZ. The paper discusses aggregation studies (e.g., DMF/water mixtures with different water fractions f_w) and shows AIE activity, but no explicit emission peak wavelength for the aggregated state is reported for TNZ in the provided context. Only relative intensity changes and blue-shift trends are mentioned. Therefore, emission_aggr_nm must be set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T22:37:23"
+}

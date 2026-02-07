@@ -1,0 +1,17 @@
+{
+  "id": "1914",
+  "code": "Py-4MethylTPE",
+  "SMILES": "CC1=CC(/C(C2=CC=CC=C2)=C(C3=CC=CC=C3)C4=CC=CC=C4)=CC=C1C5=C(C6=C78)C=CC8=C(C(C(C)=C9)=CC=C9/C(C%10=CC=CC=C%10)=C(C%11=CC=CC=C%11)C%12=CC=CC=C%12)C=C(C(C(C)=C%13)=CC=C%13/C(C%14=CC=CC=C%14)=C(C%15=CC=CC=C%15)C%16=CC=CC=C%16)C7=CC=C6C(C%17=CC(C)=CC(/C(C%18=CC=CC=C%18)=C(C%19=CC=CC=C%19)C%20=CC=CC=C%20)=C%17)=C5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "453",
+  "emission_aggr": "459",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"Py-4MethylTPE\",\n    \"where_found\": \"Table 1, Figure 3, Scheme 1, and throughout text\"\n  },\n  \"emission_aggr_nm\": 459,\n  \"emission_solid_or_film_nm\": 453,\n  \"evidence\": {\n    \"aggr_source\": \"Table 1 (column 'λPL,max[nm] Aggr.[f]')\",\n    \"solid_or_film_source\": \"Table 1 (column 'λPL,max[nm] Film')\",\n    \"conditions_aggr\": \"THF/H2O (1:99) solution\",\n    \"conditions_solid_or_film\": \"solid thin film (implied by Table 1 'Film' and Figure 3a caption)\"\n  },\n  \"notes\": \"Target code 'Py-4MethylTPE' is explicitly listed in Table 1, which provides both aggregated-state emission (459 nm in THF/H2O 1:99) and film emission (453 nm). The aggregated condition is explicitly stated as THF/H2O (1:99) solution, meeting the strict definition. The film emission is clearly labeled in the table. No SMILES fallback was needed.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:37:36"
+}

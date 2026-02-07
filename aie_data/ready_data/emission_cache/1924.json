@@ -1,0 +1,20 @@
+{
+  "id": "1924",
+  "code": "IND",
+  "SMILES": "O=C(C1=CC=CC=C1C/2=O)C2=CC3=CC=C(N(CCCC)CCCC)C=C3",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"IND\",\n    \"where_found\": \"Throughout text, Fig. 1, synthesis section\"\n  },\n  \"emission_aggr_nm\": 639,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Fig. 1c and d, page 2 text\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"THF/water mixture with f_w = 99 vol% (nanoaggregates)\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target molecule 'IND' is explicitly mentioned throughout the paper (code_match). Emission_aggr_nm = 639 nm is explicitly reported for IND in THF/water mixture at f_w = 99 vol%, where nanoaggregates form (confirmed by NTA and TEM). No explicit emission value for solid state, film, or crystal is provided in the given context. The text mentions solid-state fluorescence shows a red-shift of 109 nm (relative to THF solution), but the absolute peak wavelength is not stated, so emission_solid_or_film_nm must remain null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:aggr:not_in_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T16:39:38"
+}

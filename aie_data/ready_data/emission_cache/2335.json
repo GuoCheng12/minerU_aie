@@ -1,0 +1,17 @@
+{
+  "id": "2335",
+  "code": "TPPI",
+  "SMILES": "C1(C2=CC=CC=C2)=C(C3=CC=CC=C3)C(C=CC=C4)=C4P1C5=CC=CC=C5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "469",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPPI\",\n    \"where_found\": \"Table 1, Figure 2, narrative text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 469,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (solid column), page 4 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state / crystal\"\n  },\n  \"notes\": \"Target code 'TPPI' is explicitly found in Table 1 and throughout the text. Table 1 provides a solid-state emission peak of 469 nm. While the paper discusses aggregation-induced emission (AIE) for TPPI in water/acetonitrile mixtures (Figure 2C), no explicit emission peak wavelength for the aggregated state is reported in the provided text or table. The narrative and figures describe intensity enhancement but do not state a specific λ_em,max for aggregates. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T10:23:55"
+}

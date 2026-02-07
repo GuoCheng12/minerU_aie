@@ -1,0 +1,17 @@
+{
+  "id": "2164",
+  "code": "2NP-BTO",
+  "SMILES": "O=S1(C2=CC=CC=C2C3[C@@]1(C4[C@@]3(S(C5=C4C=CC=C5)(=O)=O)C6=CC(C=CC=C7)=C7C=C6)C8=CC(C=CC=C9)=C9C=C8)=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "439",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"2NP-BTO\",\n    \"where_found\": \"Table 1 (page 4), narrative text (pages 3-4)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 439,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (page 4)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid powder\"\n  },\n  \"notes\": \"Target code '2NP-BTO' is explicitly listed in Table 1 and mentioned in the narrative. Table 1 provides an emission maximum (λem) of 439 nm for 'solid powder' (column 'λem [nm][b]' with note '[b]Emission maximum in solid powder'). No explicit aggregate-state emission data (e.g., THF/water mixture spectra) is reported for 2NP-BTO in the provided context. Figure 3C/D and related discussion of aggregation-induced emission (AIE) in DMSO/water mixtures only refer to 2P-BTO, not 2NP-BTO. Therefore, emission_aggr_nm is set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T05:21:26"
+}

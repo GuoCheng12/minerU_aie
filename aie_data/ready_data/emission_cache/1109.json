@@ -1,0 +1,17 @@
+{
+  "id": "1109",
+  "code": "TPEBPa",
+  "SMILES": "C1(/C(C2=CC=CC=C2)=C(C3=CC=CC=C3)/C4=CC=C(C5=C(C=CC=C6)C6=C(C=CC=C7)C7=C5)C=C4)=CC=C(C8=CC(C=CC=C9)=C9C%10=C8C=CC=C%10)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "475",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPEBPa\",\n    \"where_found\": \"Table 1, Table 2\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 475,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Target code 'TPEBPa' found explicitly in Table 1 (λ_em(nm)Film = 475 nm) and Table 2. No explicit aggregate emission peak for TPEBPa is reported in the provided context. While Figure 2 discusses aggregate PL for TPEBPy in THF/water mixtures, no specific λ_em value for TPEBPa under aggregate conditions is given. Therefore, emission_aggr_nm is set to null, adhering to the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:58:57"
+}

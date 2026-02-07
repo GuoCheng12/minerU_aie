@@ -1,0 +1,17 @@
+{
+  "id": "1755",
+  "code": "Q-1-Py",
+  "SMILES": "C%12(C2=C(C1=CC=CC=C1)N=C%11C(=N2)C=C(C3=CC=C6C4=C3C=CC5=C4C(=CC=C5)CC6)C(C7=C%10C8=C(C=C7)CCC9=CC=CC(=C89)C=C%10)=C%11)=CC=CC=C%12",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "501",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"Q-1-Py\",\n    \"where_found\": \"Table 1, page 5 narrative, Figure 4 caption, Experimental section\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 501,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λPL(nm) solnsa/filmb column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Target code 'Q-1-Py' is explicitly found in Table 1 and throughout the text. Table 1 provides emission in THF solution (499 nm) and thin film (501 nm). No explicit aggregate emission data (e.g., THF/water mixture spectra or aggregate-labeled value) is reported for Q-1-Py in the provided context. The paper discusses AIEE characteristics for the series in THF/water mixtures (Figure 5, page 6) but only shows spectra for Q-2-Py and Q-2Ph, not Q-1-Py. Therefore, emission_aggr_nm is set to null per anti-leakage rule. Emission in thin film (501 nm) is taken from Table 1.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:10:18"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2225",
+  "code": "(o-BP)2PIO",
+  "SMILES": "O=P1(C2=CC=CC=C2)C(C3=C(C4=CC=CC=C4)C=CC=C3)=C(C5=CC=CC=C5C6=CC=CC=C6)C7=CC=CC=C71",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "458",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"(o-BP)2PIO\",\n    \"where_found\": \"Table 1, Fig. 3C, narrative text (pages 3-6)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 458,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-cast film on a quartz plate\"\n  },\n  \"notes\": \"Target code '(o-BP)2PIO' is explicitly found multiple times (Table 1, figures, text). Table 1 provides a solid film emission peak of 458 nm (drop-cast film). While Fig. 3C shows PL spectra in THF/water mixtures (aggregate conditions), the specific emission peak wavelength for aggregates is not numerically reported in the provided text chunks, only described as intensifying. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T07:37:43"
+}

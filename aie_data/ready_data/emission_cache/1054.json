@@ -1,0 +1,17 @@
+{
+  "id": "1054",
+  "code": "DPPM-SXAC",
+  "SMILES": "O=C(C1=CC2=C(N=C(C(C=C3)=C(C4=C5)C=C3N(C6=CC=CC=C6C7(C8=CC=CC=C8O9)C%10=C9C=CC=C%10)C%11=C7C=CC=C%11)C(C4=CC=C5N%12C%13=CC=CC=C%13C(C%14=C%15C=CC=C%14)(C%16=CC=CC=C%16O%15)C%17=C%12C=CC=C%17)=N2)C=C1)C%18=CC=CC=C%18",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "570",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DPPM-SXAC\",\n    \"where_found\": \"Table 1, Table 2, Figure 3 caption, narrative text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 570,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λPL column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"doped film in CBP host (70 wt%)\"\n  },\n  \"notes\": \"Target code 'DPPM-SXAC' is explicitly listed in Table 1 and throughout the text. Table 1 provides a PL peak (λPL) of 570 nm for DPPM-SXAC measured in doped films, which qualifies as emission_solid_or_film_nm. While Figure 3C shows PL spectra of DPPM-SXAC in THF/water mixtures (aggregate conditions), the specific emission peak wavelength for the aggregated state (e.g., at high water fraction) is not explicitly reported in the provided text chunks; only a trend of blue-shift is mentioned. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:48:02"
+}

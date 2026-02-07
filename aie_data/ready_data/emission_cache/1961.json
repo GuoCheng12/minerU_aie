@@ -1,0 +1,17 @@
+{
+  "id": "1961",
+  "code": "SA-4CO2Na",
+  "SMILES": "OC1=CC=C(CN(CC(O[Na])=O)CC(O[Na])=O)C=C1/C=N/N=C/C2=CC(CN(CC(O[Na])=O)CC(O[Na])=O)=CC=C2O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "539",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"SA-4CO2Na\",\n    \"where_found\": \"Throughout text, Table 1, Figure 2, Scheme 1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 539,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid\"\n  },\n  \"notes\": \"Target code 'SA-4CO2Na' is explicitly mentioned throughout the paper (Table 1, Figure 2, Scheme 1, text). Table 1 provides emission data for water (544 nm), THF/water 99% (541 nm), and solid state (539 nm). While the paper discusses aggregation (e.g., Ca2+-induced fibrillar aggregates), no explicit emission peak value is reported for a defined 'aggregate' condition (e.g., THF/water mixture at a specific fraction causing aggregation without Ca2+). The THF/water 99% condition (541 nm) is a solvent mixture, but the text describes it as a mixture where the probe is still soluble/dispersed, not explicitly labeled as an aggregate condition. Therefore, emission_aggr_nm is set to null per the anti-leakage rule. The solid-state emission (539 nm) is clearly reported and used for emission_solid_or_film_nm.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T18:35:27"
+}

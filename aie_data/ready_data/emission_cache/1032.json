@@ -1,0 +1,22 @@
+{
+  "id": "1032",
+  "code": "BTPE",
+  "SMILES": "C1(/C(C2=CC=C(C3=CC=C(/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)\\C6=CC=CC=C6)C=C3)C=C2)=C(C7=CC=CC=C7)\\C8=CC=CC=C8)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"BTPE\",\n    \"where_found\": \"Throughout paper: Chart 1, Scheme 1, Fig. 1, Fig. 2, Fig. 3, narrative text\"\n  },\n  \"emission_aggr_nm\": 484,\n  \"emission_solid_or_film_nm\": 499,\n  \"evidence\": {\n    \"aggr_source\": \"Page 3, narrative text and Fig. 1A context\",\n    \"solid_or_film_source\": \"Page 3, narrative text and Fig. 1B context\",\n    \"conditions_aggr\": \"THF/water mixture with f_w ≥ 80% (amorphous aggregates)\",\n    \"conditions_solid_or_film\": \"Amorphous film prepared by spin-coating THF solution onto quartz plate\"\n  },\n  \"notes\": \"Code 'BTPE' is explicitly found throughout the paper. For aggregated emission: The text states emission maximum shifts to 484 nm at high water fractions (f_w ≥ 80%), which is an explicit aggregate condition (THF/water mixture inducing aggregation). For solid/film emission: The amorphous film emission is explicitly reported as 499 nm. The crystalline fiber emission (445 nm) is also reported, but the film value is chosen per rules (film available).\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "embedding_only:aggr:not_in_context",
+    "solid:not_in_final_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T15:45:04"
+}

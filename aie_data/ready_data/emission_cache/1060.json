@@ -1,0 +1,17 @@
+{
+  "id": "1060",
+  "code": "f-4Ph(Me)",
+  "SMILES": "Cc1ccc(c2ccc(c3c(C(C4=CC=CC=C4)=c(C5=CC=CC=C5)c6c(c7ccc(c8ccc(C)cc8)cc7)ccc(c9ccc(C)cc9)c6)cc(c%10ccc(C)cc%10)cc3)cc2)cc1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "478",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-4Ph(Me)\",\n    \"where_found\": \"Table 1, page 3; narrative text pages 2-5\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 478,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, page 3\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Target code 'f-4Ph(Me)' is explicitly listed in Table 1 and mentioned multiple times in the text. Table 1 provides λem(nm) values for 'sol', 'film', and 'crystal' states. The 'film' value (478 nm) is extracted for emission_solid_or_film_nm. While the text (pages 3-5) discusses aggregation (e.g., THF/water mixtures) and AEE for f-4Ph(Me), no explicit emission peak wavelength for an aggregated state (e.g., from THF/water mixture spectra) is provided in the given context chunks. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:49:19"
+}

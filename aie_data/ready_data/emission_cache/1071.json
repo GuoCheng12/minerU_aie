@@ -1,0 +1,17 @@
+{
+  "id": "1071",
+  "code": "f-TPEB",
+  "SMILES": "CC1=CC(C)=CC(C)=C1B(C2=C(C)C=C(C)C=C2C)C3=CC=C(C=C3)c4ccc(c5c(C(C6=CC=CC=C6)=c(C7=CC=CC=C7)c8c(c9ccc(C%10=CC=C(B(C%11=C(C)C=C(C)C=C%11C)C%12=C(C)C=C(C)C=C%12C)C=C%10)cc9)cccc8)cccc5)cc4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "468",
+  "emission_aggr": "469",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-TPEB\",\n    \"where_found\": \"Table 1, Fig. 2, narrative text (multiple locations)\"\n  },\n  \"emission_aggr_nm\": 469,\n  \"emission_solid_or_film_nm\": 468,\n  \"evidence\": {\n    \"aggr_source\": \"Table 1 (λem(nm) Aggr column)\",\n    \"solid_or_film_source\": \"Table 1 (λem(nm) Film column)\",\n    \"conditions_aggr\": \"THF/water mixtures (v/v 1/90), fw = 90%\",\n    \"conditions_solid_or_film\": \"Film drop-casted on a quartz plate\"\n  },\n  \"notes\": \"Target code 'f-TPEB' is explicitly listed in Table 1 and throughout the text. Table 1 provides explicit emission peaks: 469 nm for aggregates (THF/water fw=90%) and 468 nm for drop-cast film. Both values are directly reported under the defined conditions.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:51:28"
+}

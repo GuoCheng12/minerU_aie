@@ -1,0 +1,20 @@
+{
+  "id": "2005",
+  "code": "ASCPI",
+  "SMILES": "CN(C)C(C=C1)=CC=C1/C=C(C#N)/C(C=C2)=CC=C2C3=CC=[N+](C)C=C3.[I-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "638",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"ASCPI\",\n    \"where_found\": \"Page 2 (Fig. 1a caption and text), Page 6 (Fig. 4a caption), throughout text\"\n  },\n  \"emission_aggr_nm\": 650,\n  \"emission_solid_or_film_nm\": 638,\n  \"evidence\": {\n    \"aggr_source\": \"Page 2, Fig. 1b caption and text\",\n    \"solid_or_film_source\": \"Page 6, Fig. 4a caption and text\",\n    \"conditions_aggr\": \"DMSO/1,4-dioxane mixture with fd = 90 vol%\",\n    \"conditions_solid_or_film\": \"ASCPI@starch microparticles (solid composite)\"\n  },\n  \"notes\": \"Target code 'ASCPI' is explicitly mentioned throughout the paper. Aggregated-state emission peak (650 nm) is explicitly reported for DMSO/1,4-dioxane mixture with 90% poor solvent fraction, which is a clear aggregation condition. Solid-state emission peak (638 nm) is reported for ASCPI@starch microparticles, which are solid composite particles. The starch microparticles represent a solid-state environment, not a film, but meet the solid-state requirement. No thin film or pure powder data was found, but the composite microparticle emission qualifies as solid-state emission.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:aggr:not_in_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T21:53:12"
+}

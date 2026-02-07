@@ -1,0 +1,17 @@
+{
+  "id": "2163",
+  "code": "2P-BTO",
+  "SMILES": "O=S1(C2=CC=CC=C2C3[C@@]1(C4[C@@]3(S(C5=C4C=CC=C5)(=O)=O)C6=CC=CC=C6)C7=CC=CC=C7)=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "415",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"2P-BTO\",\n    \"where_found\": \"Table 1, Figure 3C/D, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 415,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, page 4 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid powder\"\n  },\n  \"notes\": \"Target code '2P-BTO' is explicitly mentioned throughout the paper (Table 1, Figure 3, narrative). Table 1 reports λem[solid] = 415 nm for 2P-BTO. Figure 3C shows PL spectra in DMSO/water mixtures with increasing water fraction (fw), indicating aggregation-induced emission (AIE). However, the paper does not explicitly report a single emission peak wavelength for the aggregated state (e.g., 'λem,agg' or a value at a specific high fw like 90%). The narrative states fluorescence becomes stronger upon aggregate formation but does not give a numerical λmax for the aggregate. Therefore, emission_aggr_nm is set to null per anti-leakage rule. Emission_solid_or_film_nm is taken from Table 1 for solid powder.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T05:17:58"
+}

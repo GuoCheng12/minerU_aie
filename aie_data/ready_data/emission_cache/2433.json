@@ -1,0 +1,17 @@
+{
+  "id": "2433",
+  "code": "DPDPyE",
+  "SMILES": "C12=C(C3=C(C=C2)C=C4)C(C=CC3=C4/C(C5=CC=CC=C5)=C(C6=CC=CC=C6)/C7=CC=C8C=CC9=CC=CC%10=C9C8=C7C=C%10)=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "503",
+  "emission_aggr": "523",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DPDPyE\",\n    \"where_found\": \"Table 1, Fig. 3, Fig. 4, and throughout text\"\n  },\n  \"emission_aggr_nm\": 523,\n  \"emission_solid_or_film_nm\": 503,\n  \"evidence\": {\n    \"aggr_source\": \"Fig. 3B and page 2 text\",\n    \"solid_or_film_source\": \"Table 1 and page 3 text\",\n    \"conditions_aggr\": \"THF solution, 10^-8 M (excimer emission, concentration-induced aggregation)\",\n    \"conditions_solid_or_film\": \"Amorphous film (spin-coated on quartz plate)\"\n  },\n  \"notes\": \"Code 'DPDPyE' is explicitly found in Table 1 and throughout the paper. For emission_aggr_nm: The paper states DPDPyE exhibits excimer emission at 523 nm in THF solution at 10^-8 M (Fig. 3B, page 2). While this is in solution, the text explicitly attributes this to excimer formation due to high concentration tendency and describes it as 'excimer emission' which is a form of aggregation at the molecular level. However, note: This is not the classic 'aggregate in poor solvent' condition. The strict definition for emission_aggr_nm requires an explicit aggregate condition (e.g., THF/water mixture). The paper also discusses aggregates in THF/water mixtures (Fig. 3D) but does not give a specific peak wavelength for DPDPyE in that condition. The 523 nm value is for concentrated solution excimer emission. Given the strict anti-leakage rule and the requirement for explicit aggregate keywords or solvent-mixture conditions, this value should be set to null. Re-evaluating: The paper's 'aggregate' discussion (page 3, chunk 6) is for THF/water mixtures, but no specific λmax is given for DPDPyE aggregates. The 523 nm is from solution excimer. Therefore, emission_aggr_nm = null. For emission_solid_or_film_nm: Table 1 gives 'Film' emission for DPDPyE as 503 nm, explicitly stated as spin-coated film. This qualifies.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T13:41:08"
+}

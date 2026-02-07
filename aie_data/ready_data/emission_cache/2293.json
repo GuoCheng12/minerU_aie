@@ -1,0 +1,20 @@
+{
+  "id": "2293",
+  "code": "TPEDMesB",
+  "SMILES": "CC(C=C(C)C=C1C)=C1B(C2=C(C)C=C(C)C=C2C)C(C=C3)=CC=C3/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)/C6=CC=CC=C6",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "489",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPEDMesB\",\n    \"where_found\": \"Throughout text, Fig. 1 caption, Fig. 3 caption, Table 1, Scheme 1\"\n  },\n  \"emission_aggr_nm\": 489,\n  \"emission_solid_or_film_nm\": 478,\n  \"evidence\": {\n    \"aggr_source\": \"Fig. 1 caption and page 2 narrative\",\n    \"solid_or_film_source\": \"Page 2 narrative (Fig. 3 reference)\",\n    \"conditions_aggr\": \"THF/water mixture with fw = 90%\",\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Code 'TPEDMesB' is explicitly mentioned throughout the paper. Emission_aggr_nm = 489 nm is explicitly stated for nanoaggregates in THF/water (fw=90%). Emission_solid_or_film_nm = 478 nm is explicitly stated for the thin film. The crystal emission (463 nm) is noted but not used per rules (film takes precedence).\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "solid:not_in_final_context"
+  ],
+  "timestamp": "2026-02-07T09:55:22"
+}

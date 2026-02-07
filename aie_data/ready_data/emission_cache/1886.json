@@ -1,0 +1,17 @@
+{
+  "id": "1886",
+  "code": "4TPA-BQ",
+  "SMILES": "C%14(N(C%12=CC=C(C8=C(C3=CC=C(N(C1=CC=CC=C1)C2=CC=CC=C2)C=C3)C%11=C(C7=C(C6=CC=C(N(C4=CC=CC=C4)C5=CC=CC=C5)C=C6)C=C(C)C=[N+]78)C=CC(N(C9=CC=CC=C9)C%10=CC=CC=C%10)=C%11)C=C%12)C%13=CC=CC=C%13)=CC=CC=C%14.[P-](F)(F)(F)(F)(F)F",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"4TPA-BQ\",\n    \"where_found\": \"Throughout text (e.g., pages 3-4, Figure 1, Table S1), explicitly named in synthesis and property discussions.\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 1B, 1C, Table S1, page 3-4 narrative\",\n    \"solid_or_film_source\": \"Figure S9, page 4 narrative\",\n    \"conditions_aggr\": \"DMSO/water mixtures, fw = 70% (bright orange fluorescence observed)\",\n    \"conditions_solid_or_film\": \"Solids (powder/crystal)\"\n  },\n  \"notes\": \"Target molecule 4TPA-BQ is explicitly named throughout the provided content (code_match). The paper reports PL spectra in DMSO/water mixtures (aggregate conditions) and for the solid state, but does not provide explicit numerical emission peak wavelengths (λ_em,max in nm) in the given text chunks. Only relative intensity changes and quantum yields are mentioned. Therefore, both emission_aggr_nm and emission_solid_or_film_nm must be set to null as per the strict extraction rule requiring explicit numerical values.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:32:15"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2275",
+  "code": "(MesB)2MPPS",
+  "SMILES": "CC1=CC(C)=CC(C)=C1B(C2=C(C)C=C(C)C=C2C)C3=CC=C(C4=C(C5=CC=CC=C5)C(C6=CC=CC=C6)=C(C7=CC=C(B(C8=C(C)C=C(C)C=C8C)C9=C(C)C=C(C)C=C9C)C=C7)[Si]4(C)C%10=CC=CC=C%10)C=C3",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "524",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"(MesB)2MPPS\",\n    \"where_found\": \"Table 1, Figure 4, narrative text (multiple instances)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 524,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column), Chunk 1 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"film (spin-coated/cast film)\"\n  },\n  \"notes\": \"Code match: Target code '(MesB)2MPPS' appears explicitly in Table 1 and throughout the text. Emission_aggr_nm is set to null because, while Figure 4 shows PL spectra in THF/water mixtures (aggregate conditions), the specific emission peak wavelength for the aggregated state is not explicitly reported in the provided text/table. Only relative intensity changes are discussed. Emission_solid_or_film_nm = 524 nm is explicitly given in Table 1 for the film state.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T09:37:23"
+}

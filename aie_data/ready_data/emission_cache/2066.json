@@ -1,0 +1,17 @@
+{
+  "id": "2066",
+  "code": "TPB-CzC1",
+  "SMILES": "N#CC(C=C1)=CC=C1C2=CC(C3=CC=CC=C3)=C(C4=CC=C(N5C(C=CC=C6)=C6C7=C5C=CC=C7)C=C4)C=C2C8=CC=CC=C8",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "411",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPBCzC1\",\n    \"where_found\": \"Figure 1, Table 1, narrative text (pages 2-7)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 411,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, Figure 2B caption, page 4 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"vacuum-deposited neat film\"\n  },\n  \"notes\": \"Code match: The target molecule is explicitly referred to as 'TPBCzC1' throughout the paper (Figure 1, Table 1, narrative). This is a variant spelling of the target code 'TPB-CzC1'. Emission in aggregated state (THF/water mixtures) is discussed (Figures 3, S2) and a range of 409-422 nm is mentioned for the series, but no explicit peak value for TPBCzC1 under a defined high-water-fraction aggregate condition is provided in the given text. Therefore, emission_aggr_nm is set to null per anti-leakage rule. A solid/film emission peak of 411 nm is explicitly reported for TPBCzC1 in vacuum-deposited neat film (Table 1, page 4).\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T02:15:18"
+}

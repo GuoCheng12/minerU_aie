@@ -1,0 +1,17 @@
+{
+  "id": "1804",
+  "code": "AuIB-C6",
+  "SMILES": "FC1=C(F)C(F)=C(F)C([Au]C#[N]C2=C(OCCCCCC)C=C([N]#C[Au]C3=C(F)C(F)=C(F)C(F)=C3F)C(OCCCCCC)=C2)=C1F",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "505",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"C6\",\n    \"where_found\": \"Throughout text (e.g., page 2, page 4, Fig. 5)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 505,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Fig. 5 / page 4\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"powder (solid state)\"\n  },\n  \"notes\": \"Target molecule is referred to as 'C6' (AuIB-C6 series, n=6) throughout the paper. An explicit aggregate emission peak is not reported for C6 individually; the text states all complexes (C5-C10) emit at ~500 nm in DMF/water mixtures at fw=30% or 50%, but this is a general statement for the series, not a specific measured value for C6. A specific solid-state emission peak of 505 nm is reported for C6 powder in the high-pressure experiment (Fig. 5, page 4). Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:21:05"
+}

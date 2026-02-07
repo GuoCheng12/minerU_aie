@@ -1,0 +1,17 @@
+{
+  "id": "1881",
+  "code": "TPO-P",
+  "SMILES": "O4C(C1=CC=CC=C1)=[N+](C2=CC=CC=C2)C(C3=CC=CC=C3)=C4C5=CC=CC=C5.[P-](F)(F)(F)(F)(F)F",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "419",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPO-P\",\n    \"where_found\": \"Throughout text, Table 1, Figure 1, Figure 2, etc.\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 419,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid\"\n  },\n  \"notes\": \"Code 'TPO-P' is explicitly found throughout the paper (e.g., Table 1, Figure 1, narrative). Table 1 provides a solid-state emission peak (λem solid) of 419 nm for TPO-P. While the paper discusses aggregation (e.g., THF/hexane mixtures with hexane fraction f_H up to 90%) and shows PL spectra in Figure 1B, no explicit emission peak wavelength for the aggregated state is numerically reported in the provided text or table. The narrative mentions a blue shift of 23 nm upon aggregate formation from a solution peak of 442 nm, but the final aggregate peak value is not stated. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:31:11"
+}

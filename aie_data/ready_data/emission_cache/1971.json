@@ -1,0 +1,17 @@
+{
+  "id": "1971",
+  "code": "TPE-T-RCN",
+  "SMILES": "COC1=CC=C(/C(C2=CC=C(OC)C=C2)=C(C3=CC=CC=C3)/C4=CC=C(C5=CC=C(/C=C6C(N(CC)/C(S/6)=C(C#N)C#N)=O)S5)C=C4)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-T-RCN\",\n    \"where_found\": \"Throughout text (e.g., pages 2-4, Figure 1, Figure 2), Table S1 (implied from synthesis and property discussions)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Code 'TPE-T-RCN' is explicitly found multiple times in the text, figures, and synthesis route, providing a high-confidence identity match. However, no explicit emission peak for aggregated-state (e.g., THF/water mixture at high fw) or solid/film state is reported in the provided chunks. The paper reports emission in pure THF (652 nm) and for NPs in aqueous media (662 nm), but NPs are encapsulated nanoparticles, not the pure compound's aggregate or solid/film. The AIE property is discussed (Figure 1d, S10) but no specific λ_em,max for the aggregated compound is given. Therefore, both required emission values are set to null per strict extraction rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T19:24:07"
+}

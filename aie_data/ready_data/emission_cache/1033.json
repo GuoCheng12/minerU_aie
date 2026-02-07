@@ -1,0 +1,17 @@
+{
+  "id": "1033",
+  "code": "TTPEPy",
+  "SMILES": "C1(/C(C2=CC=CC=C2)=C(C3=CC=C(C4=C(C=CC5=C6C(C=C7)=C(C8=CC=C(/C(C9=CC=CC=C9)=C(C%10=CC=CC=C%10)/C%11=CC=CC=C%11)C=C8)C=C5C(C=C%12)=CC=C%12/C(C%13=CC=CC=C%13)=C(C%14=CC=CC=C%14)\\C%15=CC=CC=C%15)C6=C7C(C%16=CC=C(/C(C%17=CC=CC=C%17)=C(C%18=CC=CC=C%18)/C%19=CC=CC=C%19)C=C%16)=C4)C=C3)/C%20=CC=CC=C%20)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "483",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TTPEPy\",\n    \"where_found\": \"Throughout text (e.g., page 2, Fig. 2 caption, Table 1), Scheme 1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 483,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Page 2, Fig. 2d description\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"amorphous film\"\n  },\n  \"notes\": \"Code 'TTPEPy' is found explicitly and frequently in the text, confirming identity. Emission in THF/water mixtures (Fig. 2b) is discussed, but no explicit peak wavelength for the aggregated state is reported in the provided text chunks (only enhancement is mentioned). The solid/film emission peak of 483 nm is explicitly stated for the amorphous film. Therefore, emission_aggr_nm is set to null due to lack of explicit aggregate peak data, while emission_solid_or_film_nm is extracted from the film data.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:45:16"
+}

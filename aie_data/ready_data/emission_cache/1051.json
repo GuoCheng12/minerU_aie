@@ -1,0 +1,19 @@
+{
+  "id": "1051",
+  "code": "TPE-4TPA",
+  "SMILES": "C(/C1=CC=C(C2=CC=C(N(C3=CC=CC=C3)C4=CC=CC=C4)C=C2)C=C1)(C5=CC=C(C(C=C6)=CC=C6N(C7=CC=CC=C7)C8=CC=CC=C8)C=C5)=C(C9=CC=C(C(C=C%10)=CC=C%10N(C%11=CC=CC=C%11)C%12=CC=CC=C%12)C=C9)/C%13=CC=C(C(C=C%14)=CC=C%14N(C%15=CC=CC=C%15)C%16=CC=CC=C%16)C=C%13",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "not_found",
+  "identity_match_confidence": 0.0,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"not_found\",\n  \"identity_match_confidence\": 0.0,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": null,\n    \"where_found\": null\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule 'TPE-4TPA' was not found in the provided content. The paper discusses a series of DPPM-based molecules (DPPM-DMAC, DPPM-DPAC, DPPM-SFAC, DPPM-STAC, DPPM-SXAC) and a control molecule DP-SXAC. No mention of TPE-4TPA or any TPE-based compounds was present. Since no code/label match was found and no SMILES/InChIKey was provided for the target to attempt a structural match, the identity is 'not_found'. Consequently, no emission data can be extracted.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "identity_confidence_below_threshold:0.000"
+  ],
+  "timestamp": "2026-02-06T15:47:25"
+}

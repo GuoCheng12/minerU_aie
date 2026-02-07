@@ -1,0 +1,20 @@
+{
+  "id": "2411",
+  "code": "4TPAE",
+  "SMILES": "C1(/C(C2=CC=C(N(C3=CC=CC=C3)C4=CC=CC=C4)C=C2)=C(C5=CC=C(N(C6=CC=CC=C6)C7=CC=CC=C7)C=C5)/C8=CC=C(N(C9=CC=CC=C9)C%10=CC=CC=C%10)C=C8)=CC=C(N(C%11=CC=CC=C%11)C%12=CC=CC=C%12)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"4TPAE\",\n    \"where_found\": \"Chart 1, Fig. 2, Fig. 4, Fig. 5, page 1, page 4, page 5, etc. (throughout text)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 501,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"page 4, Fig. 5A and B description\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"as-prepared solids (crystals)\"\n  },\n  \"notes\": \"Target code '4TPAE' is explicitly mentioned throughout the paper (Chart 1, figures, text). For aggregated-state emission: While Fig. 4 shows PL spectra in THF/water mixtures and mentions an aggregate suspension at fw=90%, no explicit emission peak wavelength (nm) for the aggregate is reported in the provided text; only relative intensity increase is discussed. Therefore, emission_aggr_nm must be set to null. For solid/film emission: The text explicitly states 'as-prepared solids of 4TPAE emit intense green light at 501 nm' (page 4, description of Fig. 5). This is a crystal/solid-state emission value and is extracted.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "solid:not_in_final_context"
+  ],
+  "timestamp": "2026-02-07T12:06:03"
+}

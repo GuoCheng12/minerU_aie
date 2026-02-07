@@ -1,0 +1,17 @@
+{
+  "id": "1059",
+  "code": "f-4Ph",
+  "SMILES": "c1(c2ccc(c3ccccc3)cc2c(C4=CC=CC=C4)=C(C5=CC=CC=C5)c6cc(c7ccccc7)ccc6c8ccc(c9ccccc9)cc8)ccc(c%10ccccc%10)cc1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "478",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-4Ph\",\n    \"where_found\": \"Table 1, page 3\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 478,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, page 3\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Target code 'f-4Ph' is explicitly listed in Table 1. The table provides λem(nm) values for 'solna' (THF solution), 'filmb' (drop-casted film), and 'crystal'. The film emission is 478 nm. While the paper discusses aggregation (e.g., THF/water mixtures for f-4Ph(Me)) and shows aggregate formation leads to blue-shifted PL, no explicit aggregate emission peak value for f-4Ph (without Me) is reported in the provided text. The aggregate discussion and spectra (Figure 3, Figure S12) focus on f-4Ph(Me). Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:49:05"
+}

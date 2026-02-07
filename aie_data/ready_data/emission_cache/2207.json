@@ -1,0 +1,17 @@
+{
+  "id": "2207",
+  "code": "f-TPE-Th",
+  "SMILES": "C(/C1=C(C2=CC=CS2)C=CC=C1)(C3=CC=CC=C3)=C(C4=CC=CC=C4C5=CC=CS5)C6=CC=CC=C6",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "476",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-TPE-Th\",\n    \"where_found\": \"Table 2, page 10 narrative\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 476,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 2 (column 'Film')\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-casted film on a quartz plate at RT\"\n  },\n  \"notes\": \"Target code 'f-TPE-Th' is explicitly listed in Table 2 and mentioned in the narrative text (page 10). Table 2 provides a clear emission value for 'Film' (476 nm). However, no explicit aggregated-state emission peak (e.g., from THF/water mixture or labeled 'aggregate') is reported for f-TPE-Th in the provided content. The text mentions aggregate studies (THF/water) and refers to Supporting Information Figure S11, but no specific wavelength for f-TPE-Th under aggregate conditions is given in the extracted chunks. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T06:38:50"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2115",
+  "code": "PI",
+  "SMILES": "O=C1C2=C(C=CC=C2)C(/C1=C/C(C=C3)=CC4=C3N(C5=CC=CC=C5)C(C=CC=C6)=C6S4)=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "667",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"PI\",\n    \"where_found\": \"Throughout text, e.g., page 2 (Chunk 1), Figure 1A, Table S1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 667,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Figure 1C caption (Chunk 3) and page 2 (Chunk 1)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"neat film\"\n  },\n  \"notes\": \"Code 'PI' is explicitly found throughout the paper as one of the two target molecules. Emission in neat film is reported as 667 nm for PI in Figure 1C caption and page 2 text. While AIE behavior at different water fractions (fw) is mentioned (Table S1, Figure S7), no explicit aggregate emission peak wavelength (λ_em,max) for PI is provided in the given context. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T03:34:20"
+}

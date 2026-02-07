@@ -1,0 +1,17 @@
+{
+  "id": "1935",
+  "code": "NH2-PEG-TTPy",
+  "SMILES": "O=C(NCCOCCN)CC[N+](C=C1)=CC=C1/C=C/C(S2)=CC=C2C(C=C3)=CC=C3N(C4=CC=CC=C4)C5=CC=CC=C5.[Br-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"NH2-PEG-TTPy\",\n    \"where_found\": \"Figure 2 caption, pages 3-4 narrative, Scheme S1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule NH2-PEG-TTPy is explicitly mentioned multiple times in the text (code_match). However, no explicit emission peak wavelengths are reported for NH2-PEG-TTPy alone under the required conditions. The fluorescence spectrum in Figure 2J shows an emission maximum at 672 nm for BP@PEG-TTPy (the composite nanomaterial), not for the free NH2-PEG-TTPy molecule. The text mentions a fluorescence quantum yield comparison (10% in solid state vs 0.5% in aqueous solution) indicating AIE behavior, but no specific λmax values are provided for the aggregated state or solid state of the pure compound. Therefore, both emission fields must be set to null per the strict extraction rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T17:10:49"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "1986",
+  "code": "AIE-G",
+  "SMILES": "C1(N(C2=CC=CC=C2)C3=CC=CC=C3)=CC=C(/C(C4=CC=C(C5=CC=C(N(C6=CC=CC=C6)C7=CC=CC=C7)C=C5)C=C4)=C(C8=CC=C(C9=CC=C(N(C%10=CC=CC=C%10)C%11=CC=CC=C%11)C=C9)C=C8)/C%12=CC=C(C%13=CC=C(N(C%14=CC=CC=C%14)C%15=CC=CC=C%15)C=C%13)C=C%12)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "not_found",
+  "identity_match_confidence": 0.0,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"not_found\",\n  \"identity_match_confidence\": 0.0,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": null,\n    \"where_found\": null\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule 'AIE-G' (code) or its SMILES was not found in the provided context. The paper discusses AIEgens in general and mentions specific AIE dots (S-1 to S-6) and hydrogels (HG-1 to HG-6), but no explicit compound labeled 'AIE-G' appears. No emission peak data for any specific AIEgen is reported in the provided chunks. Therefore, identity is not found, and no emission data can be extracted.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "identity_confidence_below_threshold:0.000"
+  ],
+  "timestamp": "2026-02-06T20:28:43"
+}

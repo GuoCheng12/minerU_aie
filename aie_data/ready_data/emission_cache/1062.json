@@ -1,0 +1,17 @@
+{
+  "id": "1062",
+  "code": "f-5Ph(Me)",
+  "SMILES": "Cc1ccc(c2ccc(c3ccc(c4ccc(c5ccc(C)cc5)cc4)c(C(C6=CC=CC=C6)=c(C7=CC=CC=C7)c8c(c9ccc(c%10ccc(C)cc%10)cc9)ccc(c%11ccc(c%12ccc(C)cc%12)cc%11)c8)c3)cc2)cc1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "470",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-5Ph(Me)\",\n    \"where_found\": \"Table 1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 470,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Target code 'f-5Ph(Me)' found explicitly in Table 1. The table provides λ_em(nm) for 'film' (470 nm) and 'crystal' (blank for this compound). No explicit aggregate emission data (e.g., THF/water mixture, nanoaggregate) is reported for f-5Ph(Me) in the provided content. The discussion of aggregation-enhanced emission (AEE) and THF/water mixtures (Figure 3) is only for f-4Ph(Me). Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:49:42"
+}

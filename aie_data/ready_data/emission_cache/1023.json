@@ -1,0 +1,17 @@
+{
+  "id": "1023",
+  "code": "TPEPa",
+  "SMILES": "C1(/C(C2=CC=CC=C2)=C(C3=CC=C(C4=CC(C=CC=C5)=C5C6=C4C=CC=C6)C=C3)\\C7=CC=CC=C7)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "481",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPEPa\",\n    \"where_found\": \"Table 1, Fig. 1, Fig. 4, page 3 narrative\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 481,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Film drop-casted on quartz plates\"\n  },\n  \"notes\": \"Code 'TPEPa' is explicitly listed in Table 1 and other figures. Table 1 provides a solid/film emission peak of 481 nm for TPEPa. While the paper discusses AIE and aggregate emission for the series (e.g., TPEPy in THF/water mixtures), no explicit aggregate emission wavelength (e.g., in THF/water) is reported for TPEPa itself. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:43:11"
+}

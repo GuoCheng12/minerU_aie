@@ -1,0 +1,17 @@
+{
+  "id": "1050",
+  "code": "DPPM-DMAC",
+  "SMILES": "O=C(C1=CC2=C(N=C(C(C=C3)=C(C4=C5)C=C3N(C6=CC=CC=C6C7(C)C)C8=C7C=CC=C8)C(C4=CC=C5N9C%10=CC=CC=C%10C(C)(C)C%11=C9C=CC=C%11)=N2)C=C1)C%12=CC=CC=C%12",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "587",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DPPM-DMAC\",\n    \"where_found\": \"Table 1, Table 2, pages 2, 3, 5, 8\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 587,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λPL[nm] column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"doped film in CBP host (70 wt%)\"\n  },\n  \"notes\": \"Target code 'DPPM-DMAC' is explicitly listed in Table 1 and throughout the text. Table 1 provides a PL peak (λPL) of 587 nm for DPPM-DMAC, measured in doped films (solid/film condition). While the paper discusses aggregation-induced emission (AIE/AIDF) in THF/water mixtures (e.g., Figure 3C for DPPM-SXAC), no explicit aggregate-state emission peak value (nm) is reported for DPPM-DMAC in the provided context. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:47:13"
+}

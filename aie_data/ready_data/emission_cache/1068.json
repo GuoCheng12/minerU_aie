@@ -1,0 +1,17 @@
+{
+  "id": "1068",
+  "code": "f-TPEF",
+  "SMILES": "CC(C1=C2C=CC=C1)(C)C3=C2C=CC(c4ccc(c5ccccc5c(C6=CC=CC=C6)=C(c7ccccc7c8ccc(C9=CC(C(C)(C)C%10=C%11C=CC=C%10)=C%11C=C9)cc8)C%12=CC=CC=C%12)cc4)=C3",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "460",
+  "emission_aggr": "473",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-TPEF\",\n    \"where_found\": \"Table 1 (pages 4-5), narrative text (pages 4, 5, 7, 11), Scheme 1, Fig. 1\"\n  },\n  \"emission_aggr_nm\": 473,\n  \"emission_solid_or_film_nm\": 460,\n  \"evidence\": {\n    \"aggr_source\": \"Table 1, column 'λem(nm) Aggr^b'\",\n    \"solid_or_film_source\": \"Table 1, column 'λem(nm) Film^c'\",\n    \"conditions_aggr\": \"THF/water mixtures (v/v 1/90)\",\n    \"conditions_solid_or_film\": \"Film drop-casted on a quartz plate\"\n  },\n  \"notes\": \"Target code 'f-TPEF' is explicitly listed in Table 1 and throughout the text. Table 1 provides emission maxima under defined conditions: aggregated state (THF/water fw=90%) and film state (drop-cast). Values are extracted directly from the table. No SMILES fallback was needed.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:50:53"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2003",
+  "code": "IQ",
+  "SMILES": "CCN(CC)C1=CC=C(C=C(C2=CC=C(C3=CC=C(C=[N+](CCC)C(C4=CC=CC=C4)=C5C6=CC=CC=C6)C5=C3)C=C2)C(O7)=O)C7=C1.[F+]B([F+])[F+][F+]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "620",
+  "emission_aggr": "643",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"IQ-Cm\",\n    \"where_found\": \"Scheme 1b, Scheme 2, Fig. 1, Results and discussion section\"\n  },\n  \"emission_aggr_nm\": 643,\n  \"emission_solid_or_film_nm\": 620,\n  \"evidence\": {\n    \"aggr_source\": \"Fig. 1c and 1d, page 5 text\",\n    \"solid_or_film_source\": \"page 4 text (crystal emission)\",\n    \"conditions_aggr\": \"DMSO/H2O mixture with fw = 98%\",\n    \"conditions_solid_or_film\": \"crystal (single crystal structure)\"\n  },\n  \"notes\": \"Target code 'IQ' not found, but 'IQ-Cm' is explicitly the subject molecule throughout the paper (structure in Scheme 1b, synthesis in Scheme 2, photophysical data in Fig. 1). This is a direct code match for the derivative. Aggregated emission peak (643 nm) is explicitly stated for fw=98% in DMSO/water mixtures where aggregation occurs. Solid-state emission (620 nm) is reported for the crystal with quantum yield data. Both values are explicitly given in nm.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T21:43:20"
+}

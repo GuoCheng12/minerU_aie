@@ -1,0 +1,22 @@
+{
+  "id": "2282",
+  "code": "TPA3TPAN",
+  "SMILES": "N#C/C(C(C=C1)=CC=C1C(C=C2)=CC=C2N(C3=CC=C(C4=CC=C(/C(C#N)=C(C5=CC=CC=C5)/C6=CC=CC=C6)C=C4)C=C3)C7=CC=C(C8=CC=C(/C(C#N)=C(C9=CC=CC=C9)/C%10=CC=CC=C%10)C=C8)C=C7)=C(C%11=CC=CC=C%11)/C%12=CC=CC=C%12",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPA3TPAN\",\n    \"where_found\": \"Table 1, Figure 1, Figure 3, Figure 5, and throughout text\"\n  },\n  \"emission_aggr_nm\": 558,\n  \"emission_solid_or_film_nm\": 563,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 3B and page 6 text\",\n    \"solid_or_film_source\": \"Figure 5 and page 6 text\",\n    \"conditions_aggr\": \"THF/water mixture with fw = 90% (nanoaggregates)\",\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Code 'TPA3TPAN' is explicitly mentioned throughout the paper. For aggregated emission: Figure 3B and page 6 text state emission peak at 558 nm for TPA3TPAN in THF/water mixture with fw = 90%, where nanoaggregates are explicitly formed. For solid/film emission: Figure 5 and page 6 text report thin film emission maximum at 563 nm for TPA3TPAN.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "embedding_only:aggr:not_in_context",
+    "solid:not_in_final_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-07T09:46:21"
+}

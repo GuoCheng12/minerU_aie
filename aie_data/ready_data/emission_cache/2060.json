@@ -1,0 +1,17 @@
+{
+  "id": "2060",
+  "code": "BTPPA",
+  "SMILES": "C[N+](C=C1)=CC=C1/C(C2=CC=CC=C2)=C(C3=CC=CC=C3)/C(C=C4)=CC=C4N(C5=CC=CC=C5)C6=CC=C(C7=C8C(N=S=N8)=C(C(C=C9)=CC=C9N(C%10=CC=C(/C(C%11=CC=CC=C%11)=C(C%12=CC=CC=C%12)/C%13=CC=[N+](C)C=C%13)C=C%10)C%14=CC=CC=C%14)C%15=NN(CC(CC)CC)N=C7%15)C=C6.FP(F)(F)(F)F.F[P-](F)(F)(F)(F)F.[F-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"BTPPA\",\n    \"where_found\": \"Figure 1A, Figure 2, Figure 3, Scheme 1, and throughout text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target code 'BTPPA' is explicitly mentioned multiple times in the text, figures, and scheme, providing a clear code_match. However, no explicit emission peak wavelengths (in nm) for BTPPA under aggregated-state conditions (e.g., THF/water mixtures, nanoaggregates) or solid/film state are reported in the provided context. The text discusses emission behavior in solvent mixtures (e.g., Figure 2G for BTPPA in ACN/water) and aggregates, but specific peak values are not given. Only general statements about emission shifts are made. Therefore, both required emission values are set to null in strict adherence to the extraction rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T01:51:23"
+}

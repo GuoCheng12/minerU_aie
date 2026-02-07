@@ -1,0 +1,17 @@
+{
+  "id": "2053",
+  "code": "TPE-BPA",
+  "SMILES": "[O-]C(C1=NC(C([O-])=O)=CC(OCCCCOC(C=C2)=CC=C2/C(C3=CC=C(C=C3)OCCCCOC4=CC(C([O-])=O)=NC(C([O-])=O)=C4)=C(C5=CC=C(C=C5)OCCCCOC6=CC(C([O-])=O)=NC(C([O-])=O)=C6)/C7=CC=C(OCCCCOC8=CC(C([O-])=O)=NC(C([O-])=O)=C8)C=C7)=C1)=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "480",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-BPA\",\n    \"where_found\": \"Figure 2 caption, text sections 2.1, 3, 4, 6, 9, 10\"\n  },\n  \"emission_aggr_nm\": 480,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 2A and accompanying text on pages 7-9\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"Aqueous solution with DDAB surfactant, forming TPE-BPA@DDAB aggregates\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'TPE-BPA' is explicitly mentioned multiple times in the text and figures. The emission peak at 480 nm is explicitly stated for the aggregated state formed upon addition of DDAB to TPE-BPA aqueous solution (Figure 2A). No data for solid-state, powder, crystal, or thin-film emission was found in the provided context; only aggregated emission in solution is reported.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T01:17:48"
+}

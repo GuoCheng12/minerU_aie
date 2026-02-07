@@ -1,0 +1,17 @@
+{
+  "id": "2138",
+  "code": "FC6-2BP-PXZ",
+  "SMILES": "O=C(C1=CC=C(N2C(C=CC=C3)=C3OC4=C2C=CC=C4)C=C1)C(C=C5)=CC6=C5C(C=CC(C(C7=CC=C(N8C(C=CC=C9)=C9OC%10=C8C=CC=C%10)C=C7)=O)=C%11)=C%11C6(CCCCCC)CCCCCC",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "567",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"FC6-2BP-PXZ\",\n    \"where_found\": \"Table 1, Figure 1, Figure 2, narrative text (pages 3-5)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 567,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Neat film column), Figure 1B caption\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Spin-coated neat film (Table 1 note: 'Spin-coated on a quartz substrate')\"\n  },\n  \"notes\": \"Target code 'FC6-2BP-PXZ' is explicitly mentioned throughout the paper (Table 1, figures, synthesis). Table 1 provides a solid-state emission peak (λem) of 567 nm for the neat film. While the paper discusses aggregation-induced emission (AIE) in THF/water mixtures (Figures 1C,D) and states emission is 'blue-shifted' at high water fractions, no explicit emission peak wavelength for the aggregated state is provided in the given context for FC6-2BP-PXZ. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T04:08:32"
+}

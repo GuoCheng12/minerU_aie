@@ -1,0 +1,17 @@
+{
+  "id": "1926",
+  "code": "TPPCN",
+  "SMILES": "FP(F)(F)(F)F.C[N+]1=CC=C(/C(C2=CC=C(/C(C3=CC=CC=C3)=C(C#N)/C#N)C=C2)=C(C4=CC=C(OC)C=C4)C5=CC=C(OC)C=C5)C=C1.[F-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "606",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPPCN\",\n    \"where_found\": \"Scheme 1, Fig. 1, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": 606,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Fig. 1B and page 3 narrative\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"Hexane/DCM mixture with f_Hexane > 70% (aggregate formation explicitly stated)\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'TPPCN' is explicitly mentioned throughout the paper (Scheme 1, Fig. 1, synthesis section). Emission_aggr_nm = 606 nm is explicitly reported as the peak when f_Hexane > 70%, where aggregation is stated to occur (AIE characteristic). No data for solid state, powder, crystal, or thin film emission is provided in the given context; only aggregated state in solvent mixture and cellular imaging are discussed. Therefore, emission_solid_or_film_nm is null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:40:01"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2011",
+  "code": "TNZPPI",
+  "SMILES": "C1(N(C2=CC=C(C3=C(C=CC=C4)C4=C(C5=CC=C(C6=NC(C(C=CC=C7)=C7C8=C9C=CC=C8)=C9N6C%10=CC=CC=C%10)C=C5)C%11=NSN=C%113)C=C2)C%12=CC=CC=C%12)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "668",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TNZPPI\",\n    \"where_found\": \"Table 1, Figure 5, narrative text throughout (e.g., page 4, page 7)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 668,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column under λ_em^b) [nm]\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"neat film with 80 nm (as per Table 1 note)\"\n  },\n  \"notes\": \"Target code 'TNZPPI' is explicitly mentioned multiple times in tables, figures, and text. Table 1 provides a clear emission maximum for the film state (668 nm). While Figure 5 shows PL spectra in DMF/water mixtures (aggregation condition), no explicit emission peak value for the aggregated state is reported in the provided text or table for TNZPPI. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T22:20:24"
+}

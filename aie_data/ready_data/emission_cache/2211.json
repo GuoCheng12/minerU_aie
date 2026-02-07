@@ -1,0 +1,17 @@
+{
+  "id": "2211",
+  "code": "f-TPE-PTh",
+  "SMILES": "C(/C1=C(C2=CC=C(C3=CC=CS3)C=C2)C=CC=C1)(C4=CC=CC=C4)=C(C5=CC=CC=C5C6=CC=C(C7=CC=CS7)C=C6)C8=CC=CC=C8",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "472",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-TPE-PTh\",\n    \"where_found\": \"Table 2 (page 10-11), narrative text (page 10)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 472,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 2, column 'Film'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-casted film on a quartz plate at RT\"\n  },\n  \"notes\": \"Code 'f-TPE-PTh' is explicitly listed in Table 2 and mentioned in the narrative. Table 2 provides a solid film emission peak of 472 nm under the 'Film' column. While the text (Chunk 1) discusses aggregate-state emission properties and AEE for the series, it does not report a specific emission wavelength for f-TPE-PTh under explicit aggregate conditions (e.g., THF/water mixture). Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T07:00:09"
+}

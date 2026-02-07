@@ -1,0 +1,17 @@
+{
+  "id": "1082",
+  "code": "5-BTMPS",
+  "SMILES": "C[Si]1(C2=CC=CC=C2)C(C3C=C4C(C=CC=C4)S3)=C(C5=CC=CC=C5)C(C6=CC=CC=C6)=C1C7SC8C(C=CC=C8)=C7",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "502",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"5-BTMPS\",\n    \"where_found\": \"Table 1, Figure 3 caption/narrative, Scheme 1, Synthesis section\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 502,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Vacuum-deposited film (Table 1 footnote [b])\"\n  },\n  \"notes\": \"Target code '5-BTMPS' is explicitly listed in Table 1 and throughout the text. Table 1 provides emission in film (502 nm). While the paper discusses aggregation in THF/water mixtures for 5-BTDMS (Figure 4), no explicit emission peak value for 5-BTMPS under aggregate conditions is reported in the provided context. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:55:33"
+}

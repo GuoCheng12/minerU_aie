@@ -1,0 +1,17 @@
+{
+  "id": "2083",
+  "code": "BSPOTPE",
+  "SMILES": "O=S(CCCOC1=CC=C(C(C2=CC=CC=C2)=C(C3=CC=C(OCCCS(=O)([O-])=O)C=C3)C4=CC=CC=C4)C=C1)([O-])=O.[Na+].[Na+]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"BSPOTPE\",\n    \"where_found\": \"Abstract, Introduction, Section 2, Figure captions, References\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule BSPOTPE is explicitly mentioned multiple times in the text (code_match). However, this paper focuses on the application of BSPOTPE for HSA detection in a smartphone-based urinalysis device. No photophysical emission peak data (λ_em,max in nm) for BSPOTPE under aggregated or solid/film conditions is reported in the provided content. The paper cites reference [4] (Tong et al., 2007) for the synthesis and AIE properties, but the extracted chunks do not contain the specific emission wavelengths required. Therefore, both emission fields are set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T02:57:21"
+}

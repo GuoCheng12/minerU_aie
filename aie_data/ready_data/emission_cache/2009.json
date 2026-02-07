@@ -1,0 +1,17 @@
+{
+  "id": "2009",
+  "code": "DP-TPT",
+  "SMILES": "C12=C(C3=CC=C(C4=CC=C(C5=CC=C(C6=C(CCC7=CC=C8C=C7)C=CC(CC8)=C6)S5)C9=NSN=C94)S3)C=C(CCC%10=CC=C(CC2)C=C%10)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DP-TBT\",\n    \"where_found\": \"Table 1, Figure 1C, pages 8-11, Abstract\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'DP-TPT' not found. However, the paper extensively discusses 'DP-TBT' (Table 1, figures, text). This is likely a typographical difference in the provided target code (TPT vs TBT). Given the prominence of DP-TBT as the main AIEgen studied, and the structural description matching the target (paracyclophane-terminated thiophene-benzothiadiazole core), this is considered a code_match to the intended target. No explicit emission peak for aggregates (e.g., at a specific fw) is provided in the given chunks, only discussion of AIE behavior and PL intensity changes. Table 1 provides emission in THF solution (657 nm) and PLQY in solids, but not the solid-state emission peak wavelength. Therefore, both requested emission values are null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T22:09:20"
+}

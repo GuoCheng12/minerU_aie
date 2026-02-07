@@ -1,0 +1,17 @@
+{
+  "id": "1076",
+  "code": "TPE(SF)2",
+  "SMILES": "C12=C(C=C(C3=CC=C(/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)/C6=CC=C(C(C=C7)=CC8=C7C(C=CC=C9)=C9C8%10C%11=C(C=CC=C%11)C%12=C%10C=CC=C%12)C=C6)C=C3)C=C2)C%13(C%14=C(C=CC=C%14)C%15=C%13C=CC=C%15)C%16=C1C=CC=C%16",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "502",
+  "emission_aggr": "503",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE(SF)2\",\n    \"where_found\": \"Table 1 (row label), page 4 narrative\"\n  },\n  \"emission_aggr_nm\": 503,\n  \"emission_solid_or_film_nm\": 502,\n  \"evidence\": {\n    \"aggr_source\": \"Table 1, column 'Aggrb'\",\n    \"solid_or_film_source\": \"Table 1, column 'Filmc'\",\n    \"conditions_aggr\": \"Aggregates in THF/water mixture with 90% (vol%) water fraction\",\n    \"conditions_solid_or_film\": \"Film drop-casted on quartz plate\"\n  },\n  \"notes\": \"Target code 'TPE(SF)2' is explicitly listed in Table 1. The table provides both an aggregate emission (503 nm, measured in THF/water fw=90%) and a film emission (502 nm, drop-cast film). Both values meet the strict condition definitions.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:54:11"
+}

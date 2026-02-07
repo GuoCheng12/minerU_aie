@@ -1,0 +1,17 @@
+{
+  "id": "1711",
+  "code": "TPE-BODIPY",
+  "SMILES": "F[B-]1(F)N2C(C(C(C=C3)=CC=C3/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)/C6=CC=CC=C6)=C7[N+]1=C(C)C=C7)=CC=C2C",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-BODIPY\",\n    \"where_found\": \"Throughout text, Figure 1 caption, keywords\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Code 'TPE-BODIPY' is explicitly mentioned throughout the paper (e.g., Figure 1 caption, keywords section). However, no explicit emission peak wavelength values are reported in the provided text chunks. Figure 1d shows emission spectra in THF/water mixtures, but the peak value is not stated numerically in the text. The text mentions an emission peak at 527 nm for TPE-BODIPY@epoxy resin in THF solution (0 vol% water), which is a solution/dispersed state, not an explicit aggregate condition. No explicit aggregate emission peak (e.g., at fw=90%) or solid/film emission peak is provided numerically. Therefore, both required emission values are set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:05:56"
+}

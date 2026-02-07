@@ -1,0 +1,20 @@
+{
+  "id": "1947",
+  "code": "DPIEAuF",
+  "SMILES": "FC1=C(F)C(F)=C(F)C(F)=C1[Au]C#[N]C(C(C2=CC=CC=C2)[N]#C[Au]C3=C(F)C(F)=C(F)C(F)=C3F)C4=CC=CC=C4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "504",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"(R,R)-1\",\n    \"where_found\": \"Throughout text, Figures 1-7, Table 1, Scheme S1\"\n  },\n  \"emission_aggr_nm\": 504,\n  \"emission_solid_or_film_nm\": 500,\n  \"evidence\": {\n    \"aggr_source\": \"Page 4, Figure 1B and 1C, Figure S13\",\n    \"solid_or_film_source\": \"Page 4, Figure 2A\",\n    \"conditions_aggr\": \"THF/water mixture with 99 vol% water content\",\n    \"conditions_solid_or_film\": \"Scratched powder state\"\n  },\n  \"notes\": \"The target molecule is referred to as (R,R)-1 throughout the paper. This matches the structural description of a dinuclear Au(I) complex with diphenyl-ethane moiety and pentafluorophenyl-Au termini, consistent with the target DPIEAuF. Emission_aggr_nm = 504 nm is explicitly stated for aggregates formed in THF/water (99% water). Emission_solid_or_film_nm = 500 nm is explicitly stated for the scratched powder state (solid). Confidence is high due to clear code match and explicit emission values in the text.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "solid:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T18:07:12"
+}

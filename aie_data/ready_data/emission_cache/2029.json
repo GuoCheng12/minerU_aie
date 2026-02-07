@@ -1,0 +1,17 @@
+{
+  "id": "2029",
+  "code": "tp5",
+  "SMILES": "COC1=CC=C(/C(C2=CC=C(OC)C=C2)=C(C3=CC=CC=C3)/C4=CC=C(C5=CC=C(/C(C)=C(C#N)/C#N)S5)C=C4)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "651",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TP5\",\n    \"where_found\": \"Page 3, Figure 2 caption, Table S1 context\"\n  },\n  \"emission_aggr_nm\": 651,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Page 3 narrative and Figure 2\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"DMSO/water (v/v = 1/99) mixture, nanoaggregates\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Code 'TP5' is explicitly mentioned multiple times in the text (TP1-TP8 series). The emission value of 651 nm is explicitly stated for TP5 in the context of DMSO/water (1/99) mixture, which is described as creating nanoaggregates and represents an explicit aggregate condition. No solid-state or film emission data is reported for TP5 in the provided content.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T23:51:47"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2243",
+  "code": "DMACP-TTDO",
+  "SMILES": "O=S1(C2=C(SC(C3=CC=C(N(C4=CC=CC=C4C5(C)C)C6=C5C=CC=C6)C=C3)=C2C7=CC=C(C(C)(C)C)C=C7)C(C8=CC=C(C(C)(C)C)C=C8)=C1C9=CC=C(N(C%10=CC=CC=C%10C%11(C)C)C%12=C%11C=CC=C%12)C=C9)=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "605",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DMACP-TTDO\",\n    \"where_found\": \"Table 1, Fig. 4 caption, synthesis section (pages 7, 10)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 605,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Target code 'DMACP-TTDO' is explicitly found in multiple locations (Table 1, synthesis, figures). Table 1 provides a solid-state emission value (605 nm) for a drop-casted film. While Fig. 4A shows PL spectra of DMACP-TTDO in THF/water mixtures (aggregate condition), the specific emission peak wavelength at high water fraction (e.g., fw=90%) is not numerically stated in the provided text chunks, only the quantum yield is given. Therefore, emission_aggr_nm cannot be extracted per the strict anti-leakage rule requiring an explicit numerical value.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T07:45:25"
+}

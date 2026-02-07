@@ -1,0 +1,17 @@
+{
+  "id": "2417",
+  "code": "(TPE)3SiPh",
+  "SMILES": "C1(/C(C2=CC=C([Si](C3=CC=CC=C3)(C4=CC=C(/C(C5=CC=CC=C5)=C(C6=CC=CC=C6)/C7=CC=CC=C7)C=C4)C8=CC=C(/C(C9=CC=CC=C9)=C(C%10=CC=CC=C%10)C%11=CC=CC=C%11)C=C8)C=C2)=C(C%12=CC=CC=C%12)/C%13=CC=CC=C%13)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"(TPE)3SiPh\",\n    \"where_found\": \"Figure captions (Fig. 2, Fig. 3B, Fig. 5, Fig. 6, Fig. 7), Table 1, and narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule (TPE)3SiPh is explicitly mentioned multiple times in the text, figures, and Table 1, confirming its presence. However, the provided context chunks do not contain explicit numerical emission peak wavelengths for either aggregated-state conditions (e.g., THF/water mixture at a specific f_w) or solid/film states. While PL spectra are discussed qualitatively (e.g., emission increases at high water content, films emit at 'similar wavelengths'), no specific λ_max values in nm are reported in the given excerpts. Therefore, both emission fields must be set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T12:29:48"
+}

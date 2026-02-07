@@ -1,0 +1,17 @@
+{
+  "id": "1867",
+  "code": "TPE-3EP+",
+  "SMILES": "C[N+](C=C1)=CC=C1/C=CC(C=C2)=CC=C2/C(C3=CC=C(/C=CC4=CC=[N+](C)C=C4)C=C3)=C(C5=CC=CC=C5)C6=CC=C(/C=CC7=CC=[N](C)C=C7)C=C6.[I-].[I-].[I]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-3EP+\",\n    \"where_found\": \"Figure 1A caption, page 3 narrative, page 4 narrative\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'TPE-3EP+' is explicitly mentioned multiple times in the text (Figure 1A, page 3, page 4). However, no explicit emission peak wavelengths (aggregated-state or solid/film) for TPE-3EP+ are provided in the given context. The only emission value mentioned (610 nm) is for an unspecified molecule under aggregate conditions (fw=15% EtOH as poor solvent), but it is not explicitly attributed to TPE-3EP+. Therefore, both emission fields must be set to null per the anti-leakage and strict extraction rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:29:49"
+}

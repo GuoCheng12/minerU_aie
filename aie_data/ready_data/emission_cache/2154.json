@@ -1,0 +1,17 @@
+{
+  "id": "2154",
+  "code": "DBP-BTO",
+  "SMILES": "O=S1(C2=C(C=CC=C2)C(C3=CC=C(C4=CC=CC=C4)C=C3)=C1C5=CC=C(C6=CC=CC=C6)C=C5)=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "472",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DBP-BTO\",\n    \"where_found\": \"Table 1, Fig. 2, Fig. 3B, narrative text (pages 3-5)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 472,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (solid column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid\"\n  },\n  \"notes\": \"Target code 'DBP-BTO' is explicitly found in Table 1, Fig. 2, Fig. 3B, and narrative text. Table 1 provides a solid-state emission peak of 472 nm. While Fig. 3B and the text discuss PL in THF/water mixtures (aggregated state), no explicit emission peak wavelength for the aggregated state is reported in the provided text or table. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T04:40:47"
+}

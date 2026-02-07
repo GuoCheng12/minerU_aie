@@ -1,0 +1,17 @@
+{
+  "id": "1624",
+  "code": "Silole",
+  "SMILES": "C[Si]1(C)C(C2=CC=C(CN=[N+]=[N-])C=C2)=C(C3=CC=CC=C3)C(C4=CC=CC=C4)=C1C5=CC=C(CN=[N+]=[N-])C=C5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"1\",\n    \"where_found\": \"Throughout text, Scheme 1, Fig. 3, etc.\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule is referred to as '1' throughout the paper (e.g., 'molecule 1', 'compound 1'), which is identified as containing an AIE-active silole core with chiral sugar pendants (Scheme 1). This matches the 'Silole' target code via the AIE-active silole core description. However, no explicit emission peak wavelengths (in nm) are provided in the given context chunks for either aggregated-state conditions (e.g., DCM/hexane mixtures) or solid/film state. The PL spectra are discussed qualitatively (Fig. 3a) and quantum yields are given, but peak wavelengths are not reported in the provided text.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:02:15"
+}

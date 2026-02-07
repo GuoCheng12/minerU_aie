@@ -1,0 +1,19 @@
+{
+  "id": "1086",
+  "code": "(PPI)2DMTPS",
+  "SMILES": "C[Si]1(C)C(C2=CC=C(C3[N](C4=CC=CC=C4)=C5C(C(C=CC=C6)=C6C7=C5C=CC=C7)=N3)C=C2)=C(C8=CC=CC=C8)C(C9=CC=CC=C9)=C1C%10=CC=C(C%11N=C%12C(C(C=CC=C%13)=C%13C%14=C%12C=CC=C%14)=[N]%11C%15=CC=CC=C%15)C=C%10",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "not_found",
+  "identity_match_confidence": 0.0,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"not_found\",\n  \"identity_match_confidence\": 0.0,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": null,\n    \"where_found\": null\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule (PPI)2DMTPS was not found in the provided content. The paper exclusively discusses two different compounds: mCz-TAn-CN and m2Cz-TAn-CN. No explicit code/label match for the target was found. The provided TARGET_SMILES was not present in the text, and no structure-equivalence reasoning could be made as the described molecules (anthracene-carbazole-benzonitrile derivatives) are structurally distinct from the target's silole-based structure. Therefore, the target is not present, and no emission data can be extracted.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "identity_confidence_below_threshold:0.000"
+  ],
+  "timestamp": "2026-02-06T15:56:20"
+}

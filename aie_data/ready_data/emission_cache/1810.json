@@ -1,0 +1,17 @@
+{
+  "id": "1810",
+  "code": "AuIB-C9",
+  "SMILES": "FC1=C(F)C(F)=C(F)C([Au]C#[N]C2=C(OCCCCCCCCC)C=C([N]#C[Au]C3=C(F)C(F)=C(F)C(F)=C3F)C(OCCCCCCCCC)=C2)=C1F",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "500",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"C9\",\n    \"where_found\": \"Throughout text (e.g., page 2, page 5) as part of series AuIB-Cn (n=5-10)\"\n  },\n  \"emission_aggr_nm\": 500,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Page 2: 'their dimethylformamide (DMF)-water mixtures emit uniform green luminescences with maximum peaks at ~500nm... when the water fraction (f_w) reaches 30% or 50%'\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"DMF/water mixture, f_w = 30% or 50%\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Code match: The target 'AuIB-C9' is referred to as 'C9' within the series AuIB-Cn (n=5-10) throughout the paper. Aggregated-state emission peak of ~500 nm is explicitly reported for the entire series (C5-C10) in DMF/water mixtures at f_w=30% or 50%, satisfying the aggregate condition rule. No explicit solid-state or film emission peak is reported for C9 individually; only ranges (500-535 nm) for the series in solid state are mentioned, but no specific value for C9 is extractable. Therefore, emission_solid_or_film_nm is set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:21:57"
+}

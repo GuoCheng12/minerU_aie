@@ -1,0 +1,17 @@
+{
+  "id": "1083",
+  "code": "2-BTMPS",
+  "SMILES": "C[Si]1(C2=CC=CC=C2)C(C3C=C4C(C=CC=C4)S3)=C(C5=CC=CC=C5)C(C6=CC=CC=C6)=C1C7SC8C(C=CC=C8)=C7",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "552",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"2-BTMPS\",\n    \"where_found\": \"Table 1, Figure 3 caption, synthesis section (page 9)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 552,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Vacuum-deposited film\"\n  },\n  \"notes\": \"Target code '2-BTMPS' is explicitly listed in Table 1 and mentioned in text. Table 1 provides emission in THF solution (522 nm) and vacuum-deposited film (552 nm). The paper discusses aggregation in THF/water mixtures (Figure 4) but only for 5-BTDMS and 2-BTDMS, not for 2-BTMPS. No explicit aggregate emission data (e.g., λ_em at high f_w) is reported for 2-BTMPS. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:55:44"
+}

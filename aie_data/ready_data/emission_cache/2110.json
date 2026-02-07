@@ -1,0 +1,17 @@
+{
+  "id": "2110",
+  "code": "IVP-02",
+  "SMILES": "C1=CC=CC2=C1C(=C[N]2[H])C=CC3=CC=[N+](C=C3)CC",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "575",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"IVP-02\",\n    \"where_found\": \"Throughout text (e.g., pages 3-4, Fig. 2, Table S2), explicitly named in figures, captions, and narrative.\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 575,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Page 4, narrative text and Fig. 2E caption\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state / powder\"\n  },\n  \"notes\": \"Code 'IVP-02' is explicitly and frequently mentioned in the provided context. An aggregated-state emission peak is not reported under the strict definition (no explicit aggregate/aggregation condition like solvent mixtures causing aggregation). The paper discusses enhanced emission in high-viscosity glycerol/water mixtures, but this is attributed to restriction of intramolecular motion (RIM), not aggregation (explicitly states attempts to induce aggregation with THF/EtOH failed). Therefore, emission_aggr_nm is set to null. A solid-state emission peak of ~575 nm is explicitly stated in the narrative on page 4 and corresponds to Fig. 2E.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T03:25:40"
+}

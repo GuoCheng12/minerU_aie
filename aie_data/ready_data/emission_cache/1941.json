@@ -1,0 +1,17 @@
+{
+  "id": "1941",
+  "code": "TTT-4",
+  "SMILES": "FP(F)(F)(F)F.CC[N+]1=C(/C=C/C2=CC=C(C(S3)=CC=C3C(C=C4)=CC=C4N(C5=CC=C(C=C5)OC)C(C=C6)=CC=C6OC)S2)SC7=C1C=CC=C7.[F-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "813",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TTT-4\",\n    \"where_found\": \"Scheme S1, Fig. 1, Table S1, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": 813,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Fig. 1B and page 5 text\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"DMSO/toluene mixtures with 99% toluene fraction (f_T=99%)\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target molecule TTT-4 is explicitly named multiple times in the text, figures, and schemes. An aggregated-state emission peak of 813 nm is explicitly reported for TTT-4 in DMSO/toluene mixtures with 99% toluene fraction, which is an explicit aggregation condition. No emission data for solid state, powder, crystal, or thin film is reported in the provided context; only solution and aggregate data are given. Therefore, emission_solid_or_film_nm is null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T17:43:31"
+}

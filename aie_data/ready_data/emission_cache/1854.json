@@ -1,0 +1,17 @@
+{
+  "id": "1854",
+  "code": "TPECNP",
+  "SMILES": "COc6ccc(/C(=C(c1ccccc1)c4ccc(C(=O)c3cc[n+](Cc2ccc(B(O)O)cc2)cc3)cc4)c5ccc(OC)cc5)cc6.[Br-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "678",
+  "emission_aggr": "625",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPECNP\",\n    \"where_found\": \"Figure 1C caption, page 3 narrative, Figure 1A/B caption\"\n  },\n  \"emission_aggr_nm\": 625,\n  \"emission_solid_or_film_nm\": 678,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 1C caption and page 3 narrative\",\n    \"solid_or_film_source\": \"Page 3 narrative referencing Figure S7\",\n    \"conditions_aggr\": \"PBS solution (aggregated state, implied by AIE property and comparison to solid state)\",\n    \"conditions_solid_or_film\": \"Solid state\"\n  },\n  \"notes\": \"Target code 'TPECNP' is explicitly mentioned multiple times. Emission at 625 nm is reported for TPECNP in PBS (Figure 1C), which is the aggregated/activated state as described in the mechanism (H2O2 activation leads to insoluble TPECNP forming aggregates). Emission at 678 nm is explicitly stated for the solid state, with a 53 nm redshift compared to the aggregated state. The aggregated-state emission is inferred from the context of AIE and the comparison to solid state, but the text does not explicitly label the 625 nm measurement as 'aggregated' in the same sentence. However, the overall narrative (Chunk 2) confirms that TPECNP forms aggregates and emits in such conditions, and the 625 nm value is the emission maximum shown in the aggregated/activated context (Figure 1C, PBS). Therefore, 625 nm is taken as emission_aggr_nm.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:26:50"
+}

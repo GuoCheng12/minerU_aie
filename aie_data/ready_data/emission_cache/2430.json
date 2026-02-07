@@ -1,0 +1,17 @@
+{
+  "id": "2430",
+  "code": "Dt-BPITBT-TPE",
+  "SMILES": "CC(C)(C)C1=CC(N2C(C3=CC=C(C4=CC=C(C5=CC=C(/C(C6=CC=CC=C6)=C(C7=CC=CC=C7)/C8=CC=CC=C8)C=C5)C9=NSN=C49)S3)=NC%10=C2C(C=CC=C%11)=C%11C%12=C%10C=CC=C%12)=CC(C(C)(C)C)=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "641",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"Dt-BPITBT-TPE\",\n    \"where_found\": \"Table 1, Fig. 1 caption, narrative text (pages 3-5)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 641,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λem(nm) film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Solid neat film\"\n  },\n  \"notes\": \"Target code 'Dt-BPITBT-TPE' is explicitly mentioned multiple times in tables and text. Table 1 provides a solid film emission peak of 641 nm. While PL spectra in THF/water mixtures are discussed (Fig. 1C) and the term 'aggregated state' is used in the narrative, no explicit emission peak value for an aggregated condition (e.g., at a specific fw) is reported for Dt-BPITBT-TPE in the provided context. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T13:27:47"
+}

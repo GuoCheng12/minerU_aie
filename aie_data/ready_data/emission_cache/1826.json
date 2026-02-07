@@ -1,0 +1,17 @@
+{
+  "id": "1826",
+  "code": "2TPEA-AQ",
+  "SMILES": "O=C(C1=C2C=CC(N(C3=CC=C(C4=CC=C(/C(C5=CC=CC=C5)=C(C6=CC=CC=C6)/C7=CC=CC=C7)C=C4)C=C3)C8=CC=CC=C8)=C1)C9=CC=C(C=C9C2=O)N(C%10=CC=CC=C%10)C%11=CC=C(C%12=CC=C(/C(C%13=CC=CC=C%13)=C(C%14=CC=CC=C%14)C%15=CC=CC=C%15)C=C%12)C=C%11",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "630",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"2TPEA-AQ\",\n    \"where_found\": \"Figure 1 caption, Section 2.1, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 630,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Page 2, paragraph 2\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"powders\"\n  },\n  \"notes\": \"Target code '2TPEA-AQ' is explicitly mentioned multiple times (Figure 1, synthesis section, photophysical studies). An aggregated-state emission peak is not explicitly reported as a single wavelength value. The PL spectra in THF/water mixtures (e.g., fw=99%) are shown in Figure 1b, but no specific peak wavelength is given in the provided text for the aggregate state. The solid-state emission peak for 2TPEA-AQ powders is explicitly stated as 630 nm.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:23:50"
+}

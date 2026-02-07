@@ -1,0 +1,17 @@
+{
+  "id": "1923",
+  "code": "Cur-N-BF2",
+  "SMILES": "COC1=C(O)C=CC(/C=C/C(O2)=CC(/C=C/C3=CC=C(O)C(OC)=C3)=NB2(F)F)=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "572",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"Cur-N-BF2\",\n    \"where_found\": \"Scheme 2, Fig. 1, page 3 narrative, Synthesis section\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 572,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Fig. 1C and page 3 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Target code 'Cur-N-BF2' is explicitly mentioned multiple times (Scheme 2, Fig. 1, synthesis, photophysical characterization). The paper reports a solid-state emission maximum of 572 nm for Cur-N-BF2. While PL spectra in THF/water mixtures are mentioned (Fig. S4), no explicit emission peak wavelength for an aggregated state (e.g., at a specific water fraction) is provided in the given context. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:39:26"
+}

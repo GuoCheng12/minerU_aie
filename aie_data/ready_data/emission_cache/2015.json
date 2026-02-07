@@ -1,0 +1,17 @@
+{
+  "id": "2015",
+  "code": "PyTNZ",
+  "SMILES": "C1(N(C2=CC=C(C3=C(C=CC=C4)C4=C(C5=CC=C(C=C6)C7=C5C=CC8=CC=CC6=C78)C9=NSN=C93)C=C2)C%10=CC=CC=C%10)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "657",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"PyTNZ\",\n    \"where_found\": \"Table 1, page 3; Synthesis section page 8\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 657,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, page 3\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"neat film with 80 nm\"\n  },\n  \"notes\": \"Target code 'PyTNZ' explicitly appears in Table 1 and synthesis section. Table 1 provides film emission peak (657 nm) for PyTNZ. While the paper discusses aggregation behavior (AIE) and shows PL spectra in DMF/water mixtures for other compounds (e.g., NpTNZ in Fig. 4), no explicit aggregate emission peak value for PyTNZ is reported in the provided content. The anti-leakage rule prevents using solid/film value for emission_aggr_nm.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T22:42:56"
+}

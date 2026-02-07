@@ -1,0 +1,17 @@
+{
+  "id": "2402",
+  "code": "bMT-PIO",
+  "SMILES": "O=P(C1=CC=CC=C1)(C2=C3C=CC=C2)C(C4=C(SC(C)=C4)C)=C3C5=C(SC(C)=C5)C",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "449",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"βMT-PIO\",\n    \"where_found\": \"Table 1, page 21-22; Experimental Section (page 10); throughout text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 449,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (column 'Film')\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Target code 'bMT-PIO' matches the paper's 'βMT-PIO' (Greek beta vs. Latin b, same compound). Table 1 provides explicit emission in THF (468 nm), film (449 nm), and crystal (440 nm). No explicit aggregate emission data (e.g., THF/water mixture) is reported for βMT-PIO in the provided context; only αT-PIO aggregate data is mentioned. Therefore, emission_aggr_nm is set to null per anti-leakage rule, and emission_solid_or_film_nm is taken from the film column.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T11:36:19"
+}

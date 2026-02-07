@@ -1,0 +1,17 @@
+{
+  "id": "1817",
+  "code": "5CzBN-TPhCz",
+  "SMILES": "N#CC1=[C@@]([N@@]2C(C=CC=C3OCCCCCCOC4=CC=C(N5C(C=CC=C6)=C6C7=C5C=CC=C7)C=C4)=C3C8=C2C=CC=C8)[C@@]([N@@]9C(C=CC=C%10)=C%10C%11=C9C=CC=C%11)=C(N%12C%13=C(C(OCCCCCCOC%14=CC=C(N%15C(C=CC=C%16)=C%16C%17=C%15C=CC=C%17)C=C%14)=CC=C%13)C%18=C%12C=CC=C%18)[C@@]([N@@]%19C%20=C(C=CC=C%20)C%21=C%19C=CC=C%21)=[C@@]1[N@@]%22C%23=C(C(OCCCCCCOC%24=CC=C(N%25C(C=CC=C%26)=C%26C%27=C%25C=CC=C%27)C=C%24)=CC=C%23)C%28=C%22C=CC=C%28",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "505",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"5CzBN-TPhCz\",\n    \"where_found\": \"Table 1, Scheme 1, narrative text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 505,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, column 'Filme λem'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"pure film\"\n  },\n  \"notes\": \"Target code '5CzBN-TPhCz' is explicitly listed in Table 1 and Scheme 1. Table 1 provides a solid/film emission peak of 505 nm under 'Filme' conditions. While the paper discusses aggregation (AEE/AIDF) in THF/water mixtures for the series (e.g., Figure 2, S8, S9), no explicit emission peak wavelength for 5CzBN-TPhCz under aggregate conditions is reported in the provided chunks. The aggregate data appears in figures (e.g., Figure 2B shows peak wavelength vs. water fraction) but specific numerical values for 5CzBN-TPhCz are not extracted in the text/table chunks provided. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:22:54"
+}

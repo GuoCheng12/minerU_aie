@@ -1,0 +1,17 @@
+{
+  "id": "1760",
+  "code": "TPE-BPA",
+  "SMILES": "O=C(O[K])C1=NC(C(O[K])=O)=CC(OCCCCOC2=CC=C(/C(C3=CC=C(OCCCCOC4=CC(C(O[K])=O)=NC(C(O[K])=O)=C4)C=C3)=C(C5=CC=C(OCCCCOC6=CC(C(O[K])=O)=NC(C(O[K])=O)=C6)C=C5)/C7=CC=C(OCCCCOC8=CC(C(O[K])=O)=NC(C(O[K])=O)=C8)C=C7)C=C2)=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-BPA\",\n    \"where_found\": \"Scheme 1, Figure 1, pages 2-3 (multiple mentions)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule 'TPE-BPA' is explicitly mentioned multiple times (Scheme 1, Figure 1, narrative). However, no explicit emission peak wavelengths (in nm) are reported in the provided text chunks. While fluorescence enhancement due to aggregation-induced emission is mentioned (Figure 1d,e), and blue-green emission of the TPE moiety in precipitates/films is described (Figure 1g, Figure 5), no numerical λ_em,max values are given for either aggregated-state conditions (e.g., THF/water mixtures) or solid/film states. Therefore, both emission fields are set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:11:09"
+}

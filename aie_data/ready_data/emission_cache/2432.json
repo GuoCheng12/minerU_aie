@@ -1,0 +1,17 @@
+{
+  "id": "2432",
+  "code": "t-BPITBT-TPATPE",
+  "SMILES": "CC(C)(C)C(C=C1)=CC=C1N2C(C3=CC=C(C4=CC=C(C5=CC=C(/C(C6=CC=CC=C6)=C(C7=CC=C(N(C8=CC=CC=C8)C9=CC=CC=C9)C=C7)/C%10=CC=C(N(C%11=CC=CC=C%11)C%12=CC=CC=C%12)C=C%10)C=C5)C%13=NSN=C4%13)S3)=NC%14=C2C(C=CC=C%15)=C%15C%16=C%14C=CC=C%16",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "645",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"t-BPITBT-TPATPE\",\n    \"where_found\": \"Table 1, Fig. 1D, page 4 narrative\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 645,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λem(nm) film column), page 4 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Solid neat film\"\n  },\n  \"notes\": \"Code 't-BPITBT-TPATPE' is explicitly found in Table 1, Figure 1D caption, and narrative text. Table 1 provides a solid film emission peak of 645 nm. While the paper discusses PL in THF/water mixtures for t-BPITBT-TPATPE (Fig. 1D) and mentions enhanced emission at high water fraction (aggregated state), no explicit emission peak wavelength for the aggregated state is reported in the provided text or table. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T13:36:31"
+}

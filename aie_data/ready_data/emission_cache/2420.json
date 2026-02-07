@@ -1,0 +1,17 @@
+{
+  "id": "2420",
+  "code": "TPE-TAC",
+  "SMILES": "CC(C)(C)C1=CC2=C(C=C1)C(C3=CC=C(N4C(C=CC=C5)=C5C6=C4C=CC=C6)C=C3)=C7C(C=CC(C(C)(C)C)=C7)=C2C(C=C8)=CC=C8/C(C9=CC=CC=C9)=C(C%10=CC=CC=C%10)/C%11=CC=CC=C%11",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "453",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-TAC\",\n    \"where_found\": \"Table 1, Figure 1, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 453,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λem(nm) film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Solid neat film\"\n  },\n  \"notes\": \"Code 'TPE-TAC' is explicitly found multiple times (Table 1, Figure 1, narrative). Table 1 provides a solid film emission peak of 453 nm. While the paper discusses PL in THF/water mixtures (aggregates) for TPE-TAC (Figure 1C), no explicit emission peak wavelength for the aggregated state is reported in the provided text or Table 1. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T12:42:16"
+}

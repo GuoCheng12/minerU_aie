@@ -1,0 +1,17 @@
+{
+  "id": "1111",
+  "code": "TPEB-2-Np",
+  "SMILES": "C1(/C(C2=CC=CC=C2)=C(C3=CC=CC=C3)/C4=CC=C(C5=CC=C(C=CC=C6)C6=C5)C=C4)=CC=C(C7=CC(C=CC=C8)=C8C=C7)CC1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "492",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPEB-2-Np\",\n    \"where_found\": \"Table 1, Table 2, narrative text (page 4)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 492,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λ_em(nm)Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Target code 'TPEB-2-Np' is explicitly listed in Table 1 and Table 2. Table 1 provides a solid-state (film) emission peak of 492 nm. While the paper discusses aggregation-induced emission (AIE) and shows PL enhancement in THF/water mixtures (e.g., Figure 2 for TPEBPy), no explicit emission peak wavelength for TPEB-2-Np under aggregate conditions (e.g., in THF/water at high f_w) is reported in the provided content. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:59:23"
+}

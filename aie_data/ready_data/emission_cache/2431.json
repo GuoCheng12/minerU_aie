@@ -1,0 +1,20 @@
+{
+  "id": "2431",
+  "code": "TPPyE",
+  "SMILES": "C1(C=CC=C2C=C3)=C2C(C3=C(/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)C6=CC=CC=C6)C=C7)=C7C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "484",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPPyE\",\n    \"where_found\": \"Throughout text, Table 1, Fig. 3, Scheme 1, Experimental section\"\n  },\n  \"emission_aggr_nm\": 485,\n  \"emission_solid_or_film_nm\": 484,\n  \"evidence\": {\n    \"aggr_source\": \"Page 3, paragraph 1 (also Fig. 3C)\",\n    \"solid_or_film_source\": \"Table 1\",\n    \"conditions_aggr\": \"THF/water mixture with 90% water content (nanodimensional crystalline aggregates)\",\n    \"conditions_solid_or_film\": \"Spin-coated amorphous film on quartz plate\"\n  },\n  \"notes\": \"Target code 'TPPyE' is explicitly mentioned throughout the paper. For aggregated-state emission, the text states: 'At 90% water content, intense excimer emission was observed in the spectrum of TPPyE at 485 nm.' This is an explicit aggregate condition (THF/water mixture). For solid/film emission, Table 1 reports λ_em for 'Film' as 484 nm for TPPyE, with a note specifying 'Film spin-coated on quartz plate.'\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:aggr:not_in_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-07T13:31:36"
+}

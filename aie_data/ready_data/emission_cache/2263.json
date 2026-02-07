@@ -1,0 +1,17 @@
+{
+  "id": "2263",
+  "code": "NpDMS",
+  "SMILES": "C[Si]1(C)C(C2=CC3=C(C=CC=C3)C=C2)=C(C4=CC=CC=C4)C(C5=CC=CC=C5)=C1C6=CC(C=CC=C7)=C7C=C6",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "500",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"NpDMS\",\n    \"where_found\": \"Table 1, page 4; Figure 6 caption, page 4-5; Synthesis section, page 7\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 500,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, column 'λem[nm] Film[b]'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Film drop-cast onto a quartz plate\"\n  },\n  \"notes\": \"Target code 'NpDMS' is explicitly listed in Table 1 and other sections. Table 1 provides a solid/film emission peak of 500 nm for NpDMS. While the paper discusses aggregated-state emission (AEE) in general and shows PL spectra for PyMPS in THF/water mixtures (Figure 5), no explicit aggregated-state emission peak value (λ_em,max) for NpDMS is reported in the provided text or tables. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T09:01:58"
+}

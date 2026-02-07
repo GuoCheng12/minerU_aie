@@ -1,0 +1,17 @@
+{
+  "id": "2262",
+  "code": "FrMPS",
+  "SMILES": "C[Si]1(C2=CC=CC=C2)C(C3=C4C(C5=CC=C4)=C(C6=C5C=CC=C6)C=C3)=C(C7=CC=CC=C7)C(C8=CC=CC=C8)=C1C9=C(C=CC=C%10C%11=C%12C=CC=C%11)C%10=C%12C=C9",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "527",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"FrMPS\",\n    \"where_found\": \"Table 1, page 4; Synthesis section, page 7\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 527,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, page 4\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Film drop-cast onto a quartz plate\"\n  },\n  \"notes\": \"Target code 'FrMPS' is explicitly listed in Table 1 and in the synthesis section. Table 1 provides a film emission peak (λem[nm] Film column) of 527 nm for FrMPS. The paper discusses aggregated-state emission (e.g., for PyMPS in THF/water mixtures in Figure 5) but does not report an explicit aggregated-state emission peak value for FrMPS in text or tables. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T08:57:42"
+}

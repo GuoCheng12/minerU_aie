@@ -1,0 +1,17 @@
+{
+  "id": "2039",
+  "code": "CBBHA-8",
+  "SMILES": "O=C(N/N=C/C1=CC(C(C2=CC(/C=N/NC(C3=CC=C(OCCCCCCCC)C=C3)=O)=C(O)C=C2)=O)=CC=C1O)C4=CC=C(OCCCCCCCC)C=C4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "517",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"CBBHA-8\",\n    \"where_found\": \"Chunk 1 (page 2), Chunk 7 (page 2), Synthesis section (Chunk 8, page 4), Fig. 2 caption\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 517,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Chunk 1 (page 2): 'The 1,2-DCE gels of CBBHA-4, CBBHA-8 and CBBHA-12 exhibited intense green emissions with maximum emission peaks at ... 517 nm ... (Fig. 2a and Fig. S7 and S6, ESI†)'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"1,2-DCE gel state\"\n  },\n  \"notes\": \"Target code 'CBBHA-8' is explicitly mentioned multiple times in text, figures, and synthesis section. Emission peak of 517 nm is reported for the gel state (1,2-DCE gel). No explicit aggregate condition (e.g., THF/water mixture) is mentioned for emission measurement; the gel state is considered a solid-like/film-like state (self-assembled network), not an explicit 'aggregate' condition per the strict definition (solvent mixture-induced aggregates). Therefore, emission_aggr_nm is set to null, and emission_solid_or_film_nm is set to 517 nm (gel emission).\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T00:19:47"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2130",
+  "code": "TPP-TPA",
+  "SMILES": "COC(C=C1)=CC=C1/C(C2=CC=[N+](C)C=C2)=C(C3=CC=C(N(C4=CC=CC=C4)C5=CC=CC=C5)C=C3)C(C=C6)=CC=C6N(C7=CC=CC=C7)C8=CC=CC=C8.FP(F)(F)(F)F.[F-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "680",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPP-TPA\",\n    \"where_found\": \"Figure 1 caption, synthetic route description, throughout text\"\n  },\n  \"emission_aggr_nm\": 680,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 1C and page 3 text\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"DMSO-water mixture with fw=99% (explicitly called 'aggregated solution')\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target molecule TPP-TPA is explicitly named throughout the paper (code_match). The emission peak at 680 nm is explicitly reported for the aggregated state in DMSO-water mixture with 99% water fraction (fw=99%), which is described as 'aggregated solution' in the text. No solid-state or film emission data is reported in the provided context; only aggregated solution and nanoparticle (AIE dots) data are mentioned. Therefore, emission_solid_or_film_nm is null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T04:04:14"
+}

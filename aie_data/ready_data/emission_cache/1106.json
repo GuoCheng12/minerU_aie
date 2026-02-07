@@ -1,0 +1,20 @@
+{
+  "id": "1106",
+  "code": "THPSTPA",
+  "SMILES": "C1(N(C2=CC=C(C#CC3=CC=C([Si]4(C5=CC=CC=C5)C(C6=CC=CC=C6)=C(C7=CC=CC=C7)C(C8=CC=CC=C8)=C4C9=CC=CC=C9)C=C3)C=C2)C%10=CC=C(C#CC%11=CC=C([Si]%12(C%13=CC=CC=C%13)C(C%14=CC=CC=C%14)=C(C%15=CC=CC=C%15)C(C%16=CC=CC=C%16)=C%12C%17=CC=CC=C%17)C=C%11)C=C%10)=CC=C(C#CC%18=CC=C([Si]%19(C%20=CC=CC=C%20)C(C%21=CC=CC=C%21)=C(C%22=CC=CC=C%22)C(C%23=CC=CC=C%23)=C%19C%24=CC=CC=C%24)C=C%18)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"THPSTPA\",\n    \"where_found\": \"Throughout text (e.g., page 3, page 4, page 5, abstract, figures)\"\n  },\n  \"emission_aggr_nm\": 495,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Page 3, narrative text and Fig. 2A/B context\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"THF/water mixture with high water fraction (aggregate condition)\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'THPSTPA' is explicitly mentioned throughout the paper. Emission at 495 nm is explicitly reported for aggregates formed in THF/water mixtures (high water fraction). While the paper mentions the solid/powder is 'highly emissive' and shows greenish-blue light under UV (Fig. 4B), no specific emission peak wavelength (in nm) for the solid state or film is provided in the given context. Therefore, emission_solid_or_film_nm is set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:aggr:not_in_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T15:58:22"
+}

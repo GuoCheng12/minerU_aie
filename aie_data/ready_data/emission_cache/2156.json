@@ -1,0 +1,17 @@
+{
+  "id": "2156",
+  "code": "DMF-BP-PXZ",
+  "SMILES": "O=C(C1=CC=C(N2C(C=CC=C3)=C3OC4=C2C=CC=C4)C=C1)C5=CC6=C(C7=C(C6(C)C)C=CC=C7)C=C5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "548",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DMF-BP-PXZ\",\n    \"where_found\": \"Table 1, Table 2, Figure 2 caption, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 548,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Neat film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Neat film deposited on quartz substrate\"\n  },\n  \"notes\": \"Target code 'DMF-BP-PXZ' is explicitly mentioned multiple times in tables and text. Table 1 provides neat film emission λem = 548 nm. While the text (Chunk 1, Figure 2c/f) discusses PL enhancement and delayed fluorescence 'upon aggregate formation' in THF/water mixtures, no explicit emission peak wavelength for the aggregated state is reported in the provided content. The narrative mentions PL spectra in THF/water mixtures but does not give a numerical λmax for aggregates. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T04:47:29"
+}

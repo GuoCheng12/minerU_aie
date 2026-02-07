@@ -1,0 +1,17 @@
+{
+  "id": "1043",
+  "code": "DPA1b",
+  "SMILES": "BrC1=CC=CC=C1C2=C(C=CC=C3)C3=C(C4=CC=CC=C4)C5=C2C=CC=C5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DPA1b\",\n    \"where_found\": \"Figure 1 caption, Scheme 2, X-ray data section, and narrative text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule DPA1b is explicitly mentioned multiple times (code_match). However, the provided context only reports photophysical properties for DPA derivatives collectively in dilute THF solution (427-435 nm). No explicit aggregate condition (e.g., THF/water mixture, nanoaggregate) or solid/film (e.g., powder, crystal, spin-coated film) emission data is reported for DPA1b specifically or for the series in the given chunks. Therefore, both emission_aggr_nm and emission_solid_or_film_nm must be set to null per the anti-leakage and strict extraction rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:45:39"
+}

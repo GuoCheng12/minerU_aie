@@ -1,0 +1,17 @@
+{
+  "id": "1112",
+  "code": "p-BTPATPE",
+  "SMILES": "C1(/C(C2=CC=C(C3=CC=C(N(C4=CC=CC=C4)C5=CC=CC=C5)C=C3)C=C2)=C(C6=CC=C(C7=CC=C(N(C8=CC=CC=C8)C9=CC=CC=C9)C=C7)C=C6)/C%10=CC=CC=C%10)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "509",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"p-BTPATPE\",\n    \"where_found\": \"Throughout text, Fig. 1, Fig. 2, Scheme 1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 509,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Fig. 1B caption and text on page 1-2\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Code 'p-BTPATPE' is explicitly mentioned throughout the paper. For aggregated-state emission: Fig. 2A shows PL spectra in THF/water mixtures, but no explicit emission maximum (nm) value is reported in the provided text for any specific water fraction. Therefore, emission_aggr_nm must be set to null. For solid/film emission: The text states 'The thin film of p-BTPATPE also emits intensely at 509 nm (Fig. 1B).' This is an explicit emission peak value for a thin film condition.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:59:37"
+}

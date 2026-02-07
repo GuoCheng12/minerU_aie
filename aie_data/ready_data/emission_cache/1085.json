@@ -1,0 +1,19 @@
+{
+  "id": "1085",
+  "code": "(PBI)2MPPS",
+  "SMILES": "C[Si]1(C2=CC=CC=C2)C(C3=CC=C(C4[N](C5=CC=CC=C5)=C6C(C=CC=C6)=N4)C=C3)=C(C7=CC=CC=C7)C(C8=CC=CC=C8)=C1C9=CC=C(C%10N=C%11C(C=CC=C%11)=[N]%10C%12=CC=CC=C%12)C=C9",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "not_found",
+  "identity_match_confidence": 0.0,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"not_found\",\n  \"identity_match_confidence\": 0.0,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": null,\n    \"where_found\": null\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The provided context discusses molecules mCz-TAn-CN and m2Cz-TAn-CN. No mention of the target code '(PBI)2MPPS' or its aliases was found. The provided SMILES string for the target describes a perylene bisimide (PBI) dimer with a silole core, which is structurally distinct from the anthracene-carbazole-benzonitrile compounds (mCz-TAn-CN, m2Cz-TAn-CN) described in the paper. Therefore, the target molecule is not present in this context. No emission data for aggregated states or solid/film states for the target can be extracted.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "identity_confidence_below_threshold:0.000"
+  ],
+  "timestamp": "2026-02-06T15:56:09"
+}

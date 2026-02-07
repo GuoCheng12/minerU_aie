@@ -1,0 +1,22 @@
+{
+  "id": "2285",
+  "code": "DTPA4TPAN",
+  "SMILES": "N#C/C(C(C=C1)=CC=C1C(C=C2)=CC=C2N(C3=CC=C(C(C=C4)=CC=C4N(C5=CC=C(C6=CC=C(/C(C#N)=C(C7=CC=CC=C7)/C8=CC=CC=C8)C=C6)C=C5)C9=CC=C(C%10=CC=C(/C(C#N)=C(C%11=CC=CC=C%11)/C%12=CC=CC=C%12)C=C%10)C=C9)C=C3)C%13=CC=C(C%14=CC=C(/C(C#N)=C(C%15=CC=CC=C%15)/C%16=CC=CC=C%16)C=C%14)C=C%13)=C(C%17=CC=CC=C%17)C%18=CC=CC=C%18",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DTPA4TPAN\",\n    \"where_found\": \"Table 1, Figure 3, Figure 4, Figure 5, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": 576,\n  \"emission_solid_or_film_nm\": 581,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 3 (D) and page 7 narrative\",\n    \"solid_or_film_source\": \"Figure 5 and page 6 narrative\",\n    \"conditions_aggr\": \"THF/water mixture with fw = 90% (nanoaggregates)\",\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Target code 'DTPA4TPAN' is explicitly mentioned throughout the paper. For aggregated emission: Figure 3(D) and text on page 7 state emission peak at 576 nm in THF/water mixture with fw = 90%, where nanoaggregates are explicitly formed. For solid/film emission: Figure 5 and text on page 6 state thin film emission has a peak at 581 nm (shoulder at 546 nm).\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "embedding_only:aggr:not_in_context",
+    "solid:not_in_final_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-07T09:50:53"
+}

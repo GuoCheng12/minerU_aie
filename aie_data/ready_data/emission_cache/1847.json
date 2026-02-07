@@ -1,0 +1,17 @@
+{
+  "id": "1847",
+  "code": "1@CB[7]",
+  "SMILES": "c%12ccc(C[n+]%11ccc(c%10ccc(/C(=C(c3ccc(c2cc[n+](Cc1ccccc1)cc2)cc3)/c6ccc(c5cc[n+](Cc4ccccc4)cc5)cc6)c9ccc(c8cc[n+](Cc7ccccc7)cc8)cc9)cc%10)cc%11)cc%12.[Br-].[Br-].[Br-].[Br-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"1@CB[7]\",\n    \"where_found\": \"Fig. 1 caption, narrative text (pages 2, 3, 5), Scheme 1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target code '1@CB[7]' is explicitly mentioned multiple times in the text and figure captions, confirming its presence. However, no explicit emission peak wavelengths for aggregated-state or solid/film conditions are reported for 1@CB[7]. The paper reports fluorescence intensity changes at 537 nm for 1@CB[7] in aqueous solution (H2O with 1% DMSO) upon addition of CB[7] or spermine, but this is not an explicit aggregate condition (no high water fraction, no 'aggregate' label for this measurement). The AIE properties of the core molecule '1' are confirmed in toluene/DMSO mixtures (Fig. S10), but no peak wavelength is given for the aggregated state of '1' alone, and this data is not for the target complex 1@CB[7]. No solid/film emission data is provided for 1@CB[7]. Therefore, both required emission values are null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:25:59"
+}

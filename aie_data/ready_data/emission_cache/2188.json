@@ -1,0 +1,17 @@
+{
+  "id": "2188",
+  "code": "f-TPE-BPF",
+  "SMILES": "Fc1ccc(cc1)c2ccccc2/C(c3ccccc3)=C(c4ccccc4)c5ccccc5c6ccc(F)cc6",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "466",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-TPE-BPF\",\n    \"where_found\": \"Table 1, page 4; narrative text pages 3-5\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 466,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, page 4\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Target code 'f-TPE-BPF' is explicitly listed in Table 1 and throughout the text. Table 1 provides emission in THF (483 nm), film (466 nm), and crystal (450 nm). The paper discusses aggregate formation in THF/water mixtures (Fig. S4) and states emissions are enhanced in aggregate, but no explicit emission peak wavelength for the target under aggregate conditions is provided in the given context. Therefore, emission_aggr_nm is set to null per anti-leakage rule. Emission_solid_or_film_nm is taken from the 'film' column in Table 1.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T05:56:38"
+}

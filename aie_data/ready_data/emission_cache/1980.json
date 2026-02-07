@@ -1,0 +1,17 @@
+{
+  "id": "1980",
+  "code": "TPA-Ph-SCP",
+  "SMILES": "C[N+](C=C1)=CC=C1C(C=C2)=CC=C2/C([N+]#[C-])=C/C(C=C3)=CC=C3/C=C/C(C=C4)=CC=C4N(C5=CC=CC=C5)C6=CC=CC=C6",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "628",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPA-Ph-SCP\",\n    \"where_found\": \"Chunk 1 (pages 5-6), Chunk 3 (page 6), Chunk 5 (page 3), Chunk 6 (pages 3-4)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 628,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Chunk 3 (page 6)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Code 'TPA-Ph-SCP' is explicitly mentioned multiple times in the text (synthesis, photophysical properties, DFT calculations). The solid-state emission maximum is reported as 628 nm in Chunk 3. While aggregation behavior (AIE) in DMSO/toluene mixtures is discussed, no explicit emission peak wavelength for the aggregated state is provided for TPA-Ph-SCP. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T20:00:37"
+}

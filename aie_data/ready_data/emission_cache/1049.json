@@ -1,0 +1,17 @@
+{
+  "id": "1049",
+  "code": "TPE-4SF",
+  "SMILES": "C(/C1=CC=C(C2=CC=C(C(C=CC=C3)=C3C45C6=CC=CC=C6C7=C5C=CC=C7)C4=C2)C=C1)(C8=CC=C(C9=CC=C(C(C=CC=C%10)=C%10C%11%12C%13=CC=CC=C%13C%14=C%12C=CC=C%14)C%11=C9)C=C8)=C(C%15=CC=C(C%16=CC=C(C(C=CC=C%17)=C%17C%18%19C%20=CC=CC=C%20C%21=C%19C=CC=C%21)C%18=C%16)C=C%15)/C%22=CC=C(C%23=CC=C(C(C=CC=C%24)=C%24C%25%26C%27=CC=CC=C%27C%28=C%26C=CC=C%28)C%25=C%23)C=C%22",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "521",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-4SF\",\n    \"where_found\": \"Table 1, narrative text (pages 1-3)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 521,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Film drop-cast on a quartz plate (amorphous film)\"\n  },\n  \"notes\": \"Target code 'TPE-4SF' is explicitly mentioned multiple times in the text and Table 1. Table 1 provides the solid-state (film) emission peak of 521 nm. While the paper discusses aggregation-enhanced emission (AEE) and shows PL spectra in dioxane-water mixtures (Fig. 1), the specific emission maximum for TPE-4SF under aggregated conditions (e.g., at a high water fraction) is not numerically reported in the provided text chunks. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:47:00"
+}

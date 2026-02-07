@@ -1,0 +1,19 @@
+{
+  "id": "1627",
+  "code": "4-methoxy-6'-((4-methoxyphenyl)ethynyl)-3',4',5'-triphenyl-1,1':2',1''-terphenyl",
+  "SMILES": "COC1=CC=C(C=C1)C#CC1=C(C2=CC=CC=C2)C(C2=CC=CC=C2)=C(C2=CC=CC=C2)C(C2=CC=CC=C2)=C1C1=CC=C(OC)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "not_found",
+  "identity_match_confidence": 0.0,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"not_found\",\n  \"identity_match_confidence\": 0.0,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": null,\n    \"where_found\": null\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule (4-methoxy-6'-((4-methoxyphenyl)ethynyl)-3',4',5'-triphenyl-1,1':2',1''-terphenyl) was not found in the provided content. The paper discusses compounds 3a-c, 7, 10, and 12, but none match the target's code, structure, or SMILES. No SMILES/InChIKey was provided for the target to attempt a structural match. Therefore, identity is not_found, and no emission data can be extracted.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "identity_confidence_below_threshold:0.000"
+  ],
+  "timestamp": "2026-02-06T16:03:11"
+}

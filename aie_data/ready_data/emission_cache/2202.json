@@ -1,0 +1,17 @@
+{
+  "id": "2202",
+  "code": "f-TPE-PyH",
+  "SMILES": "C(/C1=CC=CC=C1)(c2ccccc2c3cc[nH+]cc3)=C(C4=CC=CC=C4)c5c(c6cc[nH+]cc6)cccc5.[Cl-].[Cl-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-TPE-PyH\",\n    \"where_found\": \"Figure 2, Figure 3, pages 2-5, 7, 9 (narrative text and figure captions)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule 'f-TPE-PyH' is explicitly mentioned multiple times in the provided text chunks (e.g., Figure 2C, page 3, page 9). This is a clear code_match. However, the provided context only discusses photophysical properties in solution (e.g., PL at 526 nm in 1,4-dioxane, 553 nm in acetonitrile) and transient absorption studies. There is no mention of emission in aggregated states (e.g., THF/water mixtures, nanoaggregates) or in solid/film states (e.g., powder, crystal, spin-coated film). Therefore, both emission_aggr_nm and emission_solid_or_film_nm must be set to null per the anti-leakage and strict extraction rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T06:22:15"
+}

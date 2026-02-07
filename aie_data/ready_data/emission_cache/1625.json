@@ -1,0 +1,17 @@
+{
+  "id": "1625",
+  "code": "TPE",
+  "SMILES": "O=C(C1=CC=CC=C1)C2=CC=C(/C(C3=CC=CC=C3)=C(C4=CC=C(OCCCS(=O)([O-])=O)C=C4)/C5=CC=C(OCCCN=[N+]=[N-])C=C5)C=C2",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"SO3-TPE-N3\",\n    \"where_found\": \"Chunk 1, Chunk 3, Fig. 1 caption, Scheme 1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule is explicitly identified by the code 'SO3-TPE-N3' (TPE is part of the name). The paper reports an emission peak at 539 nm (Chunk 1, Fig. 1A). However, this emission is measured in a solution context (concentration: 10 µM), not under an explicit aggregate condition (e.g., THF/hexane mixture data in Fig. S16 shows emission enhancement but no peak wavelength is given in the provided text). No solid-state or film emission data is reported. Therefore, both emission_aggr_nm and emission_solid_or_film_nm must be set to null per the strict anti-leakage rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:02:26"
+}

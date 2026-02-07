@@ -1,0 +1,17 @@
+{
+  "id": "1781",
+  "code": "TPP-2MP",
+  "SMILES": "COC(C=C1)=CC=C1C2=C(C3=CC=C(C4=CC=CC=C4)C=C3)N=C(C5=CC=C(OC)C=C5)C(C6=CC=C(C7=CC=CC=C7)C=C6)=N2",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "440",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPP-2MP\",\n    \"where_found\": \"Chunk 1 (page 4), Chunk 4 (pages 3-4)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 440,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Chunk 1 (page 4) - Fig. 4 PL spectra of thin films\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Code 'TPP-2MP' is explicitly mentioned multiple times in the text (Chunk 1, Chunk 4). The thin film emission peak is reported as 440 nm (blue-shifted from 455 nm in solution). No explicit aggregate emission peak for TPP-2MP is provided in the given context. The paper discusses aggregate emission in THF/water mixtures (e.g., fw=90%) but reports only PL intensity changes, not specific emission maxima for TPP-2MP under those conditions. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:15:45"
+}

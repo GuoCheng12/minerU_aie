@@ -1,0 +1,17 @@
+{
+  "id": "2068",
+  "code": "TPB-CzC3",
+  "SMILES": "N#CC(C=C1)=CC=C1C2=CC(C3=CC=CC=C3)=C(C4=CC=C(C5=CC=C(N(C6=CC=CC=C6)C7=C8C=CC=C7)C8=C5)C=C4)C=C2C9=CC=CC=C9",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "426",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPBCzC3\",\n    \"where_found\": \"Table 1, Figure 3C, narrative text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 426,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (film column), page 4 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"evaporated neat film\"\n  },\n  \"notes\": \"Code match: The target 'TPB-CzC3' appears as 'TPBCzC3' throughout the paper (Table 1, Figures, text). No explicit emission peak for aggregates is reported. Figure 3 shows PL spectra in THF/water mixtures for TPBCzC3, but no specific peak wavelength is given in the text or table for the aggregated state (only a range 409-422 nm is mentioned for the series). Therefore, emission_aggr_nm is set to null. Emission in evaporated neat film is explicitly given as 426 nm in Table 1 and page 4 narrative.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T02:24:14"
+}

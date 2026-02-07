@@ -1,0 +1,20 @@
+{
+  "id": "1105",
+  "code": "BTPEBCF",
+  "SMILES": "CCCCCCCN1C2=C(C=CC=C2)C3=C1C=CC(C4(C5=CC=C(N(CCCCCCC)C6=C7C=CC=C6)C7=C5)C8=CC(C9=CC=C(/C(C%10=CC=CC=C%10)=C(C%11=CC=CC=C%11)/C%12=CC=CC=C%12)C=C9)=CC=C8C%13=C4C=C(C%14=CC=C(/C(C%15=CC=CC=C%15)=C(C%16=CC=CC=C%16)\\C%17=CC=CC=C%17)C=C%14)C=C%13)=C3",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "487",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"BTPEBCF\",\n    \"where_found\": \"Table 1, Fig. 1, Fig. 2, narrative text, and experimental section\"\n  },\n  \"emission_aggr_nm\": 484,\n  \"emission_solid_or_film_nm\": 487,\n  \"evidence\": {\n    \"aggr_source\": \"Fig. 2A and narrative text on pages 2-3\",\n    \"solid_or_film_source\": \"Table 1 and narrative text on page 3\",\n    \"conditions_aggr\": \"THF/water mixture with water fraction fw = 99.5%\",\n    \"conditions_solid_or_film\": \"thin film\"\n  },\n  \"notes\": \"Target code 'BTPEBCF' is explicitly mentioned throughout the paper. Emission_aggr_nm (484 nm) is explicitly reported for aggregates in THF/water (fw=99.5%). Emission_solid_or_film_nm (487 nm) is explicitly reported for thin film in Table 1 and narrative text. Both values are directly extracted from the provided content.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:aggr:not_in_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T15:58:11"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1983",
+  "code": "TPM-MO",
+  "SMILES": "COC1=CC=C(C(C2=CC=C(OC)C=C2)C3=CC=C(OC)C=C3)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "429",
+  "emission_aggr": "440",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPM-MO\",\n    \"where_found\": \"Table 1, Figure 2, narrative text (pages 3-4)\"\n  },\n  \"emission_aggr_nm\": 440,\n  \"emission_solid_or_film_nm\": 429,\n  \"evidence\": {\n    \"aggr_source\": \"Figure 2b/c and page 3 narrative\",\n    \"solid_or_film_source\": \"Table 1 and Figure 2d\",\n    \"conditions_aggr\": \"THF/water mixture, f_w = 90%\",\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Target molecule TPM-MO is explicitly named in Table 1 and throughout the text. Aggregated-state emission peak (440 nm) is explicitly reported for f_w = 90% THF/water mixture (Figure 2b/c, page 3). Solid-state emission peak (429 nm) is reported in Table 1 (λ_TSC) and Figure 2d. Both values meet strict condition definitions.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T20:14:41"
+}

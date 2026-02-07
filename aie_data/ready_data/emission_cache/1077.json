@@ -1,0 +1,22 @@
+{
+  "id": "1077",
+  "code": "",
+  "SMILES": "",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"BTPE\",\n    \"where_found\": \"Throughout text, Chart 1, Fig. 1, etc.\"\n  },\n  \"emission_aggr_nm\": 484,\n  \"emission_solid_or_film_nm\": 445,\n  \"evidence\": {\n    \"aggr_source\": \"Chunk 1, page 3\",\n    \"solid_or_film_source\": \"Chunk 3, page 3\",\n    \"conditions_aggr\": \"THF/water mixture with f_w > 70% (explicit aggregate condition)\",\n    \"conditions_solid_or_film\": \"crystalline fibres (solid state)\"\n  },\n  \"notes\": \"Target code 'BTPE' is explicitly mentioned throughout the paper. Emission_aggr_nm = 484 nm is extracted from Chunk 1, which describes the emission maximum in aqueous mixtures (f_w > 70%), an explicit aggregate condition. Emission_solid_or_film_nm = 445 nm is extracted from Chunk 3, which reports the emission of crystalline fibres (solid state). The film emission (499 nm) is not chosen as the solid/film value because the crystalline fibre value is explicitly given and is the 'bluer' solid-state emission referenced. The aggregated-state value is distinct from the solid-state value, adhering to the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "embedding_only:aggr:not_in_context",
+    "solid:not_in_final_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T15:54:38"
+}

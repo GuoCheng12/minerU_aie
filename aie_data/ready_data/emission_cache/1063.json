@@ -1,0 +1,17 @@
+{
+  "id": "1063",
+  "code": "o-TPEPh",
+  "SMILES": "c1(/C(c2ccccc2c3ccccc3)=C(c4ccccc4)\\c5ccccc5)ccccc1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "466",
+  "emission_aggr": "466",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"o-TPEPh\",\n    \"where_found\": \"Table 2, Fig. 3B, narrative text\"\n  },\n  \"emission_aggr_nm\": 466,\n  \"emission_solid_or_film_nm\": 466,\n  \"evidence\": {\n    \"aggr_source\": \"Table 2 (λem(nm) Aggr column), Fig. 3B caption\",\n    \"solid_or_film_source\": \"Table 2 (λem(nm) Film column), page 3-4 narrative\",\n    \"conditions_aggr\": \"THF/water mixtures (V/V 1/99), fw = 99%\",\n    \"conditions_solid_or_film\": \"Film drop-cast on a quartz plate\"\n  },\n  \"notes\": \"Target code 'o-TPEPh' is explicitly listed in Table 2 and Figure 3B. Table 2 provides both aggregated emission (466 nm in THF/water fw=99%) and film emission (466 nm, drop-cast film). The aggregated condition is explicitly defined as a solvent mixture causing aggregation (THF/water 1/99). Both values are directly extracted from the table.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:49:54"
+}

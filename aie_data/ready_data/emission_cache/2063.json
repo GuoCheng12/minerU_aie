@@ -1,0 +1,17 @@
+{
+  "id": "2063",
+  "code": "CN-TPB-TPA",
+  "SMILES": "N#CC(C=C1)=CC=C1C2=C(C3=CC=CC=C3)C=C(C4=CC=C(C5=CC=C(N(C6=CC=CC=C6)C7=CC=CC=C7)C=C5)C=C4)C(C8=CC=CC=C8)=C2",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "449",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"CN-TPB-TPA\",\n    \"where_found\": \"Throughout text, Table 1, Fig. 1A, Fig. 2B, etc.\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 449,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λPL[nm] film column), page 4 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"thin film state\"\n  },\n  \"notes\": \"Target code 'CN-TPB-TPA' is explicitly mentioned numerous times in text, tables, and figures. Table 1 provides λPL(film) = 449 nm. While Fig. 2B shows PL spectra in THF/water mixtures (aggregation study), no explicit emission peak wavelength for the aggregated state is reported in the provided text chunks for CN-TPB-TPA. The narrative describes trends (red-shift then blue-shift with increasing fw) but does not state a specific λmax for the aggregate condition. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T02:03:54"
+}

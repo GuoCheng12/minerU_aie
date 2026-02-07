@@ -1,0 +1,17 @@
+{
+  "id": "2204",
+  "code": "f-TPE-PPyH",
+  "SMILES": "C(/C1=CC=CC=C1)(c2ccccc2c3ccc(c4cc[nH+]cc4)cc3)=C(C5=CC=CC=C5)c6c(c7ccc(c8cc[nH+]cc8)cc7)cccc6.[Cl-].[Cl-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-TPE-PPyH\",\n    \"where_found\": \"Figure 1, Figure 2, Figure 3, Figure 4, and narrative text throughout (e.g., pages 2-5, 7)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule 'f-TPE-PPyH' is explicitly mentioned multiple times in figures and text (code_match). However, the provided context chunks only discuss its photophysical properties in solution (solvatochromism) and transient absorption studies. No explicit aggregate condition (e.g., THF/water mixtures, nanoaggregates) or solid/film (powder, crystal, spin-coated film) emission peak is reported in the given excerpts. Therefore, both required emission wavelengths cannot be extracted and are set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T06:31:25"
+}

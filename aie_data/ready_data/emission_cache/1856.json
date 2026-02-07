@@ -1,0 +1,17 @@
+{
+  "id": "1856",
+  "code": "PDIPQ-C5",
+  "SMILES": "CCCCCCC(CCCCC)n%29c(=O)c%30ccc%31c%33ccc%34c(=O)n(C(CCCC)CCCCC)c(=O)c%35ccc(c%32c(c%28ccc(c%19nc%18cc%17nc(c8ccc(c1cc4c(=O)n(C(CCCCC)CCCCCC)c(=O)c3ccc2c5ccc6c(=O)n(C(CCCCC)CCCCC)c(=O)c7ccc(c1c2c34)c5c67)cc8C)c(c%16ccc(c9cc%12c(=O)n(C(CCCCC)CCCCCC)c(=O)c%11ccc%10c%13ccc%14c(=O)n(C(CCCCC)CCCCC)c(=O)c%15ccc(c9c%10c%11%12)c%13c%14%15)cc%16)nc%17cc%18nc%19c%27ccc(c%20cc%23c(=O)n(C(CCCCC)CCCCCC)c(=O)c%22ccc%21c%24ccc%25c(=O)n(C(CCCCC)CCCCC)c(=O)c%26ccc(c%20c%21c%22%23)c%24c%25%26)cc%27)cc%28)cc(c%29=O)c%30c%31%32)c%33c%34%35",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "638",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"PDIPQ-C5\",\n    \"where_found\": \"Throughout text, Fig. 1, Fig. 2, Table 1, Scheme 1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 638,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Chunk 1, page 2 (text)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Target code 'PDIPQ-C5' is explicitly mentioned throughout the paper (code_match). The paper reports an emission peak at 638 nm in the solid state for PDIPQ-C5. No explicit aggregate-state emission measurement (e.g., in THF/water mixtures) is described in the provided context; only solution and solid-state emissions are given. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:27:19"
+}

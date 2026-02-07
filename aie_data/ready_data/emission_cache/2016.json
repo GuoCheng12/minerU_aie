@@ -1,0 +1,17 @@
+{
+  "id": "2016",
+  "code": "PheTNZ",
+  "SMILES": "C1(N(C2=CC=C(C3=C(C=CC=C4)C4=C(C5=C(C=CC=C6)C6=C(C=CC=C7)C7=C5)C8=NSN=C83)C=C2)C9=CC=CC=C9)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "658",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"PheTNZ\",\n    \"where_found\": \"Table 1, page 3; narrative mentions pages 3, 4, 6, 8\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 658,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"neat film, 80 nm\"\n  },\n  \"notes\": \"Target code 'PheTNZ' is explicitly listed in Table 1 and mentioned throughout the text. Table 1 provides emission in film (658 nm) but no explicit aggregate emission peak. The text discusses aggregation in THF/water mixtures (Fig. S16A-C) but does not report a specific emission wavelength for PheTNZ aggregates—only general AIE behavior is described. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T22:47:23"
+}

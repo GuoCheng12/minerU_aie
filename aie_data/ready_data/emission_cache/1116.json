@@ -1,0 +1,17 @@
+{
+  "id": "1116",
+  "code": "TPE-BODIPY",
+  "SMILES": "FB([N]1=C(C)C=C(C)C1=C2C3=CC=C(C4=CC=C(/C(C5=CC=CC=C5)=C(C6=CC=CC=C6)/C7=CC=CC=C7)C=C4)C=C3)(F)N8C2=C(C)C=C8C",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-BODIPY\",\n    \"where_found\": \"Table 1, pages 2-4 (text), page 8 (synthesis)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Code 'TPE-BODIPY' is explicitly found in Table 1, text (pages 2-4), and synthesis section (page 8). However, no emission data for TPE-BODIPY under aggregate conditions (e.g., THF/water mixtures) or in solid/film state is reported in the provided context. The aggregate-state PL analysis (Figure 6) and nanoparticle data are only provided for 3TPE-BODIPY. Therefore, both required emission peaks are null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:00:25"
+}

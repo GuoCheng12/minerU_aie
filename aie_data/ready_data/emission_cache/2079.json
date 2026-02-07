@@ -1,0 +1,20 @@
+{
+  "id": "2079",
+  "code": "BpPDBF",
+  "SMILES": "C12=CC=CC=C1/C(C3=C2C=CC=C3)=C(C4=CC=C(C5=CC=CC=C5)C=C4)C6=CC=CC=C6",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"BpPDBF (1)\",\n    \"where_found\": \"Title, abstract, page 1 (explicitly named as (4-biphenylyl)phenyldibenzofulvene (BpPDBF; 1))\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 450,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Fig. 2(B) and page 2 text\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"crystals grown from ethanol–THF mixture\"\n  },\n  \"notes\": \"Target molecule is explicitly named as BpPDBF (compound 1) in the paper. For aggregated-state emission: The paper discusses emission in acetonitrile-water mixtures (Fig. 1) but does not explicitly report a peak wavelength for the aggregated state in nm in the provided text chunks. It mentions emission intensifies with water addition and discusses quantum yields, but no λmax(agg) value is given. Therefore, emission_aggr_nm is set to null. For solid/film emission: The crystalline emission peak is explicitly reported as ~450 nm in Fig. 2(B) and page 2 text ('the crystals emit an intense blue light of ~450 nm'). This qualifies as solid-state emission.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "solid:not_in_final_context"
+  ],
+  "timestamp": "2026-02-07T02:46:51"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1964",
+  "code": "TPA-TQ3",
+  "SMILES": "C1(N(C2=CC=CC=C2)C3=CC=C(C4=C(N=C(C5=CC=C(/C(C6=CC=CC=C6)=C(C7=CC=CC=C7)/C8=CC=CC=C8)C=C5)C(C9=CC=C(/C(C%10=CC=CC=C%10)=C(C%11=CC=CC=C%11)C%12=CC=CC=C%12)C=C9)=N%13)C%13=C(C%14=CC=C(N(C%15=CC=CC=C%15)C%16=CC=CC=C%16)C=C%14)C%17=NSN=C%174)C=C3)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPA-TQ3\",\n    \"where_found\": \"Throughout text (e.g., pages 3-7), Figures 1-4, Table S1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Code 'TPA-TQ3' is explicitly mentioned throughout the provided text chunks (e.g., in Figure 1a, Figure 3, Table S1). However, while the paper discusses PL spectra of TPA-TQ3 NPs (nanoparticles) and aggregate states, no explicit emission peak wavelength (in nm) for TPA-TQ3 in an aggregated state (e.g., THF/water mixture with specific fw) or in a solid/film state is provided in the given context. Figure 3c shows PL spectra of TPA-TQ1-3 NPs in the range 700-1200 nm, but no precise maxima are stated. Therefore, both required emission values cannot be extracted and are set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T18:49:46"
+}

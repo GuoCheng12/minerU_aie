@@ -1,0 +1,17 @@
+{
+  "id": "1970",
+  "code": "TPE-T-RS",
+  "SMILES": "COC1=CC=C(/C(C2=CC=C(OC)C=C2)=C(C3=CC=CC=C3)/C4=CC=C(C5=CC=C(/C=C6C(N(CC)C(S/6)=S)=O)S5)C=C4)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-T-RS\",\n    \"where_found\": \"Chunk 1 (pages 2-3), Chunk 2 (page 4), Chunk 5 (pages 3-4), Figure 1 caption\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule TPE-T-RS is explicitly mentioned multiple times in the text (code_match). However, no explicit emission peak for aggregated-state (e.g., THF/water mixture at high fw) or solid/film state is reported for TPE-T-RS. The paper reports emission in pure THF (633 nm) and for TPE-T-RS NPs in aqueous media (624 nm), but NPs are not considered an explicit aggregate condition per the strict definition (they are nanoparticles formulated with a copolymer matrix). The AIE plot (Figure 1d) discusses intensity ratios but does not provide an emission peak wavelength for the aggregated state (e.g., at fw=90%). No solid, powder, crystal, or film emission data is provided for TPE-T-RS. Therefore, both required emission fields are set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T19:19:02"
+}

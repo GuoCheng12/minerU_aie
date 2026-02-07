@@ -1,0 +1,20 @@
+{
+  "id": "1894",
+  "code": "TTPy-NH2",
+  "SMILES": "NCCC[N+]1=CC=C(/C=C/C(S2)=CC=C2C3=CC=C(N(C4=CC=CC=C4)C5=CC=CC=C5)C=C3)C=C1.[Br-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TTPy-NH2\",\n    \"where_found\": \"Figure 1 caption, Figure 1D, page 3 narrative, Table S1 (referenced)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 656,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Figure 1D and page 3 narrative referencing Table S1\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"powder\"\n  },\n  \"notes\": \"Code 'TTPy-NH2' is explicitly found throughout the text (Figure 1, narrative). Emission peak for powder (solid state) is explicitly reported as 656 nm in Figure 1D and page 3 text. While AIE behavior in DMSO/toluene mixtures (fw=99%) is discussed, the specific emission wavelength for the aggregated state is not provided in the given context; only PL intensity enhancement and quantum yield are mentioned. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "solid:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T16:34:03"
+}

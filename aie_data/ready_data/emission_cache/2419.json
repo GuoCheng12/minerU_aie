@@ -1,0 +1,17 @@
+{
+  "id": "2419",
+  "code": "3,4-BTPEMTPS",
+  "SMILES": "C[Si]1(C2=CC=CC=C2)C(C3=CC=CC=C3)=C(C4=CC=C(/C(C5=CC=CC=C5)=C(C6=CC=CC=C6)/C7=CC=CC=C7)C=C4)C(C(C=C8)=CC=C8/C(C9=CC=CC=C9)=C(C%10=CC=CC=C%10)C%11=CC=CC=C%11)=C1C%12=CC=CC=C%12",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "500",
+  "emission_aggr": "495",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"3,4-BTPEMTPS (7)\",\n    \"where_found\": \"Table 1, Scheme 3, and throughout text (e.g., pages 3-6)\"\n  },\n  \"emission_aggr_nm\": 495,\n  \"emission_solid_or_film_nm\": 500,\n  \"evidence\": {\n    \"aggr_source\": \"Table 1 (column 'λem(nm)' under 'aggr')\",\n    \"solid_or_film_source\": \"Table 1 (column 'λem(nm)' under 'amor') and page 6 narrative\",\n    \"conditions_aggr\": \"Aggregate in THF/water mixtures with high water content (fw > 70%)\",\n    \"conditions_solid_or_film\": \"Amorphous film\"\n  },\n  \"notes\": \"Target code '3,4-BTPEMTPS' is explicitly mentioned throughout the paper and in Table 1. Table 1 provides an aggregate emission value (495 nm) under the 'aggr' column and an amorphous film emission value (500 nm) under the 'amor' column. The narrative on page 6 confirms the film emission peak at 500 nm for 3,4-BTPEMTPS. Both values are explicitly reported under the required conditions.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T12:37:45"
+}

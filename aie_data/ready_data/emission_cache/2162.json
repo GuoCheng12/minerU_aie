@@ -1,0 +1,17 @@
+{
+  "id": "2162",
+  "code": "THP",
+  "SMILES": "O=C(OCC)C1=C(C(OCC)=O)N(C2=CC=CC=C2)C(C3=CC=CC=C3)N(C4=CC=CC=C4)C1 ",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"THP-1\",\n    \"where_found\": \"Fig. 1 caption, page 3 narrative, graphical abstract\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target code 'THP' is matched via the compound 'THP-1' mentioned throughout the paper (Fig. 1, page 3, graphical abstract). The paper discusses polymorphs 1b and 1c of THP-1 and their solid-state (crystal/powder/film) thermo-responsive emission, but no explicit aggregate-state emission peak (e.g., in THF/water mixture) is reported. Emission peaks for 1b (434 nm, 550 nm) and 1c (496 nm) are given for crystal samples under varying temperatures, but these are solid-state measurements, not aggregated-state conditions as strictly defined. Therefore, both emission_aggr_nm and emission_solid_or_film_nm are set to null because no single, definitive solid/film peak is reported independent of temperature variation, and no aggregate-condition peak is provided.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T05:14:33"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1814",
+  "code": "5CzBN-SPhCz",
+  "SMILES": "N#CC1=[C@@]([C@]([N@]2C3=C(C4=C2C=CC=C4)C=CC=C3)=[C@@]([C@@]([N@@]5C6=C(C7=C5C=CC=C7)C(OCCCCCCOC8=CC=C(C=C8)N9C%10=C(C%11=C9C=CC=C%11)C=CC=C%10)=CC=C6)=[C@]1[N@]%12C%13=C(C%14=C%12C=CC=C%14)C=CC=C%13)[N@@]%15C%16=C(C%17=C%15C=CC=C%17)C=CC=C%16)[N@@]%18C%19=C(C%20=C%18C=CC=C%20)C=CC=C%19",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "503",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"5CzBN-SPhCz\",\n    \"where_found\": \"Table 1, Scheme 1, narrative text (e.g., page 2, section 2.1)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 503,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, column 'Film λem'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"pure film\"\n  },\n  \"notes\": \"Target code '5CzBN-SPhCz' is explicitly listed in Table 1 and throughout the text. Table 1 provides a solid/film emission peak of 503 nm under 'pure film' conditions. While the paper discusses aggregation in THF/water mixtures (e.g., Figure 2, S8, S9) and mentions 'nano-aggregates', no explicit emission peak wavelength for 5CzBN-SPhCz under aggregate conditions is provided in the given context. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:22:27"
+}

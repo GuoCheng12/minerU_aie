@@ -1,0 +1,17 @@
+{
+  "id": "2429",
+  "code": "TTPECaP",
+  "SMILES": "C1(N2C3=CC=C(C4=CC=C(/C(C5=CC=CC=C5)=C(C6=CC=CC=C6)C7=CC=CC=C7)C=C4)C=C3)=C(C8=C2C=CC(C(C=C9)=CC=C9/C(C%10=CC=CC=C%10)=C(C%11=CC=CC=C%11)/C%12=CC=CC=C%12)=C8)C=C(C(C=C%13)=CC=C%13/C(C%14=CC=CC=C%14)=C(C%15=CC=CC=C%15)/C%16=CC=CC=C%16)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "491",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TTPECaP\",\n    \"where_found\": \"Table 1, Fig. 2A, synthesis section (pages 7-8), Table 2\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 491,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-casted film\"\n  },\n  \"notes\": \"Target code 'TTPECaP' is explicitly found multiple times (Table 1, synthesis, etc.). Table 1 provides a solid film emission peak of 491 nm for TTPECaP. While Fig. 2A shows PL spectra in THF/water mixtures at fw=99.5% (an explicit aggregate condition), the specific emission peak wavelength is not numerically reported in the provided text, only a visual spectrum is shown. Therefore, emission_aggr_nm cannot be extracted and is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T13:23:01"
+}

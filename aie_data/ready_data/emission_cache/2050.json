@@ -1,0 +1,17 @@
+{
+  "id": "2050",
+  "code": "CSMPP",
+  "SMILES": "CN1CCN(CC1)C1=CC=C(C=C(/C#N)C2=CC=C(C=C2)C2=CC=NC=C2)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "525",
+  "emission_aggr": "509",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"CSMPP\",\n    \"where_found\": \"Throughout text, e.g., page 3 'The AIE properties of CSMPP', page 4 Figure 1 caption, page 4 'The PL of CSMPP'\"\n  },\n  \"emission_aggr_nm\": 509,\n  \"emission_solid_or_film_nm\": 525,\n  \"evidence\": {\n    \"aggr_source\": \"Page 4, Figure 1b/c caption and text: 'PL spectra of CSMPP in acetonitrile/water mixtures with different volume fractions of water (f_w)' and 'PL intensity... at 90% f_w'.\",\n    \"solid_or_film_source\": \"Page 4, text: 'absolute fluorescence quantum yield of CSMPP powders reached 25.4% with an emission peak at 525 nm'.\",\n    \"conditions_aggr\": \"Acetonitrile/water mixture with f_w = 90% (aggregate condition explicitly stated)\",\n    \"conditions_solid_or_film\": \"Powder (solid state)\"\n  },\n  \"notes\": \"Target code 'CSMPP' is explicitly mentioned throughout the paper. For aggregated-state emission, the text reports emission at 509 nm in acetonitrile/water mixtures, with explicit mention of aggregation at high water fractions (e.g., 90% f_w). For solid-state emission, the text explicitly reports an emission peak at 525 nm for CSMPP powders. Both values are directly extracted from the provided context.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T01:01:43"
+}

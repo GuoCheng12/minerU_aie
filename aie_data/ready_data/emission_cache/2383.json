@@ -1,0 +1,17 @@
+{
+  "id": "2383",
+  "code": "TPA-BDTO",
+  "SMILES": "O=S1(C(C(C=C1C2=CC=C(N(C3=CC=CC=C3)C4=CC=CC=C4)C=C2)=C(C5=C6C=C(C7=CC=C(N(C8=CC=CC=C8)C9=CC=CC=C9)C=C7)S5(=O)=O)OC(CC)CCCC)=C6OC(CC)CCCC)=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "660",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPA-BDTO\",\n    \"where_found\": \"Table 1, Figure 4, Figure 6, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 660,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Solid column), page 4 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid\"\n  },\n  \"notes\": \"Target molecule TPA-BDTO is explicitly named in Table 1 and throughout the text. Table 1 provides emission in THF (630 nm) and in solid (660 nm). Figure 6 shows PL spectra in THF/water mixtures, indicating aggregation at high water fractions (fw = 50-90%), but no explicit emission peak value for the aggregated state is reported in the provided text/table. The paper discusses AIE characteristics and aggregate formation, but no numerical λ_em,max for aggregates is given. Therefore, emission_aggr_nm is set to null per anti-leakage rule. Emission_solid_or_film_nm is taken from the 'Solid' column in Table 1.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T10:53:28"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1995",
+  "code": "TPAP",
+  "SMILES": "C1(N(C2=CC=C(C3=NC=CC=C3)C=C2)C4=CC=CC=C4)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "425",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPAP\",\n    \"where_found\": \"Table 1, Figure 2, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 425,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid thin film\"\n  },\n  \"notes\": \"Code 'TPAP' is explicitly found in Table 1, Figure 2, and throughout the text. Table 1 provides emission in thin film (425 nm). While Figure 2 and text discuss PL in THF/water mixtures (aggregate conditions), no explicit emission peak wavelength for TPAP in the aggregated state (e.g., at fw=90%) is numerically reported in the provided context; only relative intensity changes are described. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T21:10:29"
+}

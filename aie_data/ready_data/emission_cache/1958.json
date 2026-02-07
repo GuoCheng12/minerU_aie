@@ -1,0 +1,20 @@
+{
+  "id": "1958",
+  "code": "CBA-C4H9",
+  "SMILES": "O=C(CCCC)C(C=C1)=CC=C1N(C2=CC=CC=C23)C4=C3C=CC=C4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"CBA–C₄H₉\",\n    \"where_found\": \"Multiple mentions in text (pages 3, 5, 8, 9, 11) and Figure 3\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 550,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Figure 3C and page 5 text\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"crystalline state\"\n  },\n  \"notes\": \"Target code 'CBA–C₄H₉' is explicitly mentioned multiple times in the text. No explicit emission peak for aggregated state (e.g., THF/water mixture) is provided for CBA–C₄H₉ individually; only general statements about CBAs in aggregate are given. For solid state, Figure 3C and page 5 text report phosphorescence spectra in crystalline state with two peaks at ≈550 and 600 nm for all CBAs (including CBA–C₄H₉). The 550 nm value is extracted as the first emission peak. Emission_aggr_nm is set to null due to lack of explicit aggregate emission data for this specific compound.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "solid:not_in_final_context"
+  ],
+  "timestamp": "2026-02-06T18:30:21"
+}

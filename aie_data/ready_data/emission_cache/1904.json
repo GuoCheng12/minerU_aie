@@ -1,0 +1,17 @@
+{
+  "id": "1904",
+  "code": "TPE-ETh-B",
+  "SMILES": "COC1=CC=C(/C(C2=CC=C(OC)C=C2)=C(C3=CC=CC=C3)/C4=CC=C(C5=C(OCCO6)C6=C(/C=C7C(N(C)C(N(C)C7=O)=O)=O)S5)C=C4)C=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-ETh-B\",\n    \"where_found\": \"Figure 2 caption, Figure 3 caption, text throughout (pages 3-6)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'TPE-ETh-B' is explicitly mentioned multiple times in the text and figures. However, no explicit emission peak values for aggregated-state or solid/film conditions are reported for TPE-ETh-B. The paper reports PL spectra in solvent mixtures (DMSO/toluene) showing intensity changes and a peak at ~710 nm in pure DMSO, but this is not an aggregated condition (pure DMSO is a good solvent). The AIE dot emission at 633 nm is for nanoparticles in water, which are doped nanoparticles, not pure molecular aggregates. No data for pure solid, powder, crystal, or spin-coated film of TPE-ETh-B is provided. Therefore, both required emission values are set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:35:14"
+}

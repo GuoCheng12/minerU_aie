@@ -1,0 +1,17 @@
+{
+  "id": "1945",
+  "code": "TPA-QLZ",
+  "SMILES": "O=C(OC)C1=C2N(C(C(OC)=O)C(C(OC)=O)=C1C(OC)=O)C=CC(C(C=C3)=CC=C3N(C4=CC=CC=C4)C5=CC=CC=C5)=C2",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPA-QLZ\",\n    \"where_found\": \"Page 6 narrative, Figure 5 caption\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target molecule TPA-QLZ is explicitly mentioned in the text (page 6) and Figure 5 caption. However, while the paper discusses its AIE properties in THF/water mixtures (fw=90%) and shows PL spectra in Figure 5C, no explicit emission peak wavelength for the aggregate state is reported in the provided text chunks. Similarly, no emission peak for solid state or film is explicitly given (only lifetime is mentioned). Therefore, both emission values must be set to null per strict extraction rules requiring explicit numerical values.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T18:02:28"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1061",
+  "code": "f-5Ph",
+  "SMILES": "c1(c2ccc(c3ccc(c4ccccc4)cc3)cc2c(C5=CC=CC=C5)=C(C6=CC=CC=C6)c7cc(c8ccc(c9ccccc9)cc8)ccc7c%10ccc(c%11ccccc%11)cc%10)ccc(c%12ccccc%12)cc1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "471",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-5Ph\",\n    \"where_found\": \"Table 1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 471,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Film drop-casted on a quartz plate\"\n  },\n  \"notes\": \"Target code 'f-5Ph' found explicitly in Table 1. The table provides λ_em(nm) for 'solna' (THF solution) and 'filmb' (drop-cast film). The film emission is 471 nm. No explicit aggregate emission data (e.g., THF/water mixture, nanoaggregate) is reported for f-5Ph in the provided content. The discussion of aggregate formation and blue-shifted PL spectra (e.g., for f-4Ph(Me)) does not include specific aggregate emission values for f-5Ph. Therefore, emission_aggr_nm is set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:49:31"
+}

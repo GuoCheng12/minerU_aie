@@ -1,0 +1,17 @@
+{
+  "id": "2349",
+  "code": "f-DBP-DFLE",
+  "SMILES": "c1(c2ccccc2)c(/C(C3=CC=C(C(C=CC=C4)=C4C5)C5=C3)=C(C6=CC(CC7=C8C=CC=C7)=C8C=C6)c9c(c%10ccccc%10)cccc9)cccc1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "498",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-DBP-DFLE\",\n    \"where_found\": \"Table 1, Fig. 5B, Fig. 6, page 4 (synthesis), page 8 (optical properties)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 498,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column), page 8 narrative\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Code 'f-DBP-DFLE' is explicitly found in Table 1, figures, and synthesis section, providing a strong match. Table 1 reports a film emission peak of 498 nm (drop-casted). While Fig. 5B shows PL spectra in THF/water mixtures (aggregate condition), no explicit emission peak value for f-DBP-DFLE in the aggregated state is provided in the text or table. The table's 'Soln' column is for THF solution, not aggregated state. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T10:32:26"
+}

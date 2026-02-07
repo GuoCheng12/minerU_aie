@@ -1,0 +1,17 @@
+{
+  "id": "2415",
+  "code": "TPESiPh3",
+  "SMILES": "C1(/C(C2=CC=C([Si](C3=CC=CC=C3)(C4=CC=CC=C4)C5=CC=CC=C5)C=C2)=C(C6=CC=CC=C6)/C7=CC=CC=C7)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPESiPh3\",\n    \"where_found\": \"Figure 2, Figure 3, Table 1, and throughout text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Fig. 3A (PL spectra in THF/water mixtures)\",\n    \"solid_or_film_source\": \"Fig. 3B (PL spectra of amorphous films)\",\n    \"conditions_aggr\": \"THF/water mixtures, up to 99.5% water content\",\n    \"conditions_solid_or_film\": \"Spin-coated amorphous film\"\n  },\n  \"notes\": \"Target code 'TPESiPh3' is explicitly mentioned multiple times in figures, captions, and text. The paper discusses PL spectra in aggregated conditions (THF/water mixtures) and solid films (Fig. 3A and 3B). However, no explicit emission peak wavelength values in nm are provided in the given text chunks for either condition. The text describes spectral behavior (intensity changes, blue-shifting) but does not state numerical λ_max values. Therefore, both emission fields must be set to null per extraction rules requiring explicit numerical values.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T12:22:06"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2023",
+  "code": "DPCE-ACh",
+  "SMILES": "CCCCCCCCCCCCCCCCCCCCCCCCCCOC1=CC(/C=C(C#N)/C2=CC=C(OCC(N([H])/N=C/C3=CC=C(OCC(O[C@@H]4CC5=CC[C@]([C@@](CC[C@]6([H])[C@H](C)CCCC(C)C)([H])[C@]6(C)CC7)([H])[C@@]7([H])[C@@]5(C)CC4)=O)C=C3)=O)C=C2)=CC=C1OCCCCCCCCCCCCCCCCCCCCCCCCCC",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DPCE-ACh\",\n    \"where_found\": \"Throughout text, e.g., pages 3-4, 4-5, 9, 10; Figure 2; Table S1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'DPCE-ACh' is explicitly mentioned numerous times in the provided context (Chunks 1, 2, 3, 4, 5, 6, 8, 9, 10, 11). Identity match is therefore via code_match with high confidence. However, while the text discusses fluorescence/AIE properties in THF/water mixtures (aggregate conditions) and solid powders/films, no explicit emission peak wavelength (λ_em,max) values are provided in the given excerpts for either condition. The only emission peak mentioned (430 nm in Chunk 1) is for dilute THF solution, which does not meet the strict definition for emission_aggr_nm. Therefore, both required emission fields must be set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T23:20:22"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1853",
+  "code": "PASPy-al",
+  "SMILES": "C=CC[n+]3cccc(c2ccc(/C=N/c1ccc(N(C)C)cc1)c(O)c2)c3.[Br-]",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"PASPy-al\",\n    \"where_found\": \"Synthesis section (Chunk 1), Results and discussion (Chunk 2, 3, 6, 9), Abstract/Introduction (Chunk 12)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule 'PASPy-al' is explicitly mentioned multiple times throughout the text (synthesis, AIE characterization, optical response studies). However, no explicit emission peak wavelengths (in nm) for aggregated-state conditions (e.g., DMSO/toluene mixtures) or for solid/film states are reported in the provided context. The text discusses AIE behavior and mentions an emission peak at 501 nm, but this is specifically for the probe after reaction with Pd⁰ in PBS/DMSO solution (Chunk 6, Fig. S10B), which is a specific sensing condition, not a general aggregate or solid-state measurement as defined by the strict rules. Therefore, both required emission values are set to null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:26:38"
+}

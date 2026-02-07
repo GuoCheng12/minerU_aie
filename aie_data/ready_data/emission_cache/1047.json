@@ -1,0 +1,17 @@
+{
+  "id": "1047",
+  "code": "DPA3c",
+  "SMILES": "IC1=CC=C(Br)C=C1C2=C(C=CC(Br)=C3)C3=C(C4=CC=CC=C4)C5=C2C=CC=C5",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DPA3c\",\n    \"where_found\": \"Figure 1 caption, page 4 (X-ray data section), Scheme 3 context\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'DPA3c' is explicitly mentioned in Figure 1 caption and in the X-ray diffraction data section (page 4), confirming its presence. However, the provided context chunks only report photophysical data (absorption and emission maxima 427-435 nm) for DPA derivatives collectively in dilute THF solution. No explicit aggregate condition (e.g., THF/water mixture, nanoaggregate) or solid/film (powder, crystal, spin-coated film) emission data is given for DPA3c specifically or for the series. Therefore, both emission_aggr_nm and emission_solid_or_film_nm must be set to null per the anti-leakage and strict extraction rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:46:38"
+}

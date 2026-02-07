@@ -1,0 +1,17 @@
+{
+  "id": "2351",
+  "code": "DBP-DTPA",
+  "SMILES": "C1(C2=C(C(C3=CC=C(N(C4=CC=CC=C4)C5=CC=CC=C5)C=C3)C(C6=CC=CC=C6C7=CC=CC=C7)C8=CC=C(N(C9=CC=CC=C9)C%10=CC=CC=C%10)C=C8)C=CC=C2)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "479",
+  "emission_aggr": "480",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DBP-DTPA\",\n    \"where_found\": \"Table 1, page 5 (Chunk 5); narrative text throughout\"\n  },\n  \"emission_aggr_nm\": 480,\n  \"emission_solid_or_film_nm\": 479,\n  \"evidence\": {\n    \"aggr_source\": \"Fig. 5D / page 5 (Chunk 3 & 7)\",\n    \"solid_or_film_source\": \"Table 1 / page 5 (Chunk 5); page 6 (Chunk 6)\",\n    \"conditions_aggr\": \"THF/water mixture, water fraction 99%\",\n    \"conditions_solid_or_film\": \"Drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Code 'DBP-DTPA' is explicitly found in Table 1 and throughout the text. For aggregated-state emission: Fig. 5D (described in Chunk 3) shows PL spectra in THF/water mixtures; Chunk 7 explicitly states a long-wavelength emission peak at 480 nm appears and gets maximal at a water fraction of 99%, confirming aggregation-induced emission. For solid/film emission: Table 1 lists λem(film) = 479 nm for DBP-DTPA, and page 6 (Chunk 6) confirms 'DBP-DTPA in amorphous film shows an emission peak at 479 nm'. Both values are explicitly reported under the required conditions.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T10:40:45"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1058",
+  "code": "f-3Ph(Me)",
+  "SMILES": "Cc1ccc(c2c(C(C3=CC=CC=C3)=c(C4=CC=CC=C4)c5c(c6ccc(C)cc6)ccc(c7ccc(C)cc7)c5)cc(c8ccc(C)cc8)cc2)cc1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "470",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"f-3Ph(Me)\",\n    \"where_found\": \"Table 1, page 3; also mentioned in text (page 2, page 7) and Supporting Information\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 470,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, column 'λem(nm) filmb'\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"drop-casted film on quartz plate (Table note)\"\n  },\n  \"notes\": \"Target code 'f-3Ph(Me)' is explicitly listed in Table 1. The table provides emission in THF solution (492 nm), film (470 nm), and crystal (451 nm). No explicit aggregate condition (e.g., THF/water mixture, nanoaggregate) is reported for f-3Ph(Me) in the provided context. The paper discusses aggregate formation and AEE for f-4Ph(Me) (Figure 3, THF/water mixtures), but no such data is shown for f-3Ph(Me). Therefore, emission_aggr_nm is set to null. Emission_solid_or_film_nm is taken from the film value (470 nm) as per extraction rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:48:52"
+}

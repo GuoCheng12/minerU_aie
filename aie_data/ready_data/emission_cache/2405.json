@@ -1,0 +1,17 @@
+{
+  "id": "2405",
+  "code": "aT-BTO",
+  "SMILES": "O=S(C1=C2C=CC=C1)(C(C3=CC=CS3)=C2C4=CC=CS4)=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "511",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"αT-BTO\",\n    \"where_found\": \"Table 1, Scheme 1, narrative text\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 511,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (column 'Film')\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Drop-casted film on quartz plate\"\n  },\n  \"notes\": \"Target code 'αT-BTO' (note: Greek alpha, not 'a') is explicitly listed in Table 1 and Scheme 1. No explicit aggregate-state emission data (e.g., THF/water mixture) is reported for αT-BTO in the provided context. The paper discusses aggregate emission for αT-PIO (fw=90%) but not for the BTO series. Therefore, emission_aggr_nm is null. Emission in film state (511 nm) is explicitly given in Table 1 under 'Film' column for αT-BTO.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T11:48:57"
+}

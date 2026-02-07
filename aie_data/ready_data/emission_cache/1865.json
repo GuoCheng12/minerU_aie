@@ -1,0 +1,17 @@
+{
+  "id": "1865",
+  "code": "BTCV-CO",
+  "SMILES": "C=CCOc1cc(N(CC)CC)ccc1/C=C(C#N)/c3nc2ccccc2s3",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"BTCV-CO\",\n    \"where_found\": \"Throughout text, Figure 1, Scheme 1, Abstract\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'BTCV-CO' is explicitly found throughout the provided content (Abstract, Scheme 1, Figure 1, text). However, no explicit emission peak wavelengths (in nm) are reported for the required conditions. Figure 1C discusses PL intensity vs. toluene fraction (aggregation condition) but does not state the emission maximum wavelength. The solid-state quantum yield is mentioned (6.5%), but no solid-state emission peak is provided. Therefore, both required emission values are null due to lack of explicit numerical data in the provided chunks.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:29:23"
+}

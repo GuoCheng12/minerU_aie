@@ -1,0 +1,17 @@
+{
+  "id": "1798",
+  "code": "2TPEVDPP",
+  "SMILES": "CCCCn%10c(/C=C/c4ccc(/C(=C(c1ccc(N(C)C)cc1)/c2ccc(N(C)C)cc2)c3ccccc3)cc4)c9c(=O)n(CCCC)c(/C=C/c8ccc(/C(=C(c5ccc(N(C)C)cc5)/c6ccc(N(C)C)cc6)c7ccccc7)cc8)c9c%10=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"2TPEVDPP\",\n    \"where_found\": \"Figure 1 caption, page 3 text, page 10 synthesis section\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code '2TPEVDPP' is explicitly mentioned multiple times in the text (Figures 1, 2, 3; synthesis section). However, no explicit emission peak wavelengths (in nm) for aggregated state or solid/film are provided in the given context. Figure 1C shows normalized PL spectra in THF solution, but no peak values are reported. Figure 2C shows PL spectra of NPs in water, but no peak values are given. The AIE test in CHCl3/hexane (Figure 1D) reports relative intensity changes, not emission maxima. Therefore, both required emission peaks cannot be extracted.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:19:56"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "1890",
+  "code": "TTBSCH",
+  "SMILES": "O=S(C(C=C1)=CC=C1C(S2)=CC=C2C3=CC=C(N(C4=CC=CC=C4)C5=CC=CC=C5)C=C3)(NC(NC6CCCCC6)=O)=O",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TTBSCH\",\n    \"where_found\": \"Fig. 3 caption, page 3 narrative, Synthesis section (page 7)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Fig. 3B caption\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"solid state\"\n  },\n  \"notes\": \"Target code 'TTBSCH' is explicitly mentioned multiple times (Fig. 3, synthesis, narrative). Fig. 3B shows normalized PL spectra of TTBSCH in the solid state, but no explicit emission peak value is provided in the given text chunks. The paper discusses aggregation behavior (Fig. 3D shows relative emission intensity vs. water fraction for TTBSCH), but no explicit aggregated-state emission peak wavelength is reported in the provided context. Therefore, both emission values are set to null due to lack of explicit numerical data.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T16:33:14"
+}

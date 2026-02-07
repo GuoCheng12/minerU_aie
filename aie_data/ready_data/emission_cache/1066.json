@@ -1,0 +1,17 @@
+{
+  "id": "1066",
+  "code": "o-TPEPa",
+  "SMILES": "c1(/C(c2c(c3cc4c(c5c3cccc5)cccc4)cccc2)=C(c6ccccc6)/c7ccccc7)ccccc1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "472",
+  "emission_aggr": "473",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"o-TPEPa\",\n    \"where_found\": \"Table 2, page 3 narrative, Fig. 3E caption\"\n  },\n  \"emission_aggr_nm\": 473,\n  \"emission_solid_or_film_nm\": 472,\n  \"evidence\": {\n    \"aggr_source\": \"Table 2 (Aggr column), page 3 narrative (THF–water mixtures f_w = 99%)\",\n    \"solid_or_film_source\": \"Table 2 (Film column), page 3 narrative\",\n    \"conditions_aggr\": \"THF/water mixtures (V/V 1/99), f_w = 99%\",\n    \"conditions_solid_or_film\": \"Film drop-cast on a quartz plate\"\n  },\n  \"notes\": \"Target code 'o-TPEPa' is explicitly listed in Table 2 and mentioned multiple times in the text. Table 2 provides clear emission maxima for aggregated state (473 nm in THF/water f_w=99%) and solid film (472 nm, drop-cast). Both values are explicitly reported under the defined conditions.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:50:30"
+}

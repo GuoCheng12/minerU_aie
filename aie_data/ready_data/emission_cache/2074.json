@@ -1,0 +1,22 @@
+{
+  "id": "2074",
+  "code": "TPE-DCV",
+  "SMILES": "C4=CC(/C(C1=CC=CC=C1)=C(C2=CC=C(/C=C(C#N)C#N)C=C2)C3=CC=C(/C=C(C#N)C#N)C=C3)=CC=C4",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-DCV\",\n    \"where_found\": \"Abstract, Chunk 1 (Figure 1 caption), Chunk 3, Chunk 6\"\n  },\n  \"emission_aggr_nm\": 560,\n  \"emission_solid_or_film_nm\": 526,\n  \"evidence\": {\n    \"aggr_source\": \"Chunk 1, Figure 1\",\n    \"solid_or_film_source\": \"Chunk 2\",\n    \"conditions_aggr\": \"THF/water mixture with fw > 70%, specifically at 99% water content\",\n    \"conditions_solid_or_film\": \"Recrystallized powder (crystalline state)\"\n  },\n  \"notes\": \"Target code 'TPE-DCV' is explicitly mentioned throughout the paper. Emission_aggr_nm (560 nm) is explicitly reported for aggregated state in THF/water (fw=99%). Emission_solid_or_film_nm (526 nm) is explicitly reported for the recrystallized (crystalline) powder. The film emission mentioned in Chunk 2 is described as 'green emission' but no explicit peak is given for the film; therefore, the crystalline powder value (526 nm) is used for solid/film emission as per the rules (solid/powder/crystal if film not explicitly quantified).\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [
+    "embedding_only:solid:not_in_context",
+    "embedding_only:aggr:not_in_context",
+    "solid:not_in_final_context",
+    "aggr:not_in_final_context"
+  ],
+  "timestamp": "2026-02-07T02:32:05"
+}

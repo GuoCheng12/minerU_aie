@@ -1,0 +1,17 @@
+{
+  "id": "2244",
+  "code": "MFDMS",
+  "SMILES": "CC1(C)C2=C(C=CC=C2)C3=C1C=C(C4=C(C5=CC=CC=C5)C(C6=CC=CC=C6)=C(C7=CC8=C(C=C7)C9=C(C=CC=C9)C8(C)C)[Si]4(C)C)C=C3",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "523",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"MFDMS\",\n    \"where_found\": \"Table 1, page 3; Experimental Section, page 8\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 523,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1, page 3; Figure 6 referenced on page 5\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"Drop-cast film on quartz plate\"\n  },\n  \"notes\": \"Code 'MFDMS' found explicitly in Table 1 and experimental section. Table 1 provides emission in film (523 nm) for MFDMS. The paper discusses aggregated-state emission for related compounds (MFMPS, SFMPS) in THF/water mixtures (Figure 5), but no explicit aggregated-state emission peak value is reported for MFDMS itself in the provided context. Therefore, emission_aggr_nm is set to null per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T07:49:25"
+}

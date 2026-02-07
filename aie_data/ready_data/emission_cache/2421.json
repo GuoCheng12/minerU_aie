@@ -1,0 +1,17 @@
+{
+  "id": "2421",
+  "code": "2,5-BTPEMTPS",
+  "SMILES": "C[Si]1(C2=CC=CC=C2)C(C3=CC=C(/C(C4=CC=CC=C4)=C(C5=CC=CC=C5)C6=CC=CC=C6)C=C3)=C(C7=CC=CC=C7)C(C8=CC=CC=C8)=C1C(C=C9)=CC=C9/C(C%10=CC=CC=C%10)=C(C%11=CC=CC=C%11)C%12=CC=CC=C%12",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "535",
+  "emission_aggr": "532",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"2,5-BTPEMTPS (6)\",\n    \"where_found\": \"Table 1, Figure 2, Figure 3, narrative text (pages 3-6)\"\n  },\n  \"emission_aggr_nm\": 532,\n  \"emission_solid_or_film_nm\": 535,\n  \"evidence\": {\n    \"aggr_source\": \"Table 1 (λ_em column 'aggr')\",\n    \"solid_or_film_source\": \"Table 1 (λ_em column 'amor') and page 6 narrative\",\n    \"conditions_aggr\": \"Aggregate in THF/water mixtures with high water content (fw > 70%)\",\n    \"conditions_solid_or_film\": \"Amorphous thin film\"\n  },\n  \"notes\": \"Target code '2,5-BTPEMTPS' is explicitly mentioned throughout the paper. Table 1 provides clear emission maxima: 532 nm under aggregate conditions (labeled 'aggr') and 535 nm for amorphous film (labeled 'amor'). The narrative on page 6 confirms the film emission peak at 535 nm. Both values are explicitly reported and meet the strict condition definitions.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T12:46:53"
+}

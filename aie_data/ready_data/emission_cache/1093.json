@@ -1,0 +1,17 @@
+{
+  "id": "1093",
+  "code": "p-BCaPTPE",
+  "SMILES": "C1(/C(C2=CC=C(C3=CC=C(N4C(C=CC=C5)=C5C6=C4C=CC=C6)C=C3)C=C2)=C(C7=CC=C(C8=CC=C(N9C(C=CC=C%10)=C%10C%11=C9C=CC=C%11)C=C8)C=C7)/C%12=CC=CC=C%12)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "487",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"p-BCaPTPE\",\n    \"where_found\": \"Table 1, Figure 2b, narrative text (pages 3-4)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 487,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (Film column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"film (implied from Table 1 context)\"\n  },\n  \"notes\": \"Target code 'p-BCaPTPE' is explicitly found in Table 1, Figure 2b caption, and narrative text. Table 1 provides a solid/film emission peak of 487 nm under the 'Film' column for p-BCaPTPE. While Figure 2b and text discuss aggregation in THF/water mixtures for p-BCaPTPE, no explicit emission maximum (nm) for the aggregated state is reported in the provided text chunks for this compound. Therefore, emission_aggr_nm is set to null per anti-leakage rules.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:57:08"
+}

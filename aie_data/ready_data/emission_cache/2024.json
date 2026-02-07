@@ -1,0 +1,17 @@
+{
+  "id": "2024",
+  "code": "DBTBT-0C8",
+  "SMILES": "C1(C2=CC=C(C3=CC=C(C4=CC=C(C5=CC=CC=C5)S4)C6=NSN=C63)S2)=CC=CC=C1",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DBTBT-0C8\",\n    \"where_found\": \"Table 1, Figure 2, and throughout text (e.g., pages 10, 12)\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'DBTBT-0C8' is explicitly mentioned multiple times in tables and figures. However, no explicit emission peak wavelength (in nm) is provided for DBTBT-0C8 under aggregated conditions (e.g., THF/water mixture with specified f_w) or in solid/film state. The paper discusses PL spectra in solids (Figure 2E) and aggregates (THF/water f_w > 60%), but numerical peak values are not reported for DBTBT-0C8 in these contexts. Table 1 provides Stokes' shift (136 nm) and other photophysical data in THF solution and solids, but not the actual emission maxima for aggregated or solid states. Therefore, both required emission peaks are unavailable.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T23:25:37"
+}

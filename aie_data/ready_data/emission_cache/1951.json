@@ -1,0 +1,17 @@
+{
+  "id": "1951",
+  "code": "TPE-TTPy-Au",
+  "SMILES": "FC1=C(F)C(F)=C(F)C(F)=C1[Au][N](C=C2)=CC=C2/C(C#N)=C/C(S3)=CC=C3C(C=C4)=CC=C4N(C5=CC=CC=C5)C(C=C6)=CC=C6C(C=C7)=CC=C7/C(C8=CC=CC=C8)=C(C9=CC=CC=C9)/C%10=CC=CC=C%10",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-TTPy-Au\",\n    \"where_found\": \"Throughout text (e.g., pages 2-4, Figure 2 caption), SI Scheme S1\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"The target molecule TPE-TTPy-Au is explicitly mentioned by code throughout the provided text chunks (e.g., pages 2-4, Figure 2). However, no explicit emission peak wavelengths (in nm) are reported in the provided content. Figure 2A shows PL spectra in THF-MeOH mixtures, but the specific emission maximum wavelength is not stated in the text. The plot in Figure 2B references an emission at 628 nm, but this appears to be the monitored wavelength for intensity changes, not necessarily the aggregate emission peak. No data for solid, film, or powder emission is provided in the given chunks. Therefore, both required emission values cannot be extracted.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T18:17:08"
+}

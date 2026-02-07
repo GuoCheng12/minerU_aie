@@ -1,0 +1,17 @@
+{
+  "id": "1053",
+  "code": "DPPM-SFAC",
+  "SMILES": "O=C(C1=CC2=C(N=C(C(C=C3)=C(C4=C5)C=C3N(C6=CC=CC=C6C7(C8=CC=CC=C89)C%10=C9C=CC=C%10)C%11=C7C=CC=C%11)C(C4=CC=C5N%12C%13=CC=CC=C%13C(C%14=C%15C=CC=C%14)(C%16=CC=CC=C%16%15)C%17=C%12C=CC=C%17)=N2)C=C1)C%18=CC=CC=C%18",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.9,
+  "emission_solid": "563",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.9,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"DPPM-SFAC\",\n    \"where_found\": \"Table 1, Table 2, pages 2, 5, 7, 8\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 563,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λPL[nm] column)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"doped film in CBP host (70 wt%)\"\n  },\n  \"notes\": \"Target code 'DPPM-SFAC' is explicitly listed in Table 1 and throughout the text. Table 1 provides a PL peak (λPL) of 563 nm for DPPM-SFAC, measured in doped films (solid/film condition). The paper discusses aggregation-induced emission in THF/water mixtures (e.g., Figure 3C for DPPM-SXAC) but does not report a specific aggregate-state emission peak value for DPPM-SFAC in text or tables. Therefore, emission_aggr_nm is set to null as per anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-06T15:47:50"
+}

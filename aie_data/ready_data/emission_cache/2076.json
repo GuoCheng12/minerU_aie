@@ -1,0 +1,17 @@
+{
+  "id": "2076",
+  "code": "TPE-RNS",
+  "SMILES": "O=C1N(NC(NC2=CC=CC=C2)=S)C3(C(C=CC(N(CC)CC)=C4)=C4OC5=C3C=CC(N(CC)CC)=C5)C(C1=C6)=CC=C6C(C=C7)=CC=C7/C(C8=CC=CC=C8)=C(C9=CC=CC=C9)/C%10=CC=CC=C%10",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.85,
+  "emission_solid": "",
+  "emission_aggr": "480",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.85,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"TPE-RNS\",\n    \"where_found\": \"Multiple chunks: Chunk 1, Chunk 2 (Figure 8 caption), Chunk 3 (Figure 1 caption), Chunk 4, Chunk 5, Chunk 11 (Abstract)\"\n  },\n  \"emission_aggr_nm\": 480,\n  \"emission_solid_or_film_nm\": null,\n  \"evidence\": {\n    \"aggr_source\": \"Chunk 1, Chunk 3 (Figure 1a caption)\",\n    \"solid_or_film_source\": null,\n    \"conditions_aggr\": \"CH3CN/water mixture at 60% water fraction (fw=60%)\",\n    \"conditions_solid_or_film\": null\n  },\n  \"notes\": \"Target code 'TPE-RNS' is explicitly mentioned multiple times in the text and figure captions. The emission peak at 480 nm is explicitly stated for TPE-RNS in an aggregated state (CH3CN/water mixture, fw=60%). No data for solid state or thin film emission is reported in the provided context. Therefore, emission_solid_or_film_nm is null.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T02:39:22"
+}

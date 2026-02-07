@@ -1,0 +1,17 @@
+{
+  "id": "2065",
+  "code": "CN-TPB-AD",
+  "SMILES": "CC(C1=C2C=CC=C1)(C)C3=C(C=CC=C3)N2C(C=C4)=CC=C4C5=CC(C6=CC=CC=C6)=C(C7=CC=C(C#N)C=C7)C=C5C8=CC=CC=C8",
+  "cache_key": "93cb242c330279d2ca6f804ee2d4bd4763e1401d",
+  "status": "ok",
+  "method": "embedding_only",
+  "error": "",
+  "identity_match": "code_match",
+  "identity_match_confidence": 0.95,
+  "emission_solid": "439",
+  "emission_aggr": "",
+  "raw_response": "```json\n{\n  \"identity_match\": \"code_match\",\n  \"identity_match_confidence\": 0.95,\n  \"matched_entity_in_paper\": {\n    \"compound_label\": \"CN-TPB-AD\",\n    \"where_found\": \"Table 1, Fig. 1A, Fig. 2A, narrative text throughout\"\n  },\n  \"emission_aggr_nm\": null,\n  \"emission_solid_or_film_nm\": 439,\n  \"evidence\": {\n    \"aggr_source\": null,\n    \"solid_or_film_source\": \"Table 1 (λPL[nm] film column), Fig. 1C caption (PL, films)\",\n    \"conditions_aggr\": null,\n    \"conditions_solid_or_film\": \"thin film state\"\n  },\n  \"notes\": \"Target code 'CN-TPB-AD' is explicitly mentioned throughout the paper (Table 1, figures, text). Table 1 provides a solid/film emission peak of 439 nm. While Fig. 2A shows PL spectra in THF/water mixtures (aggregation conditions), the specific emission peak wavelength for the aggregated state is not explicitly reported in the provided text chunks. The narrative mentions PL intensity increases and peaks blue-shift at high water fractions due to aggregate formation, but no numerical λmax for the aggregate state is given. Therefore, emission_aggr_nm is set to null per the anti-leakage rule.\"\n}\n```",
+  "raw_response_fallback": "",
+  "warnings": [],
+  "timestamp": "2026-02-07T02:11:34"
+}
